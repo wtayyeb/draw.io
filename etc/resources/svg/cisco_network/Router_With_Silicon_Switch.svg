@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="40.7339" preserveAspectRatio="none"
+    viewBox="382.02 -562.02 45.984 31.008" height="27.4677" xmlns="http://www.w3.org/2000/svg"
+    color-interpolation-filters="sRGB" x="0" y="1.5">
+    <path d="M1282,-1660 C1282,-1645 1252,-1633 1214,-1633 C1176,-1633 1146,-1645 1146,-1660 C1146,-1621 1146,-1621 
+        1146,-1621 C1146,-1606 1176,-1595 1214,-1595 C1252,-1595 1282,-1606 1282,-1621 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1214,-1633 C1252,-1633 1282,-1645 1282,-1660 C1282,-1675 1252,-1686 1214,-1686 C1176,-1686 1146,-1675 
+        1146,-1660 C1146,-1645 1176,-1633 1214,-1633 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M1193,-1667 L1201,-1663 L1184,-1659 L1188,-1663 L1158,-1668 L1160,-1670 L1190,-1665 
+        L1193,-1667 Z M1235,-1654 L1227,-1658 L1244,-1661 L1240,-1658 L1271,-1652 L1268,-1650 L1238,-1656 L1235,-1654 Z 
+        M1226,-1676 L1241,-1682 L1239,-1674 L1234,-1675 L1223,-1665 L1219,-1666 L1231,-1675 L1226,-1676 Z M1205,-1645 
+        L1189,-1639 L1191,-1646 L1196,-1646 L1207,-1655 L1211,-1655 L1200,-1646 L1205,-1645 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="#000000" stroke-width="2" d="M1213,-1598 C1222,-1598 1229,-1605 1229,-1614 C1229,-1623 1222,-1630 
+        1213,-1630 C1205,-1630 1198,-1623 1198,-1614 C1198,-1605 1205,-1598 1213,-1598 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <text font-size="24" transform="matrix(0.33333, 0, 0, 0.33333, 401, -535.27)" fill="#ffffff" font-family="'Helvetica'"
+        font-style="normal" stroke="none" font-weight="700" stroke-width="2" xml:space="preserve">S</text>
+    <text font-size="24" transform="matrix(0.33333, 0, 0, 0.33333, 405.63, -535.27)" fill="#ffffff" font-family="'Helvetica'"
+        font-style="normal" stroke="none" font-weight="700" stroke-width="2" xml:space="preserve">i</text>
+</svg>

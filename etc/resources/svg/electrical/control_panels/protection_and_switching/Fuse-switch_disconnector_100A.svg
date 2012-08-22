@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="300.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="300.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100" width="87" y="100" height="134"/>
+    <rect x="100" width="8" y="234" height="12"/>
+    <rect x="103" width="81" y="140.0" height="91.0"/>
+    <rect x="107.5" width="72" y="156.0" height="62"/>
+    <line y2="218" x1="131.5" x2="131.5" y1="156"/>
+    <line y2="218" x1="155.5" x2="155.5" y1="156"/>
+    <line y2="126.0" x1="187.0" x2="100.0" y1="126.0"/>
+    <rect x="103" width="15" y="103" height="7.0"/>
+    <polyline fill="none" points="122.0,218.0 122.0,210.0 127.0,202.0 136.0,202.0 141.0,210.0 141.0,218.0"/>
+    <polyline fill="none" points="146.0,218.0 146.0,210.0 151.0,202.0 160.0,202.0 165.0,210.0 165.0,218.0"/>
+    <polyline fill="none" points="170.0,218.0 170.0,210.0 175.0,202.0 179.5,202.0"/>
+    <polyline fill="none" points="107.5,172.0 112.0,172.0 117.0,164.0 117.0,156.0"/>
+    <polyline fill="none" points="122.0,156.0 122.0,164.0 127.0,172.0 136.0,172.0 141.0,164.0 141.0,156.0"/>
+    <polyline fill="none" points="146.0,156.0 146.0,164.0 151.0,172.0 160.0,172.0 165.0,164.0 165.0,156.0"/>
+    <polyline fill="none" points="170.0,156.0 170.0,164.0 175.0,172.0 179.5,172.0"/>
+    <polyline fill="none" points="107.5,202.0 112.0,202.0 117.0,210.0 117.0,218.0"/>
+    <rect x="179" width="8" height="12" y="234"/>
+    <line y2="242" x1="100.0" x2="108.0" y1="242"/>
+    <line y2="242" x1="179.0" x2="187.0" y1="242"/>
+    <rect x="118.0" width="3.0" height="58" y="158"/>
+    <rect x="142.0" width="3.0" y="158.0" height="58"/>
+    <rect x="166.0" width="3.0" y="158.0" height="58"/>
+    <rect x="113" width="13" height="26" y="174"/>
+    <rect x="137.0" width="13" y="174.0" height="26"/>
+    <rect x="161.0" width="13" y="174" height="26"/>
+    <rect x="108" width="71" y="234.0" height="4.0"/>
+</svg>

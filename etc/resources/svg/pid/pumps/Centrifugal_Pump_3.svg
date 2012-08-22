@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\pumps.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polyline points="32.0,74.0 20.0,87.0 80.0,87.0 68.0,74.0"/>
+    <path d="M 79.4 45.0 A 30.0 30.0 0.0 0 0 50.0 20.0 L 10.0 20.0 L 10.0 40.0 L 21.55 40.0 A 30.0 30.0 0.0 1 0 79.4 
+        55.0"/>
+    <path fill="none" d="M 58.6 45.0 A 10.0 10.0 0.0 1 0 58.6 55.0"/>
+</svg>

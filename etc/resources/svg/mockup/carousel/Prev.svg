@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="1000.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="500.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon fill="#000000" points="524.0,283.0 524.0,292.0 517.0,287.5" stroke="#000000"/>
+    <path fill="none" stroke-width="2" d="M 530.0 295.0 L 513.0 295.0 A 3.0 3.0 0.0 0 1 510.0 292.0 L 510.0 283.0 A 3.0 
+        3.0 0.0 0 1 513.0 280.0 L 530.0 280.0 z" stroke="#999999"/>
+</svg>

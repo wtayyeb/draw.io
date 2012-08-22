@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\food.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 59.14 94.7 c -0.02 2.51 1.98 4.56 4.46 4.58 c 2.49 0.02 4.51 -1.99 4.53 -4.5 l 0.74 -89.16 c 0.04 -4.41 
+        -2.8 -4.9 -4.79 -4.92 c -1.99 -0.02 -5.68 5.63 -6.51 10.85 C 56.72 16.75 51.74 43.62 59.64 48.91 L 59.14 94.7 L 
+        59.14 94.7 L 59.14 94.7 z"/>
+    <path d="M 38.07 94.52 L 38.67 37.09 C 35.44 37.06 33.85 33.17 33.3 30.35 L 35.26 0.65 L 37.91 24.62 L 40.39 0.69 l 
+        2.65 23.97 l 3.05 -23.93 l 2.08 23.97 l 3.05 -23.93 l 1.46 29.73 c -0.59 2.81 -2.01 6.67 -5.26 6.65 l -0.34 
+        57.43 c -0.02 2.51 -2.06 4.53 -4.54 4.51 C 40.05 99.08 38.05 97.03 38.07 94.52 L 38.07 94.52 L 38.07 94.52 z"/>
+</svg>

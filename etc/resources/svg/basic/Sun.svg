@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\basic.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <ellipse rx="30" ry="30" cx="50" cy="50"/>
+    <polygon points="45.0,17.0 50.0,2.5 55.0,17.0"/>
+    <polygon points="45.0,83.0 50.0,97.5 55.0,83.0"/>
+    <polygon points="17.0,45.0 2.5,50.0 17.0,55.0"/>
+    <polygon points="83.0,45.0 97.5,50.0 83.0,55.0"/>
+    <polygon points="70.0,23.0 83.7,16.4 77.0,30.0"/>
+    <polygon points="70.0,77.0 83.7,83.6 77.0,70.0"/>
+    <polygon points="30.0,23.0 16.3,16.4 23.0,30.0"/>
+    <polygon points="30.0,77.0 16.3,83.6 23.0,70.0"/>
+</svg>

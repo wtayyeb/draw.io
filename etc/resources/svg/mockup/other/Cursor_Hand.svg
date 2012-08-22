@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="500.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="500.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path fill="#ffffff" d="M 187.0 133.0 A 20.0 20.0 0.0 0 0 185.0 125.0 A 40.0 40.0 0.0 0 0 180.0 117.0 A 2.0 2.0 0.0 
+        0 1 182.0 114.0 A 10.0 10.0 0.0 0 1 185.5 117.5 L 185.5 102.0 A 2.0 2.0 0.0 0 1 190.0 102.0 L 190.0 114.5 L 
+        190.0 110.0 A 2.5 2.5 0.0 0 1 194.5 110.0 L 194.5 114.5 L 194.5 111.0 A 2.5 2.5 0.0 0 1 199.0 111.0 L 199.0 
+        116.0 L 199.0 111.5 A 5.0 4.0 0.0 0 1 203.5 115.0 A 50.0 50.0 0.0 0 1 201.0 129.0 L 201.0 133.0 z" stroke="#000000"
+        stroke-linejoin="round"/>
+</svg>

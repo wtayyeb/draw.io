@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\lean_mapping.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path stroke-linejoin="round" d="M 4.0 30.0 A 6.0 8.0 0.0 0 0 14.0 30.0 A 6.0 8.0 0.0 0 0 24.0 30.0 A 6.0 8.0 0.0 0 
+        0 34.0 30.0 A 6.0 8.0 0.0 0 0 44.0 30.0 A 6.0 8.0 0.0 0 0 54.0 30.0 A 6.0 8.0 0.0 0 0 64.0 30.0 A 6.0 8.0 0.0 0 
+        0 74.0 30.0 A 6.0 8.0 0.0 0 0 84.0 30.0 A 6.0 8.0 0.0 0 0 94.0 30.0 A 6.0 8.0 0.0 0 0 94.0 40.0 A 6.0 8.0 0.0 0 
+        0 94.0 50.0 A 6.0 8.0 0.0 0 0 94.0 60.0 A 6.0 8.0 0.0 0 0 94.0 70.0 A 6.0 8.0 0.0 0 0 84.0 70.0 A 6.0 8.0 0.0 0 
+        0 74.0 70.0 A 6.0 8.0 0.0 0 0 64.0 70.0 A 6.0 8.0 0.0 0 0 54.0 70.0 A 6.0 8.0 0.0 0 0 44.0 70.0 A 6.0 8.0 0.0 0 
+        0 34.0 70.0 A 6.0 8.0 0.0 0 0 34.0 70.0 A 6.0 8.0 0.0 0 0 24.0 70.0 A 6.0 8.0 0.0 0 0 14.0 70.0 A 6.0 8.0 0.0 0 
+        0 4.0 70.0 A 6.0 8.0 0.0 0 0 4.0 60.0 A 6.0 8.0 0.0 0 0 4.0 50.0 A 6.0 8.0 0.0 0 0 4.0 40.0 A 6.0 8.0 0.0 0 0 
+        4.0 30.0 z"/>
+    <rect fill="none" x="15" width="70" height="20" y="40"/>
+</svg>

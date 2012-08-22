@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\lean_mapping.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polyline fill="none" style="stroke-linejoin: round; stroke-linecap: round;" points="100.0,55.0 45.0,60.0 60.0,50.0 
+        12.0,50.0"/>
+    <polygon points="1.0,50.0 11.0,46.0 11.0,54.0"/>
+</svg>

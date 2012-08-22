@@ -1,0 +1,5 @@
+<shape background="1" aspect="variable" strokewidth="inherit">
+    <style name="pid.pumps">
+        <colors stroke="#000000" fill="#FFFFFF"/>
+    </style>
+</shape>

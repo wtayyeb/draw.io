@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\people.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <circle cx="49.74" r="8.16" cy="8.68"/>
+    <path d="M 40.1 94.86 c 0.0 2.49 2.05 4.52 4.57 4.52 c 2.53 0.0 4.58 -2.02 4.58 -4.52 l 0.0 -37.89 h 2.04 L 51.28 
+        94.86 c 0.0 2.49 2.05 4.52 4.57 4.52 s 4.57 -2.02 4.57 -4.52 l 0.02 -65.33 h 2.01 v 24.08 c 0.0 4.84 6.4 4.84 
+        6.38 0.0 v -24.59 c 0.0 -5.35 -3.18 -10.59 -9.52 -10.59 L 41.02 18.41 C 35.24 18.41 31.63 23.06 31.63 28.87 v 
+        24.74 c 0.0 4.81 6.43 4.81 6.43 0.0 v -24.08 h 2.05 L 40.1 94.86 z"/>
+</svg>

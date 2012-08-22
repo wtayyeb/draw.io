@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet type="text/css" href="..\deployment_management.css" ?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" id="Layer_1" enable-background="new 0 0 70 70" version="1.1" width="70px" xml:space="preserve"
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 70 70" height="70px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px">      
+    <g>           
+        <path d="M25.872,31.648c-0.107,0.037-0.217,0.055-0.324,0.055c-0.415,0-0.803-0.261-0.945-0.676 
+            c-0.18-0.522,0.099-1.091,0.62-1.271c0.166-0.057,16.398-5.792,24.924-20.784c-6.787,0.885-17.937,3.214-21.953,6.822 
+            c-5.684,5.104-6.14,10.441-6.741,17.028l-0.028,0.001v28.744h8.248V32.785c7.387-0.604,14.244-2.016,16.846-4.616 
+            c2.812-2.812,4.153-11.173,4.688-17.049C42.179,25.911,26.559,31.413,25.872,31.648z"/>           
+        <path fill="#FFFFFF" d="M51.863,7.943c-0.488-0.265-1.094-0.085-1.356,0.4c-0.116,0.214-0.24,0.419-0.36,0.629 
+            C41.621,23.965,25.389,29.7,25.223,29.756c-0.521,0.18-0.8,0.749-0.62,1.271c0.143,0.415,0.53,0.676,0.945,0.676 
+            c0.107,0,0.217-0.018,0.324-0.055c0.687-0.235,16.307-5.737,25.333-20.528c0.362-0.594,0.718-1.197,1.058-1.821 
+            C52.527,8.814,52.348,8.207,51.863,7.943z"/> </g> </svg>

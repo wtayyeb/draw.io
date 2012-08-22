@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\travel.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 47.42 17.49 c 4.58 0.01 8.29 -3.65 8.29 -8.17 c 9.99E-4 -4.49 -3.71 -8.15 -8.29 -8.13 c -4.56 -0.02 -8.27 
+        3.64 -8.29 8.13 C 39.15 13.85 42.86 17.5 47.42 17.49 L 47.42 17.49 z M 78.03 85.12 h 3.61 c 2.55 0.0 3.85 -1.99 
+        3.85 -3.8 c 0.0 0.0 -0.0 -20.0 0.0 -20.1 c -0.0 -1.82 -1.44 -3.83 -3.85 -3.85 h -3.61 V 85.12 L 78.03 85.12 z M 
+        76.1 57.37 H 70.8 v -3.75 c 0.02 -1.45 -0.85 -2.21 -2.36 -2.19 c 0.0 0.0 -0.93 -0.02 -2.46 0.0 V 29.85 c -0.01 
+        -4.97 -4.34 -10.23 -10.07 -10.22 H 37.54 L 20.09 2.05 C 16.25 -1.77 10.64 3.77 14.5 7.56 l 22.27 22.38 v 64.68 c 
+        0.02 6.39 9.47 6.2 9.5 0.0 V 57.37 h 1.54 v 37.26 c 0.02 6.21 9.55 6.39 9.55 0.0 v -9.5 h 18.75 V 57.37 z M 
+        59.04 53.61 v 3.75 h -1.69 V 32.42 h 1.69 V 53.61 z"/>
+</svg>

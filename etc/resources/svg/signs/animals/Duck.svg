@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\animals.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 11.86 59.29 l -6.23 -4.34 c 0.0 0.0 25.85 -7.97 41.73 -7.97 c 10.89 0.0 20.29 -3.16 16.67 -9.72 c -3.63 
+        -6.56 -3.63 -24.82 10.88 -23.89 c 0.0 0.0 9.99 0.0 10.89 9.83 c 0.0 0.0 -0.79 3.63 12.36 6.45 c 0.0 0.0 2.26 1.4 
+        -1.83 3.29 c 0.0 0.0 -19.96 -1.42 -18.13 3.74 c 0.0 0.0 -0.45 4.48 6.23 7.15 c 11.45 4.57 22.91 42.42 -24.83 
+        38.79 c 3.81E-6 0.0 -18.71 -0.82 -33.67 -9.73 c 1.91E-6 0.0 -17.13 -8.07 -23.93 -9.96 L 11.86 59.29 z"/>
+</svg>

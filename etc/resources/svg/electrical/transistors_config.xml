@@ -1,0 +1,26 @@
+<shape background="1" aspect="fixed" strokewidth="inherit">
+	<connections name="transistor1">
+		<constraint x="0.97" y="0.333" perimeter="0" name="NE"/>
+		<constraint x="0.97" y="0.665" perimeter="0" name="SE"/>
+		<constraint x="0.025" y="0.67" perimeter="0" name="W"/>
+	</connections>
+	<connections name="transistor2">
+		<constraint x="0.97" y="0.333" perimeter="0" name="NE"/>
+		<constraint x="0.97" y="0.665" perimeter="0" name="SE"/>
+		<constraint x="0" y="0.5" perimeter="0" name="W"/>
+	</connections>
+	<connections name="transistor3">
+		<constraint x="0.81" y="0.11" perimeter="0" name="NE"/>
+		<constraint x="0.81" y="0.89" perimeter="0" name="SE"/>
+		<constraint x="0.0" y="0.5" perimeter="0" name="W"/>
+	</connections>
+	<connections name="transistor4">
+		<constraint x="1" y="0" perimeter="0" name="NE"/>
+		<constraint x="1" y="1.0" perimeter="0" name="SE"/>
+		<constraint x="0" y="0.5" perimeter="0" name="W"/>
+	</connections>
+    <style name="electrical.transistors">
+        <colors stroke="black" fill="white"/>
+        <stroke width="1"/>
+    </style>
+</shape>

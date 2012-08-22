@@ -1,0 +1,11 @@
+<shape>
+<connections>
+	<constraint x="0" y="0.165" perimeter="0" name="in-"/>
+	<constraint x="0" y="0.835" perimeter="0" name="in+"/>
+	<constraint x="1.0" y="0.5" perimeter="0" name="out"/>
+	<constraint x="0.408" y="0.05" perimeter="0" name="control1"/>
+	<constraint x="0.408" y="0.95" perimeter="0" name="control2"/>
+	<constraint x="0.815" y="0.292" perimeter="0" name="out+"/>
+	<constraint x="0.815" y="0.708" perimeter="0" name="out-"/>
+</connections>
+</shape>

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\inductors.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="18" width="64" height="20" y="40"/>
+    <line y2="50" x2="18" y1="50"/>
+    <line y2="50" x1="82" x2="100" y1="50"/>
+    <line y2="63" x1="17.5" x2="22" y1="63"/>
+    <line y2="63" x1="27" x2="32" y1="63"/>
+    <line y2="63" x1="37" x2="42" y1="63"/>
+    <line y2="63" x1="47" x2="52" y1="63"/>
+    <line y2="63" x1="57" x2="62" y1="63"/>
+    <line y2="63" x1="67" x2="72" y1="63"/>
+    <line y2="63" x1="77" x2="82.5" y1="63"/>
+</svg>

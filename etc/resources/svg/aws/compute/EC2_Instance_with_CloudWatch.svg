@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet type="text/css" href="..\compute.css" ?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" id="Layer_1" enable-background="new 0 0 70 70" version="1.1" width="70px" xml:space="preserve"
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 70 70" height="70px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px">      
+    <g>           
+        <path d="M57.848,6.595H12.152c-2.762,0-5,2.239-5,5v46.811c0,2.761,2.238,5,5,5h45.695c2.762,0,5-2.239,5-5V11.595 
+            C62.848,8.833,60.609,6.595,57.848,6.595z M52.777,45.69h6.903v9.092h-6.903V45.69z 
+            M44.316,33.896h6.903v20.886h-6.903V33.896z M35.854,40.979h6.903v13.803h-6.903V40.979z 
+            M60.181,56.81v1.742v1h-1H36.293h-1v-1V56.81v-1h1h22.888h1V56.81z"/>           
+        <rect x="36.854" width="4.903" y="41.979" height="11.803"/>           
+        <rect x="45.316" width="4.903" y="34.896" height="18.886"/>           
+        <rect x="53.694" width="4.903" y="46.69" height="7.092"/>           
+        <rect x="36.324" width="22.888" y="56.893" height="1.742"/> </g> </svg>

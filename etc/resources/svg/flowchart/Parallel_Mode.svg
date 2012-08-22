@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\flowchart.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path fill="#ffff00" d="M 50.0 45.0 L 55.0 50.0 L 50.0 55.0 L 45.0 50.0 L 50.0 45.0 z M 30.0 45.0 L 35.0 50.0 L 30.0 
+        55.0 L 25.0 50.0 L 30.0 45.0 z M 70.0 45.0 L 75.0 50.0 L 70.0 55.0 L 65.0 50.0 L 70.0 45.0 z"/>
+    <line y2="30" x1="3" x2="97" y1="30"/>
+    <line y2="70" x1="3" x2="97" y1="70"/>
+</svg>

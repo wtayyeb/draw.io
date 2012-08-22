@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="300.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="300.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <line y2="130" fill="none" x1="100" x2="170" y1="130" stroke="#000000"/>
+    <line y2="231" fill="none" x1="100" x2="170" y1="231" stroke="#000000"/>
+    <rect fill="none" x="137" width="30" y="140" height="60" stroke="#000000"/>
+    <line y2="200" fill="none" x1="100" x2="170" y1="200" stroke="#000000"/>
+    <rect fill="none" x="147" width="13.0" y="150" height="40" stroke="#000000"/>
+    <line y2="163" fill="none" x1="147" x2="160" y1="163" stroke="#000000"/>
+    <line y2="175" fill="none" x1="147" x2="160" y1="175" stroke="#000000"/>
+    <rect x="149.0" y="168" fill="none" width="9" rx="2" height="5" ry="2" stroke="#000000"/>
+    <path fill="none" d="M 100.0 260.0 L 100.0 100.0 L 112.0 100.0 L 112.0 110.0 A 5.5 5.5 0.0 1 0 123.0 110.0 L 123.0 
+        100.0 L 147.0 100.0 L 147.0 110.0 A 5.5 5.5 0.0 1 0 158.0 110.0 L 158.0 100.0 L 170.0 100.0 L 170.0 261.0 C 
+        170.0 260.5 158.5 261.5 158.0 261.0 L 158.0 251.0 A 5.5 5.5 0.0 1 0 147.0 251.0 L 147.0 261.0 L 123.0 261.0 L 
+        123.0 251.0 A 5.5 5.5 0.0 1 0 112.0 251.0 L 112.0 261.0 L 100.0 261.0 z" stroke="#000000"/>
+    <ellipse rx="5" fill="none" ry="5" cx="135" cy="115" stroke="#000000"/>
+    <ellipse rx="5" fill="none" ry="5" cx="135" cy="246" stroke="#000000"/>
+</svg>

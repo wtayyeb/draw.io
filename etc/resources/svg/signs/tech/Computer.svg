@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\tech.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 85.38 82.83 v -6.66 H 68.99 v -3.81 h 27.82 c 1.0 0.0 1.81 -0.74 1.81 -1.64 V 2.15 c 0.0 -0.91 -0.81 
+        -1.65 -1.81 -1.65 H 2.49 C 1.49 0.5 0.68 1.24 0.68 2.15 v 68.56 c 0.0 0.91 0.81 1.64 1.81 1.64 h 28.16 v 3.81 H 
+        14.27 v 6.66 L 0.33 91.87 V 99.17 h 98.99 v -7.3 L 85.38 82.83 z M 7.3 65.87 V 6.46 c 0.0 -0.78 0.7 -1.42 1.55 
+        -1.42 h 81.24 c 0.86 0.0 1.55 0.64 1.55 1.42 v 59.41 c 0.0 0.79 -0.7 1.42 -1.55 1.42 H 8.86 C 8.0 67.29 7.3 
+        66.65 7.3 65.87 z M 5.2 91.55 l 12.56 -8.09 h 64.13 l 12.54 8.09 H 5.2 z" clip-rule="evenodd"/>
+</svg>

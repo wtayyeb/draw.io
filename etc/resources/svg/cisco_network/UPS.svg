@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="45.1843" preserveAspectRatio="none"
+    viewBox="384 -556.99 51.008 33.984" height="30.1039" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB"
+    x="0" y="1.5">
+    <path d="M1153,-1570 L1287,-1570 L1287,-1648 L1153,-1648 L1153,-1570 Z M1302,-1593 L1287,-1570 L1287,-1648 
+        L1302,-1667 L1302,-1593 Z M1177,-1667 L1302,-1667 L1287,-1648 L1153,-1648 L1177,-1667 Z" stroke-width="2"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <text font-size="28" transform="matrix(0.33333, 0, 0, 0.33333, 397.11, -539.14)" fill="#ffffff" font-family="'Helvetica'"
+        font-style="normal" stroke="none" font-weight="700" stroke-width="2" xml:space="preserve">UPS</text>
+    <path fill="#ffffff" d="M1219,-1593 C1219,-1593 1236,-1594 1236,-1594 C1236,-1594 1215,-1602 1211,-1604 C1211,-1604 
+        1230,-1604 1230,-1604 C1173,-1620 1173,-1620 1173,-1620 C1211,-1606 1211,-1606 1211,-1606 C1210,-1606 1197,-1605 
+        1197,-1605 C1197,-1605 1211,-1598 1215,-1597 C1214,-1597 1202,-1593 1202,-1593 C1271,-1574 1271,-1574 1271,-1574 
+        Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="none"/>
+</svg>

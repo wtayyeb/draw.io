@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet type="text/css" href="..\networking.css" ?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" id="Layer_1" enable-background="new 0 0 70 70" version="1.1" width="70px" xml:space="preserve"
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 70 70" height="70px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px">      
+    <g>           
+        <g>                
+            <rect x="20.014" width="7.613" y="21.633" height="15.087"/>  </g>           
+        <g>                
+            <path d="M53.021,34.945v-6.157H18.221v6.156L3.255,24.61l14.966-10.333v5.979h34.801v-5.98l14.943,10.337 
+                L53.021,34.945z 
+                M6.484,24.61l9.901,6.837v-4.494h38.471v4.492l9.882-6.833l-9.882-6.835v4.313H16.386v-4.315L6.484,24.61z"/>  </g>           
+        <path d="M51,37V22h0.376c-0.853-9-7.593-13.988-15.677-13.988C27.577,8.012,20.814,13,20.014,22h7.615 
+            c0,0,0.112-7.497,8.184-7.47C43.542,14.554,44,21.68,44,21.68V37H14v23h43V37H51z"/> </g> </svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\resistors.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <line y2="80" x1="50" x2="50" y1="60"/>
+    <polyline fill="none" points="45.0,65.0 50.0,60.0 55.0,65.0"/>
+    <polyline fill="none" points="0.0,50.0 18.0,50.0 22.0,40.0 30.0,60.0 38.0,40.0 46.0,60.0 54.0,40.0 62.0,60.0 
+        70.0,40.0 78.0,60.0 82.0,50.0 100.0,50.0"/>
+</svg>

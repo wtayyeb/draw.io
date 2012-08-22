@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="1000.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="500.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100.0" y="100.0" fill="#ebebeb" width="297.69998" rx="3" height="24.0" ry="3" stroke="#666666"/>
+    <rect x="377" y="100.0" fill="#cccccc" width="21" rx="3" height="24.0" ry="3" stroke="#666666"/>
+    <polygon fill="#000000" points="385.5,110.5 389.5,110.5 387.5,113.5" stroke="#000000" stroke-linejoin="round"/>
+    <line y2="124" fill="none" x1="377" x2="377.0" stroke="#666666" y1="100.0"/>
+</svg>

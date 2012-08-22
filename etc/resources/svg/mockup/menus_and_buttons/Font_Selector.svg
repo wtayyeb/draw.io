@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="500.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="500.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect fill="#ffffff" x="110" width="121" height="222.0" y="125" stroke="#666666"/>
+    <rect x="110" y="100" fill="#d8e8ff" width="121" rx="3" ry="3" height="24" stroke="#a6c7fd"/>
+    <rect fill="#a6c7fd" x="111" width="119" height="18" y="163" stroke="#a6c7fd"/>
+    <polyline fill="none" points="118.555565,172.3114 118.96254,174.83333 122.05556,170.66667" stroke-linecap="round"
+        stroke-linejoin="round" stroke="#000000"/>
+    <polygon fill="#000000" points="222.0,111.0 225.0,111.0 223.5,113.5" stroke-linejoin="round" stroke-linecap="round"
+        stroke="#000000"/>
+</svg>

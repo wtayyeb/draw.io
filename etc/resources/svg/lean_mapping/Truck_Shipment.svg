@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\lean_mapping.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="5" width="55" height="79" y="1"/>
+    <rect x="60" width="34" height="42" y="38"/>
+    <ellipse rx="9" ry="9" cx="25" cy="90"/>
+    <ellipse rx="9" ry="9" cx="75" cy="90"/>
+    <text x="33" style="text-anchor: middle" y="40"><tspan xml:space="preserve">2X per</tspan></text>
+    <text x="33" style="text-anchor: middle" y="60"><tspan xml:space="preserve">Week</tspan></text>
+</svg>

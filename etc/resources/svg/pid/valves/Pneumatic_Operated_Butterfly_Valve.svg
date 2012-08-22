@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\valves.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="20" width="60" height="40" y="50"/>
+    <line y2="62" x1="50" x2="50" y1="30"/>
+    <path d="M 30.0 30.0 A 20.0 20.0 0.0 0 1 70.0 30.0 z"/>
+    <line y2="55" x1="25" x2="75" y1="85"/>
+    <ellipse rx="4" ry="4" cx="50" cy="70"/>
+</svg>

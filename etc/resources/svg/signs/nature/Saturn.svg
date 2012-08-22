@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\nature.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 71.94 38.83 c -8.24 -9.39 -24.14 -3.39 -32.93 1.05 V 17.01 h 8.01 v -7.68 h -8.01 V 0.5 h -7.75 v 8.83 H 
+        23.25 v 7.68 h 8.01 v 62.83 h 7.75 V 48.62 c 7.79 -4.48 22.18 -10.34 27.08 -4.75 c 7.56 8.62 3.84 15.96 -3.17 
+        27.04 c -5.59 8.83 -12.54 19.81 -0.37 28.72 l 4.6 -6.18 c -5.87 -4.29 -4.13 -8.25 2.33 -18.46 C 75.53 65.44 
+        83.81 52.37 71.94 38.83 z"/>
+</svg>

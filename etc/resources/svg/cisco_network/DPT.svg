@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="56.6929" preserveAspectRatio="none"
+    viewBox="376.99 -555.01 64 32" height="28.3465" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB"
+    x="0" y="1.5">
+    <path fill="none" d="M1226,-1580 C1271,-1580 1307,-1597 1307,-1617 C1307,-1638 1271,-1654 1226,-1654 C1181,-1654 
+        1145,-1638 1145,-1617 C1145,-1597 1181,-1580 1226,-1580 Z" stroke-width="6" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#90bbd1"/>
+    <path fill="none" d="M1226,-1572 C1277,-1572 1319,-1592 1319,-1617 C1319,-1642 1277,-1662 1226,-1662 C1175,-1662 
+        1134,-1642 1134,-1617 C1134,-1592 1175,-1572 1226,-1572 Z" stroke-width="6" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#036c9b"/>
+    <text font-size="32" transform="matrix(0.33333, 0, 0, 0.33333, 398.56, -535.34)" fill="#000000" font-family="'Helvetica'"
+        font-style="normal" stroke="none" font-weight="700" stroke-width="6" xml:space="preserve">DPT</text>
+</svg>

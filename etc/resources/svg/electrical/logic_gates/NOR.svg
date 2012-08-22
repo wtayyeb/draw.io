@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\logic_gates.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 15.0 20.0 L 40.0 20.0 A 45.0 50.0 0.0 0 1 80.0 50.0 A 45.0 50.0 0.0 0 1 40.0 80.0 L 15.0 80.0 A 60.0 60.0 
+        0.0 0 0 15.0 20.0 z"/>
+    <line y2="30" y1="30" x2="20"/>
+    <line y2="70" y1="70" x2="20"/>
+    <line y2="50" x1="84" x2="100" y1="50"/>
+    <ellipse rx="2" ry="2" cx="82" cy="50"/>
+</svg>

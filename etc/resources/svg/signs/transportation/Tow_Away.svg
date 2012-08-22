@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\transportation.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 80.07 52.05 c 3.72 0.0 6.76 3.08 6.76 6.85 s -3.04 6.85 -6.76 6.85 c -3.72 0.0 -6.76 -3.08 -6.76 -6.85 S 
+        76.34 52.05 80.07 52.05 z M 21.2 48.97 c 3.72 0.0 6.76 3.08 6.76 6.85 c 0.0 3.77 -3.04 6.85 -6.76 6.85 c -3.72 
+        0.0 -6.76 -3.08 -6.76 -6.85 C 14.44 52.04 17.48 48.97 21.2 48.97 z M 21.2 46.68 c 3.52 0.0 6.76 2.07 8.23 5.29 l 
+        7.19 -2.02 L 56.34 36.6 h 6.36 l 6.27 10.08 h -8.42 v 13.07 l 10.55 -0.03 c -0.36 -5.33 3.52 -9.95 8.96 -9.95 c 
+        5.78 0.0 9.01 4.6 8.98 9.98 L 99.25 59.72 V 46.71 l -11.68 -0.01 L 64.46 34.24 h -9.26 l -0.05 1.8 l -18.66 
+        12.45 v -1.09 l -3.38 1.18 L 30.36 40.1 l -9.48 2.17 l -9.0 -6.52 L 0.58 37.5 v 1.51 l 10.78 -1.48 l 4.21 5.97 L 
+        0.58 46.13 v 12.33 l 11.65 -1.85 C 12.02 51.29 15.66 46.68 21.2 46.68 z M 82.05 46.68 H 71.3 l -6.18 -9.44 L 
+        82.05 46.68 z" clip-rule="evenodd" fill-rule="evenodd"/>
+</svg>

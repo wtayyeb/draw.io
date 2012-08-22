@@ -1,0 +1,54 @@
+<shapes name="mxGraph.test">
+<shape name="Drawing1" h="85" w="168">
+<foreground>
+
+<strokecolor color="#ffffff"/>
+<strokewidth width="2"/>
+<fillcolor color="#036897"/>
+<path>
+<move x="148" y="41"/>
+<line x="168" y="0"/>
+<line x="31" y="0"/>
+<line x="0" y="41"/>
+<line x="148" y="41"/>
+<close/>
+</path>
+<fillstroke/>
+<strokewidth width="2"/>
+<path>
+<move x="168" y="37"/>
+<line x="168" y="0"/>
+<line x="148" y="41"/>
+<line x="148" y="85"/>
+<line x="168" y="37"/>
+<close/>
+</path>
+<fillstroke/>
+<strokewidth width="2"/>
+<path>
+<move x="148" y="85"/>
+<line x="148" y="41"/>
+<line x="0" y="41"/>
+<line x="0" y="85"/>
+<line x="148" y="85"/>
+<close/>
+</path>
+<fillstroke/>
+<strokecolor color="none"/>
+<strokewidth width="2.54"/>
+<fillcolor color="#ffffff"/>
+<path>
+<move x="143" y="19"/>
+<line x="87" y="12"/>
+<line x="85" y="16"/>
+<line x="36" y="16"/>
+<line x="30" y="23"/>
+<line x="81" y="23"/>
+<line x="78" y="27"/>
+<line x="143" y="19"/>
+<close/>
+</path>
+<fillstroke/>
+</foreground>
+</shape>
+</shapes>

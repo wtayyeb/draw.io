@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <defs>
+        <radialGradient r="100%" cx="0.5" id="radGradient" cy="-0.3">
+            <stop offset="40%" style="stop-color: #D8EFD2;"/>
+            <stop offset="100%" style="stop-color: #43AE22;"/>
+        </radialGradient>
+    </defs>
+    <rect x="1" y="1.0" fill="url(#radGradient)" width="98" rx="10" height="98" ry="10" stroke="#3a8224" stroke-width="2"/>
+    <path fill="#ffffff" d="M 32.0 68.0 A 33.0 26.0 0.0 1 1 44.0 72.0 A 40.0 40.0 0.0 0 1 25.0 80.0 A 20.0 31.0 0.0 0 0 
+        32.0 68.0 z" stroke-miterlimit="15" stroke="#ffffff"/>
+    <text x="50" style="text-anchor: middle; font-size: 19pt; font-weight: 900" y="57"><tspan fill="#29AB00" xml:space="preserve">SMS</tspan></text>
+</svg>

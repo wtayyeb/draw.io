@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="400.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="400.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 53.0 355.0 L 53.0 100.0 L 69.0 100.0 L 69.0 117.0 A 7.5 7.5 0.0 1 0 84.0 117.0 L 84.0 100.0 L 116.0 100.0 
+        L 116.0 117.0 A 7.5 7.5 0.0 1 0 131.0 117.0 L 131.0 100.0 L 162.0 100.0 L 162.0 117.0 A 7.5 7.5 0.0 1 0 177.0 
+        117.0 L 177.0 100.0 L 208.0 100.0 L 208.0 117.0 A 7.5 7.5 0.0 1 0 223.0 117.0 L 223.0 100.0 L 240.0 100.0 L 
+        240.0 355.0 L 223.0 355.0 L 223.0 339.0 A 7.5 7.5 0.0 1 0 208.0 339.0 L 208.0 355.0 L 177.0 355.0 L 177.0 339.0 
+        A 7.5 7.5 0.0 1 0 162.0 339.0 L 162.0 355.0 L 131.0 355.0 L 131.0 339.0 A 7.5 7.5 0.0 1 0 116.0 339.0 L 116.0 
+        355.0 L 84.0 355.0 L 84.0 339.0 A 7.5 7.5 0.0 1 0 69.0 339.0 L 69.0 355.0 L 53.0 355.0 z"/>
+    <line y2="147" x1="53" x2="240" y1="147"/>
+    <line y2="307" x1="53" x2="240" y1="307"/>
+    <rect x="109" fill="none" width="123" y="159" height="96"/>
+    <line y2="258" x1="100" x2="240" y1="258"/>
+    <rect x="162" fill="none" width="17" y="179" height="64"/>
+    <line y2="200" x1="162" x2="179" y1="200"/>
+    <line y2="219" x1="162" x2="179" y1="219"/>
+    <rect x="164.5" y="208" fill="none" width="12" rx="2" height="8" ry="2"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="193" cy="126"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="100" cy="330"/>
+    <line y2="355" x1="100" x2="100" y1="100.0"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="100" cy="126"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="193" cy="330"/>
+</svg>

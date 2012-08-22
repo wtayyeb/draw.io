@@ -1,0 +1,6 @@
+<shape background="0" aspect="variable" strokewidth="inherit">
+    <style name="electrical.waveforms">
+        <colors stroke="black" fill="white"/>
+        <stroke width="1"/>
+    </style>
+</shape>

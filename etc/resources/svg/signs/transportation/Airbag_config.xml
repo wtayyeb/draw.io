@@ -1,0 +1,11 @@
+<shape background="0">
+<connections>
+<constraint x="0.5" y="0.03" perimeter="0" name="N"/>
+<constraint x="0.25" y="0.5" perimeter="0" name="W"/>
+<constraint x="0.735" y="0.5" perimeter="0" name="E"/>
+<constraint x="0.225" y="0.1" perimeter="0" name="NW"/>
+<constraint x="0.09" y="0.955" perimeter="0" name="SW"/>
+<constraint x="0.985" y="0.19" perimeter="0" name="NE"/>
+<constraint x="0.73" y="0.95" perimeter="0" name="SE"/>
+</connections>
+</shape>

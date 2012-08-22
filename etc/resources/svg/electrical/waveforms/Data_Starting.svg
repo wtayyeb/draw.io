@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\waveforms.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <line y2="50" y1="50" x2="15"/>
+    <line y2="50" x1="30" x2="45" y1="50"/>
+    <polyline fill="none" points="95.0,5.0 50.0,50.0 95.0,95.0"/>
+</svg>

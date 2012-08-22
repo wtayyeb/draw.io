@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\sports.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <g>
+        <rect x="19.99" width="60.62" y="13.63" height="7.0"/>
+        <path d="M 50.31 17.11"/>
+    </g>
+    <polygon points="99.38,48.27 74.53,48.27 67.38,23.53 57.26,23.53 64.43,48.27 36.29,48.27 43.45,23.53 33.35,23.53 
+        26.19,48.27 0.38,48.27 0.38,54.63 24.35,54.63 14.9,87.27 25.0,87.27 34.45,54.63 66.27,54.63 75.72,87.27 
+        85.82,87.27 76.37,54.63 99.38,54.63"/>
+    <rect x="0.38" width="18.31" height="5.58" y="37.72"/>
+    <rect x="81.05" width="18.33" y="37.72" height="5.58"/>
+</svg>

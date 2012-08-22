@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="58.4787" preserveAspectRatio="none"
+    viewBox="384 -575.01 66.016 56.992" height="50.485" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB"
+    x="0" y="1.5">
+    <path d="M1234,-1711 L1252,-1723 L1262,-1723 L1261,-1714 L1248,-1702 L1234,-1711 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1167,-1626 L1294,-1626 L1294,-1557 L1167,-1557 L1167,-1626 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1294,-1626 L1339,-1669 L1339,-1603 L1294,-1557 L1294,-1626 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1317,-1571 L1308,-1571 L1307,-1633 L1315,-1636 L1319,-1632 L1320,-1579 L1317,-1571 Z" stroke-width="2"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1315,-1636 L1317,-1571 L1334,-1590 L1327,-1650 L1315,-1636 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1304,-1621 L1239,-1706 L1261,-1723 L1348,-1669 L1304,-1621 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1314,-1657 L1324,-1667 L1319,-1707 L1310,-1703 L1310,-1667 L1314,-1657 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1299,-1671 L1314,-1657 L1313,-1705 L1305,-1706 L1299,-1671 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1305,-1706 L1312,-1701 L1319,-1707 L1311,-1709 L1305,-1706 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1245,-1711 L1305,-1621 L1153,-1621 L1234,-1711 L1245,-1711 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1264,-1587 L1264,-1600 L1193,-1600 L1193,-1587 L1264,-1587 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="none" d="M1242,-1593 L1260,-1593" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="none" d="M1242,-1593 L1260,-1593" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1276,-1600 L1276,-1612 L1264,-1600 L1264,-1587 L1276,-1600 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1252,-1576 L1252,-1579 L1258,-1588 L1258,-1583 L1252,-1576 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1252,-1579 L1252,-1576 L1195,-1576 L1195,-1579 L1252,-1579 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1252,-1579 L1195,-1579 L1201,-1588 L1258,-1588 L1252,-1579 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1276,-1611 L1205,-1611 L1193,-1600 L1264,-1600 L1276,-1611 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1263,-1611 L1215,-1611 L1207,-1604 L1255,-1604 L1263,-1611 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1206,-1643 L1255,-1643 L1255,-1607 L1206,-1607 L1206,-1643 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1210,-1635 C1210,-1638 1214,-1639 1214,-1639 C1214,-1639 1243,-1639 1246,-1639 C1251,-1639 1250,-1635 
+        1250,-1635 C1250,-1635 1250,-1617 1250,-1615 C1250,-1612 1247,-1611 1247,-1611 C1247,-1611 1218,-1611 1214,-1611 
+        C1211,-1611 1210,-1614 1210,-1614 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1263,-1650 L1214,-1650 L1206,-1643 L1255,-1643 L1263,-1650 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1263,-1614 L1263,-1650 L1255,-1643 L1255,-1607 L1263,-1614 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+</svg>

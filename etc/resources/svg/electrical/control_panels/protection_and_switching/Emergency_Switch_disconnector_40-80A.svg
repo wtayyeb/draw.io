@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="300.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="300.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100.0" width="90" y="100.0" height="81"/>
+    <rect fill="#ffff00" x="100" width="90" y="118" height="45"/>
+    <rect x="173" width="15" y="98" height="18"/>
+    <rect x="173" width="15" height="18" y="165"/>
+    <polyline fill="none" points="188.0,100.0 188.0,116.0 170.0,116.0 167.0,118.0"/>
+    <polyline fill="none" points="188.0,181.0 188.0,165.0 170.0,165.0 167.0,163.0"/>
+    <line y2="163" x1="165" x2="165" y1="118"/>
+    <ellipse rx="14" fill="#ff0000" ry="14" cx="146" cy="140.5"/>
+    <polyline fill="none" points="100.0,116.0 103.0,116.0 106.0,118.0"/>
+    <polyline fill="none" points="112.25,118.0 115.25,116.0 121.25,116.0 124.25,118.0"/>
+    <polyline fill="none" points="130.5,118.0 133.5,116.0 138.5,116.0 141.5,118.0"/>
+    <polyline fill="none" points="148.75,118.0 151.75,116.0 157.75,116.0 160.75,118.0"/>
+    <polyline fill="none" points="100.0,165.0 103.0,165.0 106.0,163.0"/>
+    <polyline fill="none" points="112.25,163.0 115.25,165.0 121.25,165.0 124.25,163.0"/>
+    <polyline fill="none" points="130.5,163.0 133.5,165.0 139.5,165.0 142.5,163.0"/>
+    <polyline fill="none" points="148.75,163.0 151.75,165.0 157.75,165.0 160.75,163.0"/>
+    <path fill="#ff0000" d="M 185.0 138.0 L 156.0 136.0 A 11.0 11.0 0.0 0 0 136.0 136.0 L 134.0 138.0 L 134.0 143.0 L 
+        136.0 145.5 A 11.0 11.0 0.0 0 0 156.0 145.5 L 185.0 143.0 z"/>
+    <ellipse rx="4" ry="4" cx="109.125" cy="109"/>
+    <ellipse rx="4" ry="4" cx="127.375" cy="109"/>
+    <ellipse rx="4" ry="4" cx="145.625" cy="109"/>
+    <ellipse rx="4" ry="4" cx="163.875" cy="109"/>
+    <ellipse rx="4" ry="4" cx="109.25" cy="173"/>
+    <ellipse rx="4" ry="4" cx="127.375" cy="173"/>
+    <ellipse rx="4" ry="4" cx="145.625" cy="173"/>
+    <ellipse rx="4" ry="4" cx="163.875" cy="173"/>
+    <rect fill="#000000" x="134.0" width="9" y="139.5" height="2"/>
+    <rect fill="#ff0000" x="170.0" width="15" y="139.5" height="2.0"/>
+</svg>

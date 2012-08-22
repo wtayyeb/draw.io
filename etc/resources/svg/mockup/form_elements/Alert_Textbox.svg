@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="1000.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="300.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path fill="#b00c0b" d="M 637.0 92.0 L 808.0 92.0 A 5.0 5.0 0.0 0 1 813.0 97.0 L 813.0 157.0 A 5.0 5.0 0.0 0 1 808.0 
+        162.0 L 637.0 162.0 z" stroke="#b00c0b"/>
+    <path fill="#efccbd" d="M 637.0 92.0 L 105.0 92.0 A 5.0 5.0 0.0 0 0 100.0 97.0 L 100.0 157.0 A 5.0 5.0 0.0 0 0 105.0 
+        162.0 L 637.0 162.0 z" stroke="#efccbd"/>
+    <polygon fill="#b00c0b" stroke-width="5" points="155.0,109.0 163.0,126.0 147.0,126.0" stroke-linejoin="round"
+        stroke="#b00c0b"/>
+    <line stroke-linecap="round" fill="none" x1="155.0" x2="155.0" y1="120" y2="112" stroke="#ffffff" stroke-width="3"/>
+    <ellipse rx="1.5" fill="#ffffff" ry="1.5" cx="155" cy="124" stroke="none"/>
+    <rect fill="#ffffff" x="257" width="299" height="21" y="107" stroke="#666666"/>
+</svg>

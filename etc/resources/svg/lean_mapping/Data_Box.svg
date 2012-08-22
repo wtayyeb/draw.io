@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\lean_mapping.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polyline points="20.0,100.0 20.0,1.0 80.0,1.0 80.0,100.0"/>
+    <line y2="20" x1="20" x2="80" y1="20"/>
+    <line y2="40" x1="20" x2="80" y1="40"/>
+    <line y2="60" x1="20" x2="80" y1="60"/>
+    <line y2="80" x1="20" x2="80" y1="80"/>
+    <text style="text-anchor: middle" x="50" y="18"><tspan xml:space="preserve">C/T=25sec</tspan></text>
+    <text style="text-anchor: middle" x="50" y="38"><tspan xml:space="preserve">C/O=40</tspan></text>
+    <text style="text-anchor: middle" x="50" y="58"><tspan xml:space="preserve">2 Shifts</tspan></text>
+    <text style="text-anchor: middle" x="50" y="78"><tspan xml:space="preserve">Takt=1s</tspan></text>
+</svg>

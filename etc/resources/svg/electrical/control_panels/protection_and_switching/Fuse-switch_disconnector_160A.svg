@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="300.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="300.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100" width="105.75" height="156.94519" y="100.0"/>
+    <rect x="108.78304" width="87.51724" height="72.61644" y="153.58904"/>
+    <line y2="226.20547" x1="137.95546" x2="137.95546" y1="153.58904"/>
+    <line y2="226.20547" x1="167.12788" x2="167.12788" y1="153.58904"/>
+    <rect x="184" width="18.232758" height="8.198631" y="136.18036"/>
+    <polyline fill="none" points="126.40804,226.20547 126.40804,216.83562 132.48564,207.46574 143.4253,207.46574 
+        149.50288,216.83562 149.50288,226.20547"/>
+    <polyline fill="none" points="155.58046,226.20547 155.58046,216.83562 161.65805,207.46574 172.5977,207.46574 
+        178.6753,216.83562 178.6753,226.20547"/>
+    <polyline fill="none" points="184.75288,226.20547 184.75288,216.83562 190.83047,207.46574 196.3003,207.46574"/>
+    <polyline fill="none" points="108.78304,172.32877 114.25287,172.32877 120.33046,162.9589 120.33046,153.58904"/>
+    <polyline fill="none" points="126.40804,153.58904 126.40804,162.9589 132.48564,172.32877 143.4253,172.32877 
+        149.50288,162.9589 149.50288,153.58904"/>
+    <polyline fill="none" points="155.58046,153.58904 155.58046,162.9589 161.65805,172.32877 172.5977,172.32877 
+        178.6753,162.9589 178.6753,153.58904"/>
+    <polyline fill="none" points="184.75288,153.58904 184.75288,162.9589 190.83047,172.32877 196.3003,172.32877"/>
+    <polyline fill="none" points="108.78304,207.46574 114.25287,207.46574 120.33046,216.83562 120.33046,226.20547"/>
+    <rect x="121.545975" width="3.646553" y="155.9315" height="67.9315"/>
+    <rect x="150.7184" width="3.6465454" height="67.9315" y="155.9315"/>
+    <rect x="179.89081" width="3.6465607" height="67.9315" y="155.9315"/>
+    <rect x="115.46839" width="15.801727" y="174.67123" height="30.452042"/>
+    <rect x="144.64081" width="15.801727" height="30.452042" y="174.67123"/>
+    <rect x="173.81323" width="15.801712" height="30.452042" y="174.67123"/>
+    <rect fill="none" x="114" width="77" y="112" height="14"/>
+    <polyline fill="none" points="108.0,100.0 108.0,130.0 197.0,130.0 197.0,100.0"/>
+    <line y2="245" x1="100" x2="206" y1="245"/>
+</svg>

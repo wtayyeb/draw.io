@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\transportation.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <circle cx="14.19" r="8.19" cy="67.56"/>
+    <circle cx="76.3" r="8.19" cy="67.56"/>
+    <rect x="32.46" width="67.15" height="32.32" y="24.72" transform="matrix(1.0 0.0 0.0 1.0 -0.0 -1.91E-6)"/>
+    <path d="M 69.95 59.31 H 28.2 V 32.72 L 6.72 34.37 c 0.0 0.0 -4.71 11.75 -6.39 15.88 v 11.2 v 4.02 c -1.49E-7 1.15 
+        0.93 2.08 2.07 2.08 h 1.42 c 0.0 -5.77 4.64 -10.44 10.36 -10.44 c 5.73 0.0 10.36 4.67 10.36 10.44 h 41.38 C 
+        65.94 64.2 67.51 61.22 69.95 59.31 z M 19.92 48.4 L 3.39 50.5 l 4.78 -12.49 l 11.76 -0.9 V 48.4 z" transform="matrix(1.0 0.0 0.0 1.0 -0.0 -1.91E-6)"/>
+    <path d="M 99.56 59.31 H 82.65 c 2.44 1.91 4.02 4.89 4.02 8.25 h 2.42 h 4.29 l 6.2 -2.21 L 99.56 59.31 z" transform="matrix(1.0 0.0 0.0 1.0 -0.0 -1.91E-6)"/>
+</svg>

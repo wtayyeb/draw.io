@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="45.1843" preserveAspectRatio="none"
+    viewBox="299.01 -968 51.008 44" height="38.9764" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB"
+    x="0" y="33.0236">
+    <path d="M1027,-2880 L927,-2880 L927,-2782 L1027,-2782 Z" stroke-width="2.54" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" stroke-width="2" d="M1027,-2880 L927,-2880 L927,-2782 L1027,-2782" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1027,-2782 L1046,-2802 L1046,-2900 L920,-2900 L900,-2880 L1027,-2880 L1027,-2782 Z" stroke-width="2"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#000000" stroke-width="2.54" d="M1027,-2880 L1046,-2900 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M1027,-2880 L1046,-2900 M985,-2865 L1002,-2865 M1011,-2857 L1011,-2876 L930,-2876 L930,-2857 
+        L1011,-2857 Z M1011,-2832 L1011,-2848 L999,-2848 L999,-2832 L1011,-2832 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="none" stroke-width="2" d="M902,-2784 L902,-2879 L927,-2879 L927,-2784 L902,-2784 Z M907,-2874 L923,-2874 
+        M907,-2869 L923,-2869 M907,-2864 L923,-2864 M907,-2859 L923,-2859 M907,-2854 L923,-2854 M907,-2849 L923,-2849 
+        M907,-2844 L923,-2844 M907,-2839 L923,-2839 M907,-2834 L923,-2834 M907,-2829 L923,-2829 M907,-2824 L923,-2824 
+        M907,-2819 L923,-2819 M907,-2814 L923,-2814 M907,-2809 L923,-2809 M907,-2804 L923,-2804 M907,-2799 L923,-2799 
+        M907,-2794 L923,-2794 M907,-2789 L923,-2789" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="#000000"/>
+    <path d="M919,-2782 L914,-2775 L1019,-2775 L1016,-2782 L919,-2782 Z M1019,-2775 L1025,-2782 L1016,-2782 L1019,-2775 
+        Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+</svg>

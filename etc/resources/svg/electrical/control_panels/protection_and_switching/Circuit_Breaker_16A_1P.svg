@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="300.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="300.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 100.0 260.0 L 100.0 100.0 L 112.0 100.0 L 112.0 110.0 A 5.5 5.5 0.0 1 0 123.0 110.0 L 123.0 100.0 L 135.0 
+        100.0 L 135.0 261.0 L 123.0 261.0 L 123.0 251.0 A 5.5 5.5 0.0 1 0 112.0 251.0 L 112.0 261.0 L 100.0 261.0 z"/>
+    <line y2="130" x1="100" x2="135" y1="130"/>
+    <line y2="231" x1="100" x2="135" y1="231"/>
+    <rect fill="none" x="102" width="30" height="60" y="140"/>
+    <line y2="200" x1="100" x2="135" y1="200"/>
+    <rect fill="none" x="110" width="13.0" height="40" y="150"/>
+    <line y2="163" x1="110" x2="123" y1="163"/>
+    <line y2="175" x1="110" x2="123.0" y1="175"/>
+    <rect x="112.0" y="168" fill="none" width="9" rx="2" ry="2" height="5"/>
+</svg>

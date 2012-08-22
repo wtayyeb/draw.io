@@ -1,0 +1,28 @@
+mxGraph sharing server, running on Node.js, based on Sharejs (sharejs.org).
+
+1 Development
+-------------
+
+For development, use the sharehost URL parameter as follows:
+
+http://devhost.jgraph.com:8888/?sharehost=dev or
+http://devhost.jgraph.com:8888/?sharehost=devhost.jgraph.com:8000
+
+Where the latter can use any URL without the http prefix. For the sharing the
+client will add /sjs or /dummy.gif to check if the server is up and running.
+
+2. Installation
+---------------
+
+Put this directory under the node_modules directory, ie.
+
+Windows: c:\users\username\AppData\Roaming\npm\node_modules
+Linux: /usr/local/lib/node_modules or /usr/lib/node_modules
+
+Then execute "npm install ./" inside the directory to install
+the required dependencies or run the install task in build.xml.
+
+3. Start
+--------
+
+Use "node bin/sharingserver" to start the server or the run task in build.xml.

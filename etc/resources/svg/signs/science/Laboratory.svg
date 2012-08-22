@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\science.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 85.4 89.32 C 92.57 82.63 97.11 73.24 97.11 62.75 c 0.0 -12.92 -6.87 -24.57 -17.55 -31.11 l 11.97 -20.46 l 
+        -1.88 -1.07 l 2.95 -5.07 L 84.86 0.62 L 81.9 5.69 L 79.92 4.56 L 50.5 54.9 l 2.57 1.47 l -3.65 6.23 l 6.47 3.69 
+        l 3.65 -6.24 l 2.56 1.46 L 74.47 40.35 c 7.59 4.78 12.46 13.15 12.46 22.4 c 0.0 14.65 -12.08 26.56 -26.91 26.56 
+        H 38.33 V 99.38 h 61.03 V 89.32 H 85.4 z M 31.22 11.97 V 3.99 h 1.0 l -0.01 -1.92 h -9.07 l 0.01 1.92 h 1.07 v 
+        7.98 h -6.77 V 3.99 h 0.99 l -0.01 -1.92 h -9.08 l 0.02 1.92 h 1.07 v 7.98 H 0.5 v 40.0 h 40.57 V 11.97 H 31.22 
+        z M 37.64 48.58 H 3.93 V 15.36 h 6.5 V 15.44 v 25.47 c 0.0 1.93 1.6 3.5 3.53 3.5 c 1.94 -0.01 3.48 -1.57 3.48 
+        -3.5 V 15.44 v -0.08 h 6.77 V 15.44 v 25.47 c 0.0 1.93 1.6 3.5 3.53 3.5 c 1.94 -0.01 3.48 -1.57 3.47 -3.5 V 
+        15.44 v -0.08 h 6.42 V 48.58 z" transform="matrix(1.0 0.0 0.0 1.0 -0.0 -3.81E-6)"/>
+    <rect x="34.4" width="28.55" height="4.72" y="69.51" transform="matrix(0.87 0.5 -0.5 0.87 42.67 -14.5)"/>
+</svg>

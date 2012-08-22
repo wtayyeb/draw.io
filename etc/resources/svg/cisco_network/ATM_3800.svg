@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="38.0693" preserveAspectRatio="none"
+    viewBox="390.02 -564.99 42.976 48.992" height="43.3984" xmlns="http://www.w3.org/2000/svg"
+    color-interpolation-filters="sRGB" x="0" y="1.5">
+    <path fill="#000000" d="M1175,-1649 L1183,-1658 Z" stroke-width="2.54" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M1175,-1649 L1183,-1658" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1282,-1614 L1170,-1678 L1170,-1550 L1282,-1614 Z M1280,-1613 L1171,-1675 L1189,-1693 L1298,-1631 
+        L1280,-1613 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M1198,-1645 L1183,-1633 L1201,-1625 L1198,-1645 Z" stroke-width="2.54" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M1179,-1653 L1191,-1637" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+    <path fill="#ffffff" d="M1198,-1580 L1183,-1591 L1201,-1599 L1198,-1580 Z" stroke-width="2.54" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M1179,-1571 L1191,-1587" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+    <path fill="#ffffff" d="M1247,-1622 L1247,-1603 L1264,-1612 L1247,-1622 Z" stroke-width="2.54" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M1229,-1612 L1249,-1612" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+</svg>

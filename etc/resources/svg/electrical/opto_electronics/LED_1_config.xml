@@ -1,0 +1,6 @@
+<shape>
+<connections>
+	<constraint x="0.0" y="0.54" perimeter="0" name="in"/>
+	<constraint x="1.0" y="0.54" perimeter="0" name="out"/>
+</connections>
+</shape>

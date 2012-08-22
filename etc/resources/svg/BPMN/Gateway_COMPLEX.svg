@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\basic.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon points="50.0,0.5 99.5,50.0 50.0,99.5 0.5,50.0"/>
+    <line y2="50" stroke-width="3" x1="80" x2="20" y1="50"/>
+    <line y2="80" stroke-width="3" x1="50" x2="50" y1="20"/>
+    <line y2="71" stroke-width="3" x1="29" x2="71" y1="29"/>
+    <line y2="71" stroke-width="3" x1="71" x2="29" y1="29"/>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="32.7685" preserveAspectRatio="none"
+    viewBox="390.02 -560 36.992 37.984" height="33.6472" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB"
+    x="0" y="1.5">
+    <path d="M1262,-1567 L1262,-1660 L1171,-1660 L1171,-1567 L1262,-1567 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M1185,-1628 L1199,-1642 L1184,-1643 L1185,-1628 Z M1245,-1597 L1231,-1583 L1246,-1582 
+        L1245,-1597 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="none"/>
+    <path d="M1280,-1678 L1262,-1660 L1171,-1660 L1191,-1678 L1280,-1678 Z M1280,-1590 L1280,-1678 L1262,-1660 
+        L1262,-1568 L1280,-1590 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path stroke-linecap="square" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" fill="none" stroke-dasharray="12,4"
+        d="M1191,-1636 L1239,-1589" stroke="#ffffff" stroke-width="6"/>
+</svg>

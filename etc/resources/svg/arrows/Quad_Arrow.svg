@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\arrows.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon points="40.0,40.0 40.0,20.0 31.0,20.0 50.0,1.0 69.0,20.0 60.0,20.0 60.0,40.0 80.0,40.0 80.0,31.0 98.5,50.0 
+        80.0,69.0 80.0,60.0 60.0,60.0 60.0,80.0 69.0,80.0 50.0,98.5 31.0,80.0 40.0,80.0 40.0,60.0 20.0,60.0 20.0,69.0 
+        1.0,50.0 20.0,31.0 20.0,40.0"/>
+</svg>

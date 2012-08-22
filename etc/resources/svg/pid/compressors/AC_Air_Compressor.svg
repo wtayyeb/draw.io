@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\compressors.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 7.0 42.0 L 93.0 42.0 A 40.0 40.0 0.0 0 1 93.0 84.0 L 7.0 84.0 A 40.0 40.0 0.0 0 1 7.0 42.0 z"/>
+    <rect x="7.2" width="85.4" y="42" height="42"/>
+    <ellipse rx="4" ry="4" cx="36" cy="35"/>
+    <ellipse rx="8" ry="8" cx="66.5" cy="32"/>
+    <line y2="24.416666" x1="35.125" x2="64.34722" y1="31.097221"/>
+    <line y2="40.069443" x1="36.02778" x2="66.34722" y1="39.13889"/>
+    <line y2="37.5" x1="16.5" x2="16.5" y1="42"/>
+    <line y2="32.5" x1="12" x2="16.5" y1="37.5"/>
+    <line y2="32.5" x1="16.5" x2="16.5" y1="16"/>
+    <line y2="30.7" x1="13" x2="20.2" y1="24.4"/>
+    <line y2="26.5" x1="14" x2="19.7" y1="21.7"/>
+    <line y2="23" x1="14.6" x2="19" y1="19"/>
+    <polygon points="12.0,28.0 21.5,37.5 12.0,37.5"/>
+    <polygon points="84.5,28.0 90.5,28.0 84.5,38.5 90.5,38.5"/>
+    <line y2="38.5" x1="87.5" x2="87.5" y1="42"/>
+</svg>

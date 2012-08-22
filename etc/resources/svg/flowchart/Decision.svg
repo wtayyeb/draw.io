@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\flowchart.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 52.0 22.0 L 98.0 48.0 A 2.5 2.5 0.0 0 1 98.0 52.0 L 52.0 78.0 A 4.0 4.0 0.0 0 1 48.0 78.0 L 2.0 52.0 A 
+        2.5 2.5 0.0 0 1 2.0 48.0 L 48.0 22.0 A 4.0 4.0 0.0 0 1 52.0 22.0 z"/>
+</svg>

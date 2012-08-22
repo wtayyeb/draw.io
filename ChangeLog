@@ -1,0 +1,250 @@
+02-AUG-2012: 1.6.1.6
+
+- Adds fixes for null user objects in link handling
+
+02-AUG-2012: 1.6.1.5
+
+- Adds transparency option for PNG image, SVG export
+
+01-AUG-2012: 1.6.1.4
+
+- Fixes for filepicker.io
+
+31-JUL-2012: 1.6.1.3
+
+- Uses mxClient.js, mxgraph-core.jar 1.10.2.1
+- Adds social, analytics URL parameters
+- Adds persistent stats for embedding
+- Adds save for filepicker.io
+
+28-JUL-2012: 1.6.1.2
+
+- Fixes embedding of international characters and newlines
+- Changes image export URL to http://shr.diagramly.com:8080/ImageExport/export
+- Changes lastModified header creation in EmbedServlet
+- Fixes infinite recursion in Embed.js for convertValueToString
+
+27-JUL-2012: 1.6.1.1
+
+- Adds support for hyperlinks
+
+23-JUL-2012: 1.6.1.0
+
+- Uses mxGraph 1.10.2.0
+- Adds embed feature
+- Fixes errors if tinyMCE not available
+- Fixes syntax of dash patterns in shapes
+
+30-JUN-2012: 1.6.0.2
+
+- Renames Init.js to Devel.js
+- Adds link to "Did you know..." topic in help menu
+- Removes previous diagramly link from help menu
+- Adds url URL parameter handling in client
+- Adds proxy servlet for loading files from URLs
+
+22-JUN-2012: 1.6.0.1
+
+- Fixes minor bugs
+- Uses mxGraph 1.10.1.3
+
+19-JUN-2012: 1.6.0.0
+
+- Adds real-time collaboration (experimental)
+- Adds handling for App not installed error in Google Drive
+- Uses mxGraph 1.10.1.2
+
+06-JUN-2012: 1.5.0.7
+
+- Uses mxGraph 1.10.1.1
+- Adds workaround for focus repaint bug in IE9/10
+- Adds fixed connection points for custom shapes
+- Adds closure compiler pre-deploy step
+- Puts all JS in a single minified file
+
+25-MAY-2012: 1.5.0.6
+
+- Uses static mxGraph 1.10.0.6
+- Fixes "Save as" in Google Drive
+- Fixes page view, default pageScale
+- Adds new items in file menu
+- Adds options in file edit dialog
+- Adds import action
+- Adds extra handle for custom shapes
+
+17-MAY-2012: 1.5.0.5
+
+- Removes .mxe default file extension
+- Changes mime type to application/mxe
+
+16-MAY-2012: 1.5.0.4
+
+- Uses current protocol to load picker API
+- Adds CSS3 transitions for hover styles
+- Simplifies tinyMCE toolbar, uses main toolbar (non-IE only)
+- Adds "Use as default edge" action
+
+14-MAY-2012: 1.5.0.3
+
+- Adds border in export dialog
+- Adds resources for Google Drive integration
+- Fixes use of optional flash for saving in savedialog
+
+05-MAY-2012: 1.5.0.2
+
+- Handles requests for non-existent script versions
+- Handles DeadlineExceededException
+
+03-MAY-2012: 1.5.0.1
+
+- Adds XML export option
+- Fixes unicode character encoding in files
+- Adds status information for Google Drive operations
+- Adds spinner during Google Drive operations
+- Adds reconnect for lost session after save
+- Fixes illegal state exceptions in servlet
+
+02-MAY-2012: 1.5.0.0
+
+- Adds working Google Drive integration
+
+01-MAY-2012: 1.4.0.7
+
+- Adds initial Google Drive integration
+
+29-APR-2012: 1.4.0.6
+
+- Uses mxGraph 1.10.0.2
+- Adds BPMN shapes, markers and custom edges
+- Fixes Downloadify integration
+
+19-APR-2012: 1.4.0.5
+
+- Adds editFile action from grapheditor
+- Adds fromText action and ParseDialog
+- Adds forum link in help menu
+- Adds more shapes sidebar entry
+- Adds iconfinder library
+
+29-MAR-2012: 1.4.0.2
+
+- Adds UML library
+- Adds experimental group selection
+- Adds persistent UI settings
+- Adds templates, file, new... menu
+- Adds HTML labels with editing
+- Adds aa URL parameter to disable anti aliasing
+- Adds PDF export via backend with limited HTML support
+- Adds context menu in sidebar
+- Various fixes from bug reports, disabled Flash
+
+16-FEB-2012: 1.4.0.0
+
+- First release of new codebase
+
+24-JAN-2012: 1.3.2.2
+
+- Fixes for brix
+
+13-JAN-2012: 1.3.2.0
+
+- Enables .vdx importing for GAE
+
+25-DEC-2011: 1.3.1.2
+
+- Avoids passing null version parameter onto primary client server
+
+23-DEC-2011: 1.3.1.1
+
+- Adds AWS icons
+- Updates core to 1.8.0.6
+
+15-DEC-2011: 1.3.1.0
+
+- Adds local SVG generation
+- Adds client servlet for cached mxclient delivery
+
+17-NOV-2011: 1.3.0.1
+
+- mxgraph.mockuop.form_elements stencil set name typo corrected
+
+11-NOV-2011: 1.3.0.0
+
+- Addition stencil based shapes added
+
+14-JUL-2011: 1.2.0.1
+
+- Collaboration integrated
+
+11-JUL-2011: 1.2.0.0
+
+- Deployed to GAE by default
+
+24-JUN-2011: 1.1.1.0
+
+- Sprited toolbar icons
+- Local open for file API enabled browsers
+
+26-MAY-2011: 1.1.0.0
+
+- Switches most content to static serving
+- New iPad interface
+
+12-MAY-2011: 1.0.11.0
+
+- Adds simplified default stylesheet for new diagrams
+- Adds UI for transparency, user-defined colors and images
+
+02-MAY-2011: 1.0.10.1
+
+- Additional static gzipping of resources
+- Adds lazy loading of images in collapsed palettes
+
+05-APR-2011: 1.0.10.0
+
+- Fixes string escaping parse errors on open
+- Add show/parse XML options
+
+17-MAR-2011: 1.0.9.0
+
+- Adds duplicate context menu item, ctrl-D
+- Adds optional navigation context menu
+- Adds optional navigation icons
+- Adds support for cursor keys
+- Adds guides
+
+05-MAR-2011: 1.0.8.0
+
+- Adds connect preview
+- Adds splash screens
+- Adds import of VDX files
+
+02-MAR-2011: 1.0.7.0
+
+- Uses connect image for new connections
+- Changes save, export, print, open dialogs
+- Changes toolbars, toolbar icons
+
+25-FEB-2011: 1.0.6.0
+
+- Corrected title to diagram.ly
+- Adds sv, pl, ar translations.
+
+15-FEB-2011: 1.0.5.0
+
+- Adds footer
+- i18n for library text.
+- Adds it, fr, zh, pt, ja, es, ru, nl translations.
+
+02-FEB-2011: 1.0.4.0
+
+- Uses mxGraph core 1.5.1.5 to fix IE 6 dialogs.
+
+30-JAN-2011: 1.0.3.1
+
+- Sets svgCanvas variable of ExportServlet to null on each request. Previously,
+	making an SVG export request then broke the other image exports.
+
+30-JAN-2011: 1.0.3.0
+
+- Fixes forwarding to site using Firefox

@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <defs>
+        <radialGradient r="100%" cx="0.5" id="radGradient" cy="-0.3">
+            <stop offset="40%" style="stop-color: #BFD0E4;"/>
+            <stop offset="100%" style="stop-color: #0C4C8A;"/>
+        </radialGradient>
+    </defs>
+    <rect x="1.0" y="1.0" fill="url(#radGradient)" width="98" rx="10" height="98" ry="10" stroke="#204464" stroke-width="2"/>
+    <path fill="#ffffff" d="M 40.0 38.0 L 79.0 38.0 L 79.0 52.0 L 71.0 52.0 L 71.0 79.0 L 60.0 79.0 L 60.0 60.0 L 60.0 
+        79.0 L 47.0 79.0 L 47.0 52.0 L 40.0 52.0 z" stroke-linejoin="round" stroke="#cccccc"/>
+    <rect x="49" y="25" fill="#ffffff" width="20" stroke-linejoin="round" height="21" stroke="#cccccc"/>
+    <path fill="#ffffff" d="M 32.0 55.0 L 32.0 68.0 A 8.0 5.0 0.0 1 0 34.0 68.0 L 34.0 55.0 L 43.0 55.0 L 43.0 41.0 A 
+        10.5 12.0 0.0 0 0 23.0 41.0 L 23.0 55.0 z" stroke-linejoin="round" stroke="#cccccc"/>
+</svg>

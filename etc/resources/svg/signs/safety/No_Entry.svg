@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\safety.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 49.94 0.5 C 22.54 0.48 0.33 22.65 0.33 49.97 c 0.0 27.36 22.21 49.53 49.61 49.52 c 27.38 0.01 49.58 
+        -22.16 49.56 -49.52 C 99.52 22.65 77.32 0.48 49.94 0.5 z M 9.97 58.07 V 41.82 h 80.05 v 16.26 H 9.97 z"/>
+</svg>

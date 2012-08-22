@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\safety.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon points="32.71,0.5 32.71,0.5 32.71,0.5 18.33,23.8 26.38,23.8 26.38,82.39 32.71,82.39 39.04,82.39 39.04,23.8 
+        47.09,23.8"/>
+    <polygon points="66.73,0.5 66.73,0.5 66.73,0.5 52.35,23.8 60.4,23.8 60.4,82.39 66.73,82.39 73.06,82.39 73.06,23.8 
+        81.11,23.8"/>
+    <rect x="14.38" width="70.69" y="87.05" height="12.58"/>
+</svg>

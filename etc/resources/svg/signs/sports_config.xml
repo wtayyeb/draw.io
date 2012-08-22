@@ -1,0 +1,75 @@
+ <shape background="1" aspect="variable" strokewidth="inherit">
+    <connections name="sides">
+        <constraint x="0.5" y="0" perimeter="0" name="N"/>
+        <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        <constraint x="0" y="0.5" perimeter="0" name="W"/>
+        <constraint x="1" y="0.5" perimeter="0" name="E"/>
+    </connections>
+    <connections name="corners">
+        <constraint x="0" y="0" perimeter="0" name="NW"/>
+        <constraint x="0" y="1" perimeter="0" name="SW"/>
+        <constraint x="1" y="0" perimeter="0" name="NE"/>
+        <constraint x="1" y="1" perimeter="0" name="SE"/>
+    </connections>
+    <connections name="sidesAndCorners">
+        <constraint x="0.5" y="0" perimeter="0" name="N"/>
+        <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        <constraint x="0" y="0.5" perimeter="0" name="W"/>
+        <constraint x="1" y="0.5" perimeter="0" name="E"/>
+        <constraint x="0" y="0" perimeter="0" name="NW"/>
+        <constraint x="0" y="1" perimeter="0" name="SW"/>
+        <constraint x="1" y="0" perimeter="0" name="NE"/>
+        <constraint x="1" y="1" perimeter="0" name="SE"/>
+    </connections>
+    <connections name="sidesAndCornersRounded">
+        <constraint x="0.5" y="0" perimeter="0" name="N"/>
+        <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        <constraint x="0" y="0.5" perimeter="0" name="W"/>
+        <constraint x="1" y="0.5" perimeter="0" name="E"/>
+        <constraint x="0.025" y="0.025" perimeter="0" name="NW"/>
+        <constraint x="0.025" y="0.975" perimeter="0" name="SW"/>
+        <constraint x="0.975" y="0.025" perimeter="0" name="NE"/>
+        <constraint x="0.975" y="0.975" perimeter="0" name="SE"/>
+    </connections>
+    <connections name="NS">
+        <constraint x="0.5" y="0" perimeter="0" name="N"/>
+        <constraint x="0.5" y="1" perimeter="0" name="S"/>
+    </connections>
+    <connections name="EW">
+        <constraint x="0" y="0.5" perimeter="0" name="W"/>
+        <constraint x="1" y="0.5" perimeter="0" name="E"/>
+    </connections>
+    <connections name="circle">
+        <constraint x="0.5" y="0" perimeter="0" name="N"/>
+        <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        <constraint x="0" y="0.5" perimeter="0" name="W"/>
+        <constraint x="1" y="0.5" perimeter="0" name="E"/>
+        <constraint x="0.145" y="0.145" perimeter="0" name="NW"/>
+        <constraint x="0.145" y="0.855" perimeter="0" name="SW"/>
+        <constraint x="0.855" y="0.145" perimeter="0" name="NE"/>
+        <constraint x="0.855" y="0.855" perimeter="0" name="SE"/>
+    </connections>
+	<connections name="route">
+		<constraint x="0.51" y="0.0" perimeter="0" name="N"/>
+		<constraint x="0.517" y="0.995" perimeter="0" name="S"/>
+		<constraint x="0.06" y="0.5" perimeter="0" name="W"/>
+		<constraint x="0.93" y="0.5" perimeter="0" name="E"/>
+		<constraint x="0.02" y="0.215" perimeter="0" name="NW"/>
+		<constraint x="0.13" y="0.855" perimeter="0" name="SW"/>
+		<constraint x="0.96" y="0.195" perimeter="0" name="NE"/>
+		<constraint x="0.855" y="0.855" perimeter="0" name="SE"/>
+	</connections>
+    <connections name="smallCircle">
+        <constraint x="0.5" y="0.124" perimeter="0" name="N"/>
+        <constraint x="0.5" y="0.876" perimeter="0" name="S"/>
+        <constraint x="0.124" y="0.5" perimeter="0" name="W"/>
+        <constraint x="0.876" y="0.5" perimeter="0" name="E"/>
+        <constraint x="0.235" y="0.235" perimeter="0" name="NW"/>
+        <constraint x="0.235" y="0.765" perimeter="0" name="SW"/>
+        <constraint x="0.765" y="0.235" perimeter="0" name="NE"/>
+        <constraint x="0.765" y="0.765" perimeter="0" name="SE"/>
+    </connections>
+    <style name="signs.sports">
+        <colors stroke="none" fill="#000000"/>
+    </style>
+</shape>

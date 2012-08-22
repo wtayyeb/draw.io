@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="200.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="200.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <ellipse rx="12" fill="#888888" ry="12" cx="75" cy="75" stroke="none"/>
+    <ellipse rx="11" fill="#999999" ry="11" cx="65" cy="100" stroke="none"/>
+    <ellipse rx="10" fill="#aaaaaa" ry="10" cx="75" cy="125" stroke="none"/>
+    <ellipse rx="9" fill="#bbbbbb" ry="9" cx="100" cy="135" stroke="none"/>
+    <ellipse rx="8" fill="#cccccc" ry="8" cx="125" cy="125" stroke="none"/>
+    <ellipse rx="7" fill="#dddddd" ry="7" cx="135" cy="100" stroke="none"/>
+    <ellipse rx="6" fill="#eeeeee" ry="6" cx="125" cy="75" stroke="none"/>
+    <ellipse rx="5" fill="#f3f3f3" ry="5" cx="100" cy="65" stroke="none"/>
+</svg>

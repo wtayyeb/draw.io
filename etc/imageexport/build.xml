@@ -1,0 +1,43 @@
+<?xml version="1.0" ?> 
+<project name="ImageExport" default="war">
+
+	<path id="compile.classpath">
+		<fileset dir="jars">
+			<include name="*.jar"/>
+		</fileset>
+		<fileset dir="../../war/WEB-INF/lib">
+			<include name="mxgraph-core.jar"/>
+		</fileset>
+	</path>
+	
+	<target name="init">
+		<mkdir dir="classes"/>
+	</target>
+	
+	<target name="compile" depends="init" >
+		<javac destdir="classes" srcdir="src">
+			<classpath refid="compile.classpath"/>
+		</javac>
+	</target>
+	
+	<target name="war" depends="compile">
+		<war destfile="ImageExport.war" webxml="web.xml">
+			<webinf dir=".">
+				<include name="jetty-web.xml"/>
+			</webinf>
+			<lib dir="jars">
+				<include name="*.jar"/>
+				<exclude name="servlet-api-2.5.jar"/>
+			</lib>
+			<lib dir="../../war/WEB-INF/lib">
+				<include name="mxgraph-core.jar"/>
+			</lib>
+			<classes dir="classes"/>
+		</war>
+	</target>
+	
+	<target name="clean">
+		<delete dir="build" />
+	</target>
+	
+</project>

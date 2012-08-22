@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <defs>
+        <radialGradient r="100%" cx="0.5" id="radGradient" cy="-0.3">
+            <stop offset="40%" style="stop-color: #FDFDFD;"/>
+            <stop offset="100%" style="stop-color: #D5D0CD;"/>
+        </radialGradient>
+        <linearGradient id="verticalGradient">
+            <stop style="stop-color: #395BA1;" offset="0%"/>
+            <stop style="stop-color: #A2D8F0;" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" x2="0%" y1="100%" xlink:href="#verticalGradient"
+            y2="0%" id="up"/>
+    </defs>
+    <rect x="1" y="1.0" fill="url(#radGradient)" width="98" rx="10" height="98" ry="10" stroke="#B5B4B0" stroke-width="2"/>
+    <polygon fill="#2A69AB" stroke-width="0.2" fill-opacity="1" points="52.6,10.2 58.0,13.8 57.5,31.0 76.5,25.5 
+        83.0,29.8 57.0,51.5 56.0,85.0 50.4,81.2 40.0,60.0 40.0,64.2 20.5,80.3 14.5,76.0 35.0,50.0" stroke-opacity="1"
+        stroke="#2A69AB"/>
+    <polygon fill="url(#up)" stroke-miterlimit="10" points="16.0,74.0 27.4,54.0 11.0,35.0 41.0,30.7 52.0,12.0 51.5,29.3 
+        75.0,26.0 51.0,45.5 50.0,80.0 33.0,60.3" stroke="#125BA2"/>
+</svg>

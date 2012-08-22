@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="1" y="1.0" fill="url(#radGradient)" width="98" rx="10" ry="10" height="98" stroke="#B5B4B0" stroke-width="2"/>
+    <rect x="8" y="55" fill="#c22126" width="84" rx="5" height="35" ry="5" stroke="#C22126"/>
+    <defs>
+        <radialGradient r="100%" cx="0.5" cy="-0.3" id="radGradient">
+            <stop style="stop-color: #FDFDFD;" offset="40%"/>
+            <stop style="stop-color: #D5D0CD;" offset="100%"/>
+        </radialGradient>
+    </defs>
+    <text x="50" style="text-anchor: middle; font-size: 28pt; font-weight: bold" y="45"><tspan fill="#000000" xml:space="preserve">You</tspan></text>
+    <text x="50" style="text-anchor: middle; font-size: 25pt; font-weight: bold" y="84"><tspan fill="#FFFFFF" xml:space="preserve">Tube</tspan></text>
+</svg>

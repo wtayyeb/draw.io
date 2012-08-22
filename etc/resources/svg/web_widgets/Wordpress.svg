@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <defs>
+        <radialGradient r="100%" cx="0.5" id="radGradient" cy="-0.3">
+            <stop offset="40%" style="stop-color: #767676;"/>
+            <stop offset="100%" style="stop-color: #020202;"/>
+        </radialGradient>
+    </defs>
+    <rect x="1" y="1.0" fill="url(#radGradient)" width="98" rx="10" height="98" ry="10" stroke="#000000" stroke-width="2"/>
+    <ellipse rx="37" ry="37" fill="#ffffff" cx="50.0" cy="50.0" stroke="#ffffff"/>
+    <path fill="url(#radGradient)" d="M 35.0 33.0 L 35.0 34.0 L 30.0 34.0 L 42.0 70.0 L 49.7 49.0 L 44.0 34.0 L 40.0 
+        34.0 L 40.0 33.0 L 59.0 33.0 L 59.0 34.0 L 53.5 34.0 L 66.0 70.0 L 71.0 54.0 A 18.0 18.0 0.0 0 0 67.0 36.5 A 7.0 
+        7.0 0.0 0 1 68.0 27.5 A 6.0 7.0 0.0 0 1 76.0 30.0 A 15.0 15.0 0.0 0 1 77.0 44.0 L 65.0 79.0 L 61.0 82.0 L 51.0 
+        53.0 L 40.0 82.0 L 37.0 80.0 L 21.0 36.0 L 23.0 33.0 z" stroke-miterlimit="15" stroke="url(#radGradient)"/>
+    <ellipse fill="none" rx="33.5" cx="50" ry="33.5" cy="50" stroke="url(#radGradient)" stroke-width="4"/>
+</svg>

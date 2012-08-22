@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="44.2772" preserveAspectRatio="none"
+    viewBox="383.01 -556 49.984 33.984" height="30.1039" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB"
+    x="0" y="1.5">
+    <path d="M1298,-1638 C1298,-1622 1265,-1609 1225,-1609 C1184,-1609 1151,-1622 1151,-1638 C1151,-1596 1151,-1596 
+        1151,-1596 C1151,-1580 1184,-1567 1225,-1567 C1265,-1567 1298,-1580 1298,-1596 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1225,-1609 C1265,-1609 1298,-1622 1298,-1638 C1298,-1654 1265,-1667 1225,-1667 C1184,-1667 1151,-1654 
+        1151,-1638 C1151,-1622 1184,-1609 1225,-1609 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M1208,-1649 L1214,-1640 L1191,-1635 L1196,-1639 L1160,-1645 L1169,-1652 L1204,-1646 
+        L1208,-1649 Z M1240,-1627 L1236,-1636 L1257,-1641 L1253,-1637 L1288,-1631 L1279,-1625 L1245,-1631 L1240,-1627 Z 
+        M1229,-1654 L1252,-1660 L1252,-1651 L1246,-1652 L1235,-1642 L1224,-1644 L1236,-1653 L1229,-1654 Z M1219,-1618 
+        L1197,-1614 L1196,-1625 L1202,-1623 L1214,-1634 L1225,-1632 L1212,-1620 L1219,-1618 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="#000000" d="M1242,-1572 L1242,-1606 L1208,-1606 L1208,-1572 L1242,-1572 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <text font-size="40" transform="matrix(0.33333, 0, 0, 0.33333, 404, -524.83)" fill="#ffffff" font-family="'Helvetica'"
+        font-style="normal" stroke="none" font-weight="700" stroke-width="2" xml:space="preserve">V</text>
+</svg>

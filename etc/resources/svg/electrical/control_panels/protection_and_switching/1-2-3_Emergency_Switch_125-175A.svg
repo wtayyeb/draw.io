@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="300.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="300.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100" y="100" fill="#ffff00" width="90" rx="3" ry="3" height="90"/>
+    <ellipse rx="30" fill="#ff0000" ry="30" cx="145" cy="145"/>
+    <rect fill="#ff0000" x="120" width="58" height="10" y="140"/>
+    <rect fill="#ffffff" x="120" width="7" height="4" y="143"/>
+    <line y2="140" x1="120" x2="115.5" y1="140"/>
+    <text style="text-anchor: middle; font-size: 6pt" x="108" y="148"><tspan xml:space="preserve">1</tspan></text>
+    <text x="145" style="text-anchor: middle; font-size: 6pt" y="110"><tspan xml:space="preserve">2</tspan></text>
+    <text x="182" style="text-anchor: middle; font-size: 6pt" y="148"><tspan xml:space="preserve">3</tspan></text>
+    <line y2="150" x1="120" x2="115.5" y1="150"/>
+</svg>

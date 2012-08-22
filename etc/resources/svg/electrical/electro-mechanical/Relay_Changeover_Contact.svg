@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\electro-mechanical.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <line y2="17" x1="70" x2="70"/>
+    <line y2="100" x1="50" x2="50" y1="83"/>
+    <ellipse rx="5" ry="5" cx="50" cy="78"/>
+    <ellipse rx="5" ry="5" cx="70" cy="22"/>
+    <line y2="17" x1="30" x2="30"/>
+    <ellipse rx="5" ry="5" cx="30" cy="22"/>
+    <line y2="73.5" stroke-width="2" x1="65" x2="52" y1="25"/>
+</svg>

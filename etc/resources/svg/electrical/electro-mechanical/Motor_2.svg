@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\electro-mechanical.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 15.0 40.0 L 21.7 40.0 A 30.0 30.0 0.0 0 1 78.3 40.0 L 85.0 40.0 L 85.0 60.0 L 78.3 60.0 A 30.0 30.0 0.0 0 
+        1 21.7 60.0 L 15.0 60.0 z"/>
+    <line y2="50" y1="50" x2="15"/>
+    <line y2="50" x1="85" x2="100" y1="50"/>
+    <path fill="none" d="M 21.7 40.0 A 30.0 30.0 0.0 0 0 21.7 60.0"/>
+    <path fill="none" d="M 78.3 40.0 A 30.0 30.0 0.0 0 1 78.3 60.0"/>
+</svg>

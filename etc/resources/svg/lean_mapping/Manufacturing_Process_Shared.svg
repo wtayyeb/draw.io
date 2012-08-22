@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\lean_mapping.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="10" width="80" stroke-width="0.5" height="99" y="0.5"/>
+    <line y2="40" x1="13" x2="87" y1="40"/>
+    <text style="text-anchor: middle" x="50" y="35"><tspan xml:space="preserve">Heat Treat</tspan></text>
+    <rect width="74" x="13" fill="none" height="93" y="3.5"/>
+</svg>

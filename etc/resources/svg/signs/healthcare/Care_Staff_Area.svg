@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\healthcare.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" id="Layer_1" enable-background="new 0 0 98.545 100" version="1.0" width="98.545px"
+    xml:space="preserve" preserveAspectRatio="xMidYMid meet" viewBox="0 0 98.545 100" height="100px" xmlns="http://www.w3.org/2000/svg"
+    x="0px" y="0px">           
+    <path d="M 62.36 32.36 c 0.0 7.17 -5.82 12.99 -13.0 12.99 c -7.17 0.0 -12.98 -5.81 -12.98 -12.99 c 0.0 -7.17 5.81 
+        -12.99 12.98 -12.99 C 56.54 19.37 62.36 25.19 62.36 32.36 z"/>           
+    <path d="M 49.38 0.8 c 5.76 0.0 15.2 2.42 20.46 8.17 L 62.76 22.57 c -3.09 -4.0 -7.93 -6.57 -13.37 -6.57 c -5.38 0.0 
+        -10.17 2.52 -13.26 6.44 L 28.9 9.27 C 34.98 3.2 43.37 0.8 49.38 0.8 z M 47.34 13.82 h 4.04 V 10.46 h 3.36 V 6.42 
+        h -3.36 v -3.37 h -4.04 v 3.37 h -3.36 v 4.04 h 3.36 V 13.82 z"/>               
+    <path d="M 32.3 68.68 h 3.33 l -4.75 16.28 h 37.11 l -4.73 -16.28 h 3.33 l 4.76 16.28 h 10.92 L 74.81 60.3 C 73.65 
+        56.22 68.54 49.05 59.73 48.84 l -20.26 -0.02 c -9.01 0.04 -14.22 7.35 -15.4 11.48 l -7.6 24.67 h 11.07 L 32.3 
+        68.68 z"/>     
+    <rect x="0.8" width="97.15" y="90.16" height="9.24"/> </svg>

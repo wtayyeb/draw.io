@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\signal_sources.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <text fill="none" x="45" y="43" style="text-anchor: middle; font-size: 24pt"><tspan xml:space="preserve">V</tspan></text>
+    <line y2="50" x1="20" x2="80" y1="50"/>
+    <line y2="90" x1="50" x2="50" y1="50"/>
+    <text fill="none" x="62.0" y="47.0" style="text-anchor: middle; font-size: 15pt"><tspan xml:space="preserve">ss</tspan></text>
+</svg>

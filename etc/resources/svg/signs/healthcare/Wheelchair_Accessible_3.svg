@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\healthcare.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 25.04 74.08 c -1.38 -3.02 -2.15 -6.36 -2.15 -9.88 c 0.0 -12.21 9.25 -22.31 21.18 -23.84 V 28.91 C 25.78 
+        30.48 11.38 45.71 11.38 64.2 c 0.0 5.59 1.32 10.89 3.66 15.59 L 25.04 74.08 z"/>
+    <path d="M 66.07 79.34 c -4.46 5.42 -11.26 8.89 -18.86 8.89 s -14.4 -3.47 -18.86 -8.89 L 18.28 85.09 C 24.81 93.89 
+        35.34 99.62 47.2 99.62 s 22.4 -5.73 28.92 -14.54 L 66.07 79.34 z"/>
+    <circle cx="55.26" r="11.19" cy="11.81"/>
+    <polygon points="88.17,62.88 79.5,57.9 74.89,65.77 60.2,57.25 60.2,41.3 71.6,41.3 71.6,31.39 60.2,31.39 60.2,27.16 
+        50.19,27.16 50.19,62.92 78.45,79.32"/>
+</svg>

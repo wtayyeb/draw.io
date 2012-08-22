@@ -1,0 +1,413 @@
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diagramly - Draw Diagrams Online</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Description" content="Diagramly is a free online diagram drawing application for workflow, BPM, org charts, UML, ER, network diagrams">
+    <meta name="Keywords" content="diagram, online, drawing, javascript">
+    <meta itemprop="name" content="Diagramly - draw free diagrams online">
+	<meta itemprop="description" content="Diagramly is a free online diagram drawing application. You can use it to create UML, entity relationship, org charts, BPMN and BPM, 
+		database schema and networks. Also possible are telecommunication network, workflow, flowcharts, maps overlays and GIS, electronic 
+		circuit and social network diagrams. It's like a mini version of Visio in your browser.">
+	<meta itemprop="image" content="https://lh4.googleusercontent.com/-cLKEldMbT_E/Tx8qXDuw6eI/AAAAAAAAAAs/Ke0pnlk8Gpg/w500-h344-k/BPMN%2Bdiagram%2Brc2f.png">
+    <link rel="stylesheet" type="text/css" href="/styles/grapheditor.css">
+	<style type="text/css">
+		.geSidebarContainer .geTitle { color:#606060; }
+		.geSidebar .geItem:hover { opacity:1; }
+		.geSidebar .geItem { opacity:0.7; }
+		.geSidebarContainer .geTitle input {
+			font-size:8pt;
+			color:#606060;
+		}
+		.geBlock {
+			z-index: -3;
+			margin:100px;
+			margin-top:40px;
+			margin-bottom:30px;
+			padding:50px;
+			padding-bottom:40px;
+			padding-top:20px;
+			border-radius:10px;
+			-webkit-box-shadow:0px 0px 4px 4px #e5e5e5;
+			-moz-box-shadow:0px 0px 4px 4px #e5e5e5;
+			box-shadow:0px 0px 4px 4px #e5e5e5;
+			_filter:progid:DXImageTransform.Microsoft.DropShadow(OffX=4, OffY=4, Color='#e5e5e5', Positive='true');
+			border:1px solid gray;
+			background-color:white;
+		}
+		.geBlock p {
+			padding-top:10px;
+		}
+		.geEditor {
+			background-color:whiteSmoke;
+		}
+		.geEditor ::-webkit-scrollbar {
+		    width:12px;
+		    height:12px;
+		}
+		.geEditor ::-webkit-scrollbar-track {
+			background:whiteSmoke;
+			-webkit-box-shadow:inset 0 0 4px rgba(0,0,0,0.1);
+		}
+		.geEditor ::-webkit-scrollbar-thumb {
+			background:#c5c5c5;
+		    border-radius:10px;
+			border:whiteSmoke solid 3px;
+		}
+		.geEditor ::-webkit-scrollbar-thumb:hover {
+			background:#b5b5b5;
+		}
+	</style>
+	<script type="text/javascript">
+		var t0 = new Date();
+	
+		// Public global variables
+		var MAX_REQUEST_SIZE = 10485760;
+		var MAX_WIDTH = 6000;
+		var MAX_HEIGHT = 6000;
+	
+		// URLs for save and export
+		var EXPORT_URL = 'http://shr.diagramly.com:8080/ImageExport/export';
+		var SHARE_HOST = 'http://shr.diagramly.com:8000';
+		var SAVE_URL = '/save';
+		var OPEN_URL = '/open';
+
+		// Paths and files
+		var STENCIL_PATH = '/stencils';
+		var IMAGE_PATH = '/images';
+		// Path for images inside the diagram
+		var GRAPH_IMAGE_PATH = '/img';
+		var ICONFINDER_PATH = '/iconfinder';
+		var STYLE_PATH = '/styles';
+		var CSS_PATH = '/styles';
+		var OPEN_FORM = '/open.html';
+		
+		// Directory for i18 files and basename for main i18n file
+		var RESOURCES_PATH = '/resources';
+		var RESOURCE_BASE = RESOURCES_PATH + '/dia';
+	
+		// Specifies connection mode for touch devices (at least one should be true)
+		var tapAndHoldStartsConnection = true;
+		var showConnectorImg = true;
+		var collab = null;
+
+		/**
+		 * Parses URL parameters. Supported parameters are (precedence in given order):
+		 * 
+		 * - drive=1: Google Drive mode
+		 * - lang=xy: Specifies the language of the user interface
+		 * - touch=1: Enables a touch-style user interface
+		 * - tmp=name: Loads /templates/name.xml
+		 * - libs=key1;key2;...;keyN: Specifies the libraries
+		 * - storage=local: Enables HTML5 local storage
+		 * - picker=0: Disables the Google image picker
+		 * - picker=1: Enables Google image picker without image upload
+		 * - picker=2: Enables Google image picker with image upload
+		 * - tiny=0: Do not use tinyMCE for HTML editing
+		 * - tiny=1: Use the default config for tinyMCE
+		 * - tiny=2: Use the IE config for tinyMCE
+		 * - flash=1: Enables Flash for saving
+		 * - aa=0: Disables anti aliasing
+		 * - url=url: Opens diagram from URL (URL should be encoded)
+		 * - share=ID of shared diagram
+		 * - social=0: Disables social network in footer
+		 * - analytics=0: Disables Google Analytics
+		 * --
+		 * - sharehost=dev||sharing_host_and_port: For developers only
+		 * - export=dev||export_url: For developers only
+		 * - sharehost=hostname: For developers only
+		 * - devhost=hostname: For developers only
+		 * - test=1: For developers only
+		 * - dev=1: For developers only
+		 * - fp=key: For developers only
+		 */
+		var urlParams = (function(url)
+		{
+			var result = new Object();
+			var idx = url.lastIndexOf('?');
+	
+			if (idx > 0)
+			{
+				var params = url.substring(idx + 1).split('&');
+				
+				for (var i = 0; i < params.length; i++)
+				{
+					idx = params[i].indexOf('=');
+					
+					if (idx > 0)
+					{
+						result[params[i].substring(0, idx)] = params[i].substring(idx + 1);
+					}
+				}
+			}
+			
+			return result;
+		})(window.location.href);
+
+		/**
+		 * Synchronously adds scripts to the page.
+		 */
+		function mxscript(src)
+		{
+			document.write('<script src="'+src+'"></scri' + 'pt>');
+		};
+
+		/**
+		 * Asynchronously adds scripts to the page.
+		 */
+		function mxinclude(src)
+		{
+			var g = document.createElement('script'); g.type = 'text/javascript'; g.async = true; g.src = src;
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(g, s);
+		};
+		
+		// Sets the base path, the UI language via URL param and configures the
+		// supported languages to avoid 404s. The loading of all core language
+		// resources is disabled as all required resources are in grapheditor.
+		// properties. Note that in this example the loading of two resource
+		// files (the special bundle and the default bundle) is disabled to
+		// save a GET request. This requires that all resources be present in
+		// the special bundle.
+		var mxLoadResources = false;
+		var mxLanguage = urlParams['lang'];
+		var mxLanguages = ['ar', 'de', 'es', 'fr', 'hu', 'it', 'ja', 'ko', 'nl', 'pl', 'pt-br', 'pt', 'ru', 'sr', 'sv', 'zh'];
+		var geBasePath = '/js';
+		var mxBasePath = '/mxgraph/';
+		var mxDevUrl = 'http://' + (urlParams['devhost'] || 'devhost.jgraph.com');
+
+		// Checks for domain to show certain libs
+		var umlDomain = window.location.hostname == 'uml.diagram.ly';
+		var driveDomain = window.location.hostname == 'drive.diagram.ly' || urlParams['drive'] == '1';
+		
+		// Customizes sharing host
+		var share = urlParams['sharehost'];
+		
+		if (share == 'dev')
+		{
+			SHARE_HOST = mxDevUrl + ':8000';
+		}
+		else if (share != null)
+		{
+			SHARE_HOST = 'http://' + share;
+		}
+
+		// Customizes servlet for export
+		var ex = urlParams['export'];
+		
+		if (ex == 'dev')
+		{
+			// TODO: Fix for new build env
+			EXPORT_URL = mxDevUrl + ':8080/mxgraph_com/export2';
+		}
+		else if (ex != null)
+		{
+			EXPORT_URL = 'http://' + ex;
+		}
+
+		// Changes paths for local development environment
+		if (urlParams['dev'] == '1')
+		{
+			mxBasePath = mxDevUrl + '/mxgraph/javascript/src';
+			mxscript(mxBasePath + '/js/mxClient.js');
+
+			// Injects all JS code that depends on mxClient. This indirection via Init.js
+			// is required in some browsers to make sure mxClient.js as been fully loaded.
+			geBasePath = mxDevUrl + '/mxgraph/javascript/examples/grapheditor/www/js';
+			mxscript('/js/diagramly/Devel.js');
+			mxscript('js/sharejs/socket.io.js');
+			mxscript('js/sharejs/share.uncompressed.js');
+			mxscript('js/sharejs/json.uncompressed.js');
+		}
+		else
+		{
+			document.write('<script src="/js/diagramly.min.js"></' + 'script>');
+		}
+
+		// Loads JSON for older browsers
+		if (typeof(JSON) == 'undefined')
+		{
+			mxscript('/js/json/json2.min.js');
+		}
+
+		// Loads spinner for Google Drive operations
+		if (driveDomain || urlParams['url'] != null)
+		{
+			mxscript('/js/spin/spin.min.js');
+		}
+
+		// Adds basic error handling
+		window.onerror = function()
+		{
+			var status = document.getElementById('geStatus');
+			
+			if (status != null)
+			{
+				status.innerHTML = 'Page could not be loaded';
+			}
+		};
+	</script>
+</head>
+<body class="geEditor">
+<div id="geInfo">
+	<div class="geBlock">
+		<h1>Free Online Diagramming Software</h1>
+		<p>
+		Diagramly is a free online diagram drawing application. You can use it to create UML, entity relationship, org charts, BPMN and BPM,
+		database schema and networks. Also possible are telecommunication network, workflow, flowcharts, maps overlays and GIS, electronic 
+		circuit and social network diagrams. It's like a mini version of Visio in your browser.
+		</p>
+		<p>
+		You can export your diagram in our raw XML format, PNG or JPG, PDF or SVG and later re-load your saved XML.
+		</p>
+		<p>
+		If you are reading this, your browser might not be capable of displaying the application. 
+		The supported list of browsers is Firefox 3+, Microsoft Internet Explorer 7+, Safari 5+, Opera 9.0+,
+		Camino 2+, Epiphany 2.0+, Galeon 2.0+ and Google Chrome 12+.
+		</p>
+	</div>
+	<div class="geBlock" style="margin-top:20px;padding:0px;text-align:center;">
+		<h3 id="geStatus">Loading... Please Wait</h3>
+	</div>
+</div>
+<noscript>
+	<br>
+	<p>
+	Diagramly is written in JavaScript, and you're not seeing the application because you have JavaScript off, turn it on if you want to see the application. Also, you can read 
+	<a href="http://forum.jgraph.com/questions/66/what-is-the-privacydata-handling-statement-for-the-diagramly-example">the Diagramly privacy policy</a> or view our 
+	<a href="http://www.jgraph.com">web site</a>, which uses no JavaScript.
+	</p>
+</noscript>
+<div id="geFooter" style="visibility:hidden;padding-top:6px;padding-left:6px;">
+	<table width="100%" height="100%" align="right">
+	  <tr> 
+	    <td width="40%" align="left" style="white-space:nowrap;overflow:hidden;padding-bottom:10px;">
+	      	<g:plusone size="small"></g:plusone>
+	      	<a rel="author" href="https://plus.google.com/b/100634082864796769666/" target="__blank"><img title="Diagramly on Google+" src="http://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" border=""></a>
+	    </td> 
+	    <td width="30%" style="white-space:nowrap;overflow:hidden;align:left;padding-bottom:10px;padding-right:10px;padding-top:2px;"> 
+	      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.diagram.ly" data-text="Diagramly - Draw Diagrams Online, Free HTML 5 web app" data-via="Diagramly">Tweet</a>
+	      <a href="https://twitter.com/Diagramly" class="twitter-follow-button" data-show-count="false">Follow @Diagramly</a>
+	    </td>
+		<td width="30%" valign="top" align="right" style="white-space:nowrap;overflow:hidden;padding-top:3px;font-family:'Helvetica Neue',Arial,sans-serif;padding-right:8px;_padding-right:16px;"> 
+	      <a title="Powered by mxGraph" href="http://www.jgraph.com/mxgraph.html" target="_blank" style="font-size:8pt;text-decoration:none;font-weight:bold;color:#454545;">
+	      Powered by mxGraph
+	      <img src="/images/logo-small.gif" width="16" height="16" border="0" align="absmiddle" style="margin-bottom:4px;_margin-bottom:-2px;margin-left:3px;"/></a>
+	    </td>
+	  </tr> 
+	</table>
+</div>
+<!-- Main -->
+<script type="text/javascript">
+new EditorUi(new Editor());
+</script>
+<!-- tinyMCE - LATER: Do not load if touchStyle is true -->
+<script src="/js/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript">
+if (typeof(tinyMCE) != 'undefined')
+{
+	if (mxClient.IS_IE || urlParams['tiny'] == '2')
+	{
+		// PROBLEM: Selection cleared when menuItems and toolbar buttons are clicked so the
+		// full toolbar is required in IE for format options until a workaround exists.
+		// See bug report at http://www.tinymce.com/forum/viewtopic.php?pid=101275
+		tinyMCE.init({
+			// General options
+			mode : "none",
+			theme : "advanced",
+			plugins : "spellchecker,table,inlinepopups,paste,advimage",
+		
+			// Theme options
+			theme_advanced_buttons1 : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,formatselect,fontselect,fontsizeselect",
+			theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,image,unlink,link,|,forecolor,backcolor",
+			theme_advanced_buttons3 : "tablecontrols,|,hr,|,sub,sup,|,code",
+			theme_advanced_toolbar_location : "top",
+			theme_advanced_toolbar_align : "left",
+			theme_advanced_statusbar_location : "bottom",
+			theme_advanced_resizing : true
+		});
+	}
+	else
+	{
+		tinyMCE.init({
+			mode : "none",
+			theme : "advanced",
+			plugins : "spellchecker,table,inlinepopups,paste,advimage",
+		
+			// Theme options
+			theme_advanced_buttons1: 'image,link,hr,|,cleanup,|,code',
+			theme_advanced_buttons2: '',
+			theme_advanced_buttons3: '',
+			theme_advanced_toolbar_location : 'top',
+			theme_advanced_toolbar_align : 'left',
+			theme_advanced_statusbar_location : 'bottom',
+			theme_advanced_resizing : false
+		});
+	}
+}
+
+// Color picker
+mxscript('/js/jscolor/jscolor.js');
+
+// Downloadify for local file save
+if (urlParams['flash'] == '1')
+{
+	mxscript('/js/downloadify/downloadify.js');
+	mxscript('/js/downloadify/swfobject.js');
+}
+
+//Loads filepicker.io
+if (typeof(urlParams['fp']) != 'undefined')
+{
+	mxscript('https://api.filepicker.io/v0/filepicker.js');
+}
+
+// Social network footer and analytics
+if (urlParams['analytics'] != '0')
+{
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-78007-6']);
+	_gaq.push(['_setDomainName', '.diagram.ly']);
+	_gaq.push(['_trackPageview']);
+	
+	mxinclude(('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+}
+
+if (urlParams['social'] != '0')
+{
+	mxinclude('https://apis.google.com/js/plusone.js');
+	
+	!function(d,s,id){
+		var js,fjs=d.getElementsByTagName(s)[0];
+		if(!d.getElementById(id)){
+			js=d.createElement(s);
+			js.id=id;
+			js.src="//platform.twitter.com/widgets.js";
+			fjs.parentNode.insertBefore(js,fjs);
+		}
+	}(document,"script","twitter-wjs");
+}
+else
+{
+	
+}
+
+// Loads Google Image Picker API
+if (urlParams['picker'] != '0' && !mxClient.IS_IE6 && !((mxClient.IS_TOUCH || mxClient.IS_MAC) && (mxClient.IS_SF || mxClient.IS_GC)))
+{
+	mxscript(document.location.protocol + '//www.google.com/jsapi?autoload=%7B%22modules%22%3A%5B%7B%22name%22%3A%22picker%22%2C%22version%22%3A%221%22%2C%22language%22%3A%22' + mxClient.language + '%22%7D%5D%7D');
+}
+
+//For developers only
+if (urlParams['test'] == '1')
+{
+	// LATER: jsPDF requires BinaryToArray VBScript function in IE
+	mxscript(mxDevUrl + '/mxgraph/etc/html/export/base64.js');
+	mxscript(mxDevUrl + '/mxgraph/etc/html/export/jspdf.js');
+	mxscript(mxDevUrl + '/mxgraph/etc/html/export/jscanvas.js');
+	mxLog.show();
+	mxLog.debug('Started in ' + (new Date().getTime() - t0.getTime()) + 'ms');
+}
+</script>
+</body>
+</html>

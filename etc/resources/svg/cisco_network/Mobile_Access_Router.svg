@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="55.7858" preserveAspectRatio="none"
+    viewBox="378.02 -547.01 62.976 39.008" height="34.5543" xmlns="http://www.w3.org/2000/svg"
+    color-interpolation-filters="sRGB" x="0" y="1.5">
+    <path stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" fill="#ffffff" stroke-linejoin="round"
+        d="M1290,-1528 L1180,-1528 L1211,-1547 L1322,-1547 L1290,-1528 Z" stroke="#0d6e9c" stroke-width="3"/>
+    <path stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" fill="none" stroke-linejoin="round" d=
+        "M1211,-1547 L1180,-1528 L1180,-1620 L1211,-1638 L1211,-1547 Z" stroke="#0d6e9c" stroke-width="3"/>
+    <path fill="none" d="M1136,-1571 L1188,-1571" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#0d6e9c" stroke-linecap="round"/>
+    <path fill="none" d="M1188,-1581 L1140,-1581" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#0d6e9c" stroke-linecap="round"/>
+    <path fill="none" d="M1196,-1561 L1150,-1561" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#0d6e9c" stroke-linecap="round"/>
+    <path fill="none" d="M1191,-1589 L1157,-1589" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#0d6e9c" stroke-linecap="round"/>
+    <path d="M1305,-1596 C1305,-1584 1280,-1574 1249,-1574 C1217,-1574 1192,-1584 1192,-1596 C1192,-1563 1192,-1563 
+        1192,-1563 C1192,-1551 1217,-1541 1249,-1541 C1280,-1541 1305,-1551 1305,-1563 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1249,-1574 C1280,-1574 1305,-1584 1305,-1596 C1305,-1608 1280,-1618 1249,-1618 C1217,-1618 1192,-1608 
+        1192,-1596 C1192,-1584 1217,-1574 1249,-1574 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M1236,-1604 L1240,-1597 L1223,-1593 L1227,-1596 L1199,-1601 L1206,-1606 L1233,-1602 
+        L1236,-1604 Z M1261,-1587 L1257,-1595 L1273,-1598 L1271,-1595 L1297,-1591 L1291,-1586 L1264,-1591 L1261,-1587 Z 
+        M1252,-1608 L1270,-1613 L1270,-1605 L1266,-1606 L1257,-1599 L1248,-1600 L1257,-1607 L1252,-1608 Z M1244,-1581 
+        L1227,-1578 L1227,-1585 L1231,-1584 L1241,-1592 L1249,-1591 L1239,-1582 L1244,-1581 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" fill="none" stroke-linejoin="round" d=
+        "M1322,-1547 L1290,-1528 L1290,-1620 L1322,-1638 L1322,-1547 Z M1290,-1620 L1180,-1620 L1211,-1638 L1322,-1638 
+        L1290,-1620 Z" stroke="#0d6e9c" stroke-width="3"/>
+    <text font-size="24" stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 400.4, -518.68)" fill="#ffffff"
+        font-family="'Helvetica'" stroke-linejoin="round" font-style="normal" stroke="none" font-weight="700"
+        stroke-width="3" xml:space="preserve">8</text>
+    <text font-size="24" stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 405.3, -516.97)" fill="#ffffff"
+        font-family="'Helvetica'" stroke-linejoin="round" font-style="normal" stroke="none" font-weight="700"
+        stroke-width="3" xml:space="preserve">0</text>
+    <text font-size="24" stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 410.4, -515.96)" fill="#ffffff"
+        font-family="'Helvetica'" stroke-linejoin="round" font-style="normal" stroke="none" font-weight="700"
+        stroke-width="3" xml:space="preserve">2.</text>
+    <text font-size="24" stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 417.73, -515.92)" fill="#ffffff"
+        font-family="'Helvetica'" stroke-linejoin="round" font-style="normal" stroke="none" font-weight="700"
+        stroke-width="3" xml:space="preserve">1</text>
+    <text font-size="24" stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 422.44, -516.68)" fill="#ffffff"
+        font-family="'Helvetica'" stroke-linejoin="round" font-style="normal" stroke="none" font-weight="700"
+        stroke-width="3" xml:space="preserve">1</text>
+    <path fill="none" d="M1290,-1528 L1180,-1528 L1180,-1620 L1290,-1620 L1290,-1528 Z" stroke-width="6" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke-linecap="round" stroke-linejoin="round"/>
+    <path stroke-linecap="round" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" fill="none" stroke-linejoin="round" d=
+        "M1290,-1528 L1180,-1528 L1180,-1620 L1290,-1620 L1290,-1528 Z" stroke="#0d6e9c" stroke-width="3"/>
+</svg>

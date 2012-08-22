@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="etc/imageexport/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/mxgraph-core.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-api-client-1.8.0-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-api-client-appengine-1.8.0-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-api-client-servlet-1.8.0-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-api-drive-v1-rev1-java-1.5.1-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-api-services-oauth2-v2-rev3-1.5.0-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-http-client-1.8.3-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-http-client-appengine-1.8.3-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-oauth-client-1.8.0-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-oauth-client-appengine-1.8.0-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/google-oauth-client-servlet-1.8.0-beta.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gson-2.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/guava-11.0.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jackson-core-asl-1.9.4.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jdo2-api-2.3-eb.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/json-20080701.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/protobuf-java-2.2.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/transaction-api-1.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="lib" path="etc/imageexport/jars/com.objectplanet.image.PngEncoder.jar"/>
+	<classpathentry kind="lib" path="etc/imageexport/jars/iText-2.1.7_mx-1.0.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

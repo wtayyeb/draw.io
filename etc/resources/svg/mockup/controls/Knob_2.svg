@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="300.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="300.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <ellipse rx="34" fill="#bbbbbb" ry="34" cx="156" cy="153" stroke="#000000"/>
+    <rect x="139.57259" y="111.579865" transform="matrix(0.4450732 -0.8954942 0.8954942 0.4450732 -35.87003 215.52576)"
+        fill="#404040" width="4.180313" rx="2" ry="2" height="34.246918" stroke="#ffffff"/>
+    <path fill="#b50c0b" d="M 189.0 186.5 L 182.0 179.0 A 37.7 37.7 0.0 0 0 133.0 122.0 A 47.0 47.0 0.0 0 1 183.0 112.0 
+        A 48.0 48.0 0.0 0 1 189.0 186.5 z" stroke="none"/>
+    <path fill="#13008f" d="M 129.0 178.0 L 121.0 186.0 A 48.5 48.5 0.0 0 1 179.0 109.8 A 46.6 46.6 0.0 0 0 132.33333 
+        121.0 A 40.0 40.0 0.0 0 0 128.66667 177.66667 z" stroke="none"/>
+    <path fill="none" stroke-width="2" d="M 129.5 178.0 L 121.0 186.5 A 48.5 48.5 0.0 1 1 189.0 187.0 L 181.5 179.0 A 
+        37.0 37.0 0.0 1 0 129.5 178.0 z" stroke="#ffffff"/>
+    <path fill="none" stroke-width="2" d="M 179.0 110.0 A 48.0 48.0 0.0 0 0 130.0 124.0 A 39.0 39.0 0.0 0 0 129.6 178.0"
+        stroke-linecap="round" stroke="#ffffff"/>
+</svg>

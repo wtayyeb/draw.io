@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="65.537" preserveAspectRatio="none" viewBox="363.01 -547.01 73.984 27.008"
+    height="23.9244" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB" x="0" y="1.5">
+    <path d="M1260,-1562 L1260,-1593 L1093,-1593 L1093,-1562 L1260,-1562 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path stroke-width="2" d="M1256,-1563 L1256,-1588 L1096,-1588 L1096,-1563 L1256,-1563 Z M1093,-1592 L1150,-1639 
+        L1308,-1639 L1260,-1592 L1093,-1592 Z M1260,-1560 L1308,-1608 L1308,-1639 L1260,-1593 L1260,-1560 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M1113,-1572 L1103,-1572 L1103,-1580 L1113,-1580 L1113,-1572 Z M1177,-1572 L1167,-1572 
+        L1167,-1580 L1177,-1580 L1177,-1572 Z M1252,-1572 L1242,-1572 L1242,-1580 L1252,-1580 L1252,-1572 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path d="M1218,-1589 C1224,-1586 1228,-1582 1228,-1577 C1228,-1569 1218,-1562 1206,-1562 C1194,-1562 1185,-1569 
+        1185,-1577 C1185,-1585 1194,-1591 1206,-1591 C1211,-1591 1215,-1590 1218,-1589" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1218,-1589 C1224,-1586 1228,-1582 1228,-1577 C1228,-1569 1218,-1562 1206,-1562 C1194,-1562 1185,-1569 
+        1185,-1577 C1185,-1585 1194,-1591 1206,-1591 C1211,-1591 1215,-1590 1218,-1589" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M1223,-1577 C1223,-1571 1215,-1566 1207,-1566 C1198,-1566 1190,-1571 1190,-1577 C1190,-1583 
+        1198,-1588 1207,-1588 C1215,-1588 1223,-1583 1223,-1577 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+</svg>

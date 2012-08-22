@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="2000.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="2000.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon points="218.0,230.33336 115.0,165.33336 115.0,127.33336 208.0,127.33336 208.0,165.33336 270.0,196.33336 
+        270.0,230.33336" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)"/>
+    <polygon points="287.0,230.33336 287.0,196.33336 237.0,165.33336 237.0,127.33336 331.0,127.33336 331.0,165.33336 
+        339.0,196.33336 339.0,230.33336" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)"/>
+    <polygon points="356.0,230.33336 356.0,196.33336 360.0,165.33336 360.0,127.33336 453.0,127.33336 453.0,165.33336 
+        408.0,196.33336 408.0,230.33336" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)"/>
+    <polygon points="218.0,259.0 115.0,194.0 115.0,156.0 208.0,156.0 208.0,194.0 270.0,225.0 270.0,259.0"/>
+    <polygon points="287.0,259.0 287.0,225.0 237.0,194.0 237.0,156.0 331.0,156.0 331.0,194.0 339.0,225.0 339.0,259.0"/>
+    <polygon points="356.0,259.0 356.0,225.0 360.0,194.0 360.0,156.0 453.0,156.0 453.0,194.0 408.0,225.0 408.0,259.0"/>
+    <ellipse rx="8" ry="8" cx="233.0" cy="242.5"/>
+    <ellipse rx="8.0" ry="8" cx="255.0" cy="242.5"/>
+    <ellipse rx="8" ry="8" cx="302.0" cy="242.5"/>
+    <ellipse rx="8.0" ry="8" cx="324.0" cy="242.5"/>
+    <ellipse rx="8" ry="8" cx="371.0" cy="242.5"/>
+    <ellipse rx="8.0" ry="8" cx="393.0" cy="242.5"/>
+    <ellipse rx="8" ry="8" cx="132.16667" cy="173.66667"/>
+    <ellipse rx="8.0" ry="8" cx="160.16667" cy="173.66667"/>
+    <ellipse rx="8.0" ry="8" cx="188.16667" cy="173.66667"/>
+    <ellipse rx="8" ry="8" cx="254.66667" cy="174.16667"/>
+    <ellipse rx="8.0" ry="8" cx="282.66666" cy="174.16667"/>
+    <ellipse rx="8.0" ry="8" cx="310.66666" cy="174.16667"/>
+    <ellipse rx="8" ry="8" cx="376.66666" cy="174.16667"/>
+    <ellipse rx="8.0" ry="8" cx="404.66666" cy="174.16667"/>
+    <ellipse rx="8.0" ry="8" cx="432.66666" cy="174.16667"/>
+    <ellipse rx="8" ry="8" cx="233.0" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="213.83336"/>
+    <ellipse rx="8.0" ry="8" cx="255.0" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="213.83336"/>
+    <ellipse rx="8" ry="8" cx="302.0" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="213.83336"/>
+    <ellipse rx="8.0" ry="8" cx="324.0" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="213.83336"/>
+    <ellipse rx="8" ry="8" cx="371.0" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="213.83336"/>
+    <ellipse rx="8.0" ry="8" cx="393.0" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="213.83336"/>
+    <ellipse rx="8" ry="8" cx="132.16667" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.00002"/>
+    <ellipse rx="8.0" ry="8" cx="160.16667" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.00002"/>
+    <ellipse rx="8.0" ry="8" cx="188.16667" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.00002"/>
+    <ellipse rx="8" ry="8" cx="254.66667" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.50002"/>
+    <ellipse rx="8.0" ry="8" cx="282.66666" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.50002"/>
+    <ellipse rx="8.0" ry="8" cx="310.66666" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.50002"/>
+    <ellipse rx="8" ry="8" cx="376.66666" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.50002"/>
+    <ellipse rx="8.0" ry="8" cx="404.66666" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.50002"/>
+    <ellipse rx="8.0" ry="8" cx="432.66666" transform="matrix(1.0 0.0 0.0 -1.0 0.0 724.3334)" cy="145.50002"/>
+</svg>

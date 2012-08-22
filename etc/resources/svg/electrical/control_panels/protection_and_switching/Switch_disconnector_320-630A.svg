@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="2000.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="2000.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100.0" width="185" height="205" y="100.0"/>
+    <rect x="100" width="185" height="152" y="126.5"/>
+    <line y2="136.33333" x1="22.333334" x2="22.666666" y1="136.33333"/>
+    <rect x="112.5" width="160" y="142.5" height="120"/>
+    <ellipse rx="4" ry="4" cx="146.25" cy="106"/>
+    <ellipse rx="4" ry="4" cx="192.5" cy="106"/>
+    <ellipse rx="4" ry="4" cx="238.75" cy="106"/>
+    <ellipse rx="8" ry="8" cx="146.25" cy="126.5"/>
+    <ellipse rx="8" ry="8" cx="238.75" cy="126.5"/>
+    <ellipse rx="8" ry="8" cx="146.25" cy="278.5"/>
+    <ellipse rx="8" ry="8" cx="238.75" cy="278.5"/>
+    <line y2="166.05316" x1="112.495255" x2="272.8381" y1="166.05316"/>
+    <polyline points="112.5,239.0 238.5,239.0 238.5,262.5"/>
+    <ellipse rx="30" ry="30" cx="163.62839" cy="203.9067"/>
+    <path d="M 242.60954 198.27782 L 183.87996 193.7747 A 23.0 23.0 0.0 0 0 143.3768 193.7747 L 139.32649 198.27782 L 
+        139.32649 209.53555 L 143.3768 215.16441 A 23.0 23.0 0.0 0 0 183.87996 215.16441 L 242.60954 209.53555 z"/>
+    <rect fill="#000000" x="139.32649" width="18.22641" height="4.5030823" y="201.65514"/>
+    <rect x="212.23216" width="30.37735" height="4.5030823" y="201.65514"/>
+    <rect x="116.5" width="20" height="11.5" y="223"/>
+    <ellipse rx="15" ry="15" cx="256" cy="246"/>
+    <line y2="261" x1="257.5" x2="257.5" y1="231"/>
+    <line y2="261" x1="254.5" x2="254.5" y1="231"/>
+    <ellipse rx="5.5" ry="5.5" cx="146.25" cy="126.5"/>
+    <ellipse rx="5.5" ry="5.5" cx="238.75" cy="126.5"/>
+    <ellipse rx="5.5" ry="5.5" cx="146.25" cy="278.5"/>
+    <ellipse rx="5.5" ry="5.5" cx="238.75" cy="278.5"/>
+    <path d="M 117.125 100.0 L 117.125 114.0 A 6.0 6.0 0.0 1 0 129.125 114.0 L 129.125 100.0"/>
+    <path d="M 163.375 100.0 L 163.375 114.0 A 6.0 6.0 0.0 1 0 175.375 114.0 L 175.375 100.0"/>
+    <path d="M 209.625 100.0 L 209.625 114.0 A 6.0 6.0 0.0 1 0 221.625 114.0 L 221.625 100.0"/>
+    <path d="M 255.875 100.0 L 255.875 114.0 A 6.0 6.0 0.0 1 0 267.875 114.0 L 267.875 100.0"/>
+    <path d="M 117.125 305.0 L 117.125 291.0 A 6.0 6.0 0.0 1 1 129.125 291.0 L 129.125 305.0"/>
+    <path d="M 163.375 305.0 L 163.375 291.0 A 6.0 6.0 0.0 1 1 175.375 291.0 L 175.375 305.0"/>
+    <path d="M 209.625 305.0 L 209.625 291.0 A 6.0 6.0 0.0 1 1 221.625 291.0 L 221.625 305.0"/>
+    <path d="M 255.875 305.0 L 255.875 291.0 A 6.0 6.0 0.0 1 1 267.875 291.0 L 267.875 305.0"/>
+    <ellipse rx="4" ry="4" cx="146.25" cy="299"/>
+    <ellipse rx="4" ry="4" cx="192.5" cy="299"/>
+    <ellipse rx="4" ry="4" cx="238.75" cy="299"/>
+</svg>

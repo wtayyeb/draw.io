@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="550.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="500.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100" y="100" fill="#fafafa" width="400" rx="5" ry="5" height="270" stroke="none"/>
+    <line stroke-linecap="round" fill="none" x1="110.0" x2="490.0" y1="120" y2="120" stroke="#2c457e" stroke-width="3"/>
+    <rect x="100.0" y="100.0" fill="none" width="400" rx="5" height="270" ry="5" stroke="#000000"/>
+    <rect x="110" y="130" fill="#999999" width="380" stroke-linejoin="round" height="200" stroke="#000000"/>
+    <polygon fill="#cccccc" stroke-width="4" points="280.0,210.0 320.0,230.0 280.0,250.0" stroke-linejoin="round"
+        stroke="#000000"/>
+    <ellipse rx="15" fill="#999999" ry="15" cx="125" cy="350" stroke="#999999"/>
+    <ellipse rx="15" fill="#999999" ry="15" cx="160" cy="350" stroke="#999999"/>
+    <ellipse rx="15" fill="#999999" ry="15" cx="195" cy="350" stroke="#999999"/>
+    <ellipse rx="15" fill="#999999" ry="15" cx="230" cy="350" stroke="#999999"/>
+    <ellipse rx="15" fill="#999999" ry="15" cx="265" cy="350" stroke="#999999"/>
+    <line stroke-linecap="round" fill="none" x1="290" x2="420" y1="350" y2="350" stroke="#999999" stroke-width="4"/>
+    <ellipse rx="5" fill="#999999" ry="5" cx="300" cy="350" stroke="#999999"/>
+    <polygon fill="#cccccc" stroke-width="2" points="125.0,344.0 125.0,356.0 116.0,350.0" stroke-linejoin="round"
+        stroke="#cccccc"/>
+    <polygon fill="#cccccc" stroke-width="2" points="135.0,344.0 135.0,356.0 126.0,350.0" stroke-linejoin="round"
+        stroke="#cccccc"/>
+    <line stroke-linecap="round" fill="none" x1="115.0" x2="115" y1="344" y2="356" stroke="#cccccc" stroke-width="2"/>
+    <polygon fill="#cccccc" stroke-width="2" points="159.0,344.0 159.0,356.0 150.0,350.0" stroke="#cccccc"
+        stroke-linejoin="round"/>
+    <polygon fill="#cccccc" stroke-width="2" points="169.0,344.0 169.0,356.0 160.0,350.0" stroke="#cccccc"
+        stroke-linejoin="round"/>
+    <line stroke-linecap="round" fill="none" x1="115.0" x2="115" y1="344" y2="356" stroke="#cccccc" stroke-width="2"/>
+    <polygon fill="#cccccc" stroke-width="2" points="190.0,340.0 190.0,360.0 205.0,350.0" stroke="#cccccc"
+        stroke-linejoin="round"/>
+    <polygon fill="#cccccc" stroke-width="2" points="230.0,344.0 230.0,356.0 239.0,350.0" stroke="#cccccc"
+        stroke-linejoin="round"/>
+    <line stroke-linecap="round" fill="none" x1="275" x2="275" y1="344" y2="356" stroke="#cccccc" stroke-width="2"/>
+    <polygon fill="#cccccc" stroke-width="2" points="220.0,344.0 220.0,356.0 229.0,350.0" stroke="#cccccc"
+        stroke-linejoin="round"/>
+    <polygon fill="#cccccc" stroke-width="2" points="265.0,344.0 265.0,356.0 274.0,350.0" stroke-linejoin="round"
+        stroke="#cccccc"/>
+    <polygon fill="#cccccc" stroke-width="2" points="255.0,344.0 255.0,356.0 264.0,350.0" stroke-linejoin="round"
+        stroke="#cccccc"/>
+    <polygon fill="#999999" points="430.0,345.0 430.0,355.0 435.0,355.0 440.0,360.0 440.0,340.0 435.0,345.0" stroke="#999999"
+        stroke-linejoin="round"/>
+    <rect x="470" stroke-linecap="round" y="345" fill="none" width="15" stroke-linejoin="round" height="10" stroke="#999999"/>
+    <line stroke-linecap="round" fill="none" x1="445.0" x2="452.0" y1="350.0" y2="350.0" stroke-linejoin="round" stroke="#999999"/>
+    <line stroke-linecap="round" fill="none" x1="444.0" x2="450.0" y1="344.0" y2="341.0" stroke-linejoin="round" stroke="#999999"/>
+    <line stroke-linecap="round" fill="none" x1="444.0" x2="450.0" y1="356.0" y2="359.0" stroke-linejoin="round" stroke="#999999"/>
+    <line stroke-linecap="round" fill="none" x1="465" x2="468" y1="342" y2="344" stroke-linejoin="round" stroke="#999999"/>
+    <polygon fill="none" points="467.0,342.0 465.0,342.0 465.0,343.5" stroke="#999999" stroke-linecap="round"
+        stroke-linejoin="round"/>
+    <polygon fill="none" points="465.0,356.5 465.0,358.0 467.0,358.0" stroke="#999999" stroke-linecap="round"
+        stroke-linejoin="round"/>
+    <polygon fill="none" points="488.0,358.0 490.0,358.0 490.0,356.5" stroke="#999999" stroke-linecap="round"
+        stroke-linejoin="round"/>
+    <polygon fill="none" points="490.0,343.5 490.0,342.0 488.0,342.0" stroke="#999999" stroke-linecap="round"
+        stroke-linejoin="round"/>
+    <line stroke-linecap="round" fill="none" x1="468" x2="465" y1="356" y2="358" stroke-linejoin="round" stroke="#999999"/>
+    <line stroke-linecap="round" fill="none" x1="487" x2="490" y1="356" y2="358" stroke-linejoin="round" stroke="#999999"/>
+    <line stroke-linecap="round" fill="none" x1="487" x2="490" y1="344" y2="342" stroke-linejoin="round" stroke="#999999"/>
+    <line stroke-linecap="round" fill="none" x1="490" x2="480" y1="115" y2="105" stroke="#000000" stroke-width="2"/>
+    <line stroke-linecap="round" fill="none" x1="490" x2="480" y1="105" y2="115" stroke="#000000" stroke-width="2"/>
+</svg>

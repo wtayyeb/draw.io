@@ -1,0 +1,8 @@
+<shape>
+<connections>
+	<constraint x="0.27" y="0.035" perimeter="0" name="N"/>
+	<constraint x="0.27" y="0.955" perimeter="0" name="S"/>
+	<constraint x="0.03" y="0.5" perimeter="0" name="W"/>
+	<constraint x="1.0" y="0.51" perimeter="0" name="E"/>
+</connections>
+</shape>

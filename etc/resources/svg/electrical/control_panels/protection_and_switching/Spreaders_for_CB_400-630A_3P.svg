@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="2000.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="2000.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="153.66814" width="31.649124" y="52.499992" height="79.054054"/>
+    <rect x="153.66814" width="31.649124" y="324.44592" height="79.05405"/>
+    <polygon points="107.51315,131.55405 107.51315,97.5608 93.666664,87.28378 93.666664,52.499992 125.315796,52.499992 
+        125.315796,87.28378 139.16228,97.5608 139.16228,131.55405"/>
+    <polygon points="199.8231,131.55405 199.8231,97.5608 212.35089,87.28378 212.35089,52.499992 244.0,52.499992 
+        244.0,86.49323 231.47223,97.5608 231.47223,131.55405"/>
+    <polygon points="107.51315,324.44592 139.16228,324.44592 139.16228,358.43918 125.97515,368.71622 125.97515,403.49997 
+        93.666664,403.49997 93.666664,368.71622 107.51315,358.43918"/>
+    <polygon points="199.8231,324.44592 231.47223,324.44592 231.47223,359.2297 244.0,368.71622 244.0,403.49997 
+        212.35089,403.49997 212.35089,368.71622 199.8231,359.2297"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="169.4927" cy="116.53376"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="109.49123" cy="69.891884"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="168.17398" cy="69.891884"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="229.49416" cy="69.891884"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="215.64766" cy="116.53376"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="123.33772" cy="116.53376"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="109.49123" cy="386.10812"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="123.33772" cy="339.46622"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="169.4927" cy="339.46622"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="215.64766" cy="339.46622"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="168.17398" cy="386.10812"/>
+    <ellipse rx="7.5" fill="none" ry="7.5" cx="229.49416" cy="386.10812"/>
+</svg>

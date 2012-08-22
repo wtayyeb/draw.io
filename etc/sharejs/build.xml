@@ -1,0 +1,21 @@
+<?xml version="1.0" ?> 
+<project name="Sharing" default="run">
+
+	<target name="install">
+		<exec executable="npm">
+			<arg value="install"/>
+			<arg value="./"/>
+		</exec>
+	</target>
+	
+	<target name="run">
+		<exec executable="node">
+			<arg value="bin/sharingserver"/>
+		</exec>
+	</target>
+	
+	<target name="clean">
+		<delete dir="node_modules" />
+	</target>
+	
+</project>

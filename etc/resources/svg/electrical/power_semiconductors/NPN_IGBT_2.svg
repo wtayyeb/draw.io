@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\power_semiconductors.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <line y2="80" stroke-width="2" x1="25" x2="25" y1="20.0"/>
+    <polyline fill="none" points="20.0,20.0 20.0,80.0 16.5,80.0" stroke-width="2"/>
+    <line y2="15" x1="25" x2="78" y1="35"/>
+    <line y2="85" x1="25" x2="78" y1="65"/>
+    <polygon points="73.75,80.5 77.75,85.0 71.75,86.0"/>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\resistors.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="18" width="64" height="20" y="40"/>
+    <line y2="50" x2="18" y1="50"/>
+    <line y2="50" x1="82" x2="100" y1="50"/>
+    <ellipse rx="5" fill="none" ry="5" cx="40" cy="50"/>
+    <ellipse rx="5" fill="none" ry="5" cx="60" cy="50"/>
+</svg>

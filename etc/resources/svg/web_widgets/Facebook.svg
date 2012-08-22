@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <defs>
+        <radialGradient r="100%" cx="0.5" id="radGradient" cy="-0.3">
+            <stop offset="40%" style="stop-color: #8B99C0;"/>
+            <stop offset="100%" style="stop-color: #405F98;"/>
+        </radialGradient>
+    </defs>
+    <rect x="1" y="1.0" fill="url(#radGradient)" width="98" rx="10" height="98" ry="10" stroke="#3C5075" stroke-width="2"/>
+    <path fill="#ffffff" d="M 57.0 96.0 L 57.0 50.0 L 48.0 50.0 L 48.0 37.0 L 57.0 37.0 L 57.0 20.0 A 14.0 14.0 0.0 0 1 
+        70.0 9.0 L 91.0 9.0 L 89.0 22.0 L 79.0 22.0 A 4.0 4.0 0.0 0 0 75.0 26.0 L 75.0 37.0 L 87.0 37.0 L 86.0 50.0 L 
+        75.0 50.0 L 75.0 96.0 z" stroke-miterlimit="15" stroke="#ffffff"/>
+</svg>

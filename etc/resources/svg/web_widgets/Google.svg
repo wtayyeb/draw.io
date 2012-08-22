@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <defs>
+        <radialGradient r="100%" cx="0.5" cy="-0.3" id="radGradient">
+            <stop style="stop-color: #B2E5FA;" offset="40%"/>
+            <stop style="stop-color: #1C84A7;" offset="100%"/>
+        </radialGradient>
+    </defs>
+    <path fill="#3F8AD9" stroke-width="0.2" d="M 0.1 72.0 L 0.1 10.0 A 10.0 10.0 0.0 0 1 10.0 0.1 L 45.0 0.1 L 45.0 37.0 
+        L 32.0 65.0 z" stroke="#3F8AD9"/>
+    <path fill="#EB484B" d="M 47.0 0.1 L 90.0 0.1 A 10.0 10.0 0.0 0 1 99.9 10.0 L 99.9 40.0 L 47.0 40.0 z" stroke-width="0.2"
+        stroke="#EB484B"/>
+    <path fill="#E3AC0C" d="M 53.0 99.9 L 10.0 99.9 A 10.0 10.0 0.0 0 1 0.1 90.0 L 0.1 72.0 L 38.0 63.0 L 61.0 82.0 z"
+        stroke-width="0.2" stroke="#E3AC0C"/>
+    <path fill="#018E3F" d="M 99.9 38.5 L 99.9 90.0 A 10.0 10.0 0.0 0 1 90.0 99.9 L 54.0 99.9 L 55.0 70.0 L 35.0 45.0 L 
+        54.0 32.5 A 45.0 37.0 -40.0 0 1 99.9 38.5 z" stroke-width="0.2" stroke="#018E3F"/>
+    <path fill="#ffffff" d="M 48.0 0.1 A 24.0 24.0 0.0 0 1 48.0 39.3 A 30.0 14.0 0.0 0 0 47.0 57.0 A 50.0 50.0 0.0 0 1 
+        60.0 69.3 A 30.0 26.0 0.0 0 1 54.4 99.9 L 45.0 99.9 A 14.0 14.0 0.0 0 0 49.0 77.0 L 36.4 66.8 A 45.0 45.0 0.0 0 
+        0 8.0 74.0 A 15.0 13.0 0.0 0 0 5.0 90.0 A 25.0 25.0 0.0 0 0 20.0 99.9 L 10.0 99.9 A 10.0 10.0 0.0 0 1 0.1 90.0 L 
+        0.1 70.7 A 60.0 45.0 20.0 0 1 31.0 62.0 A 15.0 15.0 0.0 0 1 28.0 46.0 A 25.0 25.0 0.0 0 1 0.1 32.0 L 0.1 9.7 A 
+        10.0 10.0 0.0 0 1 9.7 0.1 L 20.0 0.1 A 15.0 15.0 0.0 0 0 11.5 14.0 A 30.0 30.0 0.0 0 0 25.0 41.0 A 15.0 15.0 0.0 
+        0 0 41.0 37.5 A 23.0 23.0 0.0 0 0 44.0 20.0 A 35.0 35.0 0.0 0 0 39.4 8.0 A 20.0 20.0 0.0 0 0 31.0 0.1 z"
+        stroke-width="0.2" stroke="#ffffff"/>
+    <rect x="0.9" y="0.9" fill="none" width="98.2" rx="9" height="98.2" ry="9" stroke="#ffffff" stroke-opacity="0.3"
+        stroke-width="2"/>
+</svg>

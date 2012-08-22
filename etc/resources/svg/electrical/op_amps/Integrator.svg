@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\op_amps.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon points="40.0,40.0 80.0,60.0 40.0,80.0"/>
+    <polyline fill="none" points="35.0,100.0 35.0,70.0 40.0,70.0"/>
+    <polyline fill="none" points="35.0,50.0 35.0,30.0 60.0,30.0"/>
+    <polyline fill="none" points="63.0,30.0 85.0,30.0 85.0,60.0"/>
+    <rect x="10" width="20" y="48.0" height="4"/>
+    <line y2="50" y1="50" x2="10"/>
+    <line y2="60" x1="80" x2="100" y1="60"/>
+    <line y2="50" x1="30" x2="40" y1="50"/>
+    <line y2="37" x1="63" x2="63" y1="23"/>
+    <line y2="37" x1="60" x2="60" y1="23"/>
+</svg>

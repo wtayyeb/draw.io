@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="34.526" preserveAspectRatio="none" viewBox="394.02 -567.01 38.976 36"
+    height="31.8898" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB" x="0" y="1.5">
+    <path d="M1273,-1596 L1273,-1680 L1185,-1680 L1185,-1596 L1273,-1596 Z M1273,-1680 L1296,-1698 L1216,-1698 
+        L1185,-1680 L1273,-1680 Z M1296,-1615 L1296,-1698 L1273,-1680 L1273,-1596 L1296,-1615 Z" stroke-width="2"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M1194,-1600 C1196,-1600 1198,-1602 1198,-1604 C1198,-1606 1196,-1608 1194,-1608 C1192,-1608 
+        1190,-1606 1190,-1604 C1190,-1602 1192,-1600 1194,-1600 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#000000"/>
+    <path fill="#ffffff" d="M1191,-1608 L1198,-1600 L1219,-1622 L1212,-1629 L1191,-1608 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#000000"/>
+    <path fill="#ffffff" d="M1209,-1645 C1209,-1629 1222,-1617 1237,-1617 C1253,-1617 1266,-1629 1266,-1645 C1266,-1661 
+        1253,-1674 1237,-1674 C1222,-1674 1209,-1661 1209,-1645 M1213,-1645 C1213,-1659 1224,-1670 1237,-1670 
+        C1251,-1670 1262,-1659 1262,-1645 C1262,-1632 1251,-1621 1237,-1621 C1224,-1621 1213,-1632 1213,-1645 Z"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="#000000"/>
+    <path fill="#ffffff" d="M1205,-1644 C1205,-1628 1218,-1615 1234,-1615 C1250,-1615 1263,-1628 1263,-1644 C1263,-1659 
+        1250,-1672 1234,-1672 C1218,-1672 1205,-1659 1205,-1644 M1209,-1644 C1209,-1657 1220,-1668 1234,-1668 
+        C1248,-1668 1259,-1657 1259,-1644 C1259,-1630 1248,-1619 1234,-1619 C1220,-1619 1209,-1630 1209,-1644 Z"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="#000000"/>
+    <path fill="none" d="M1246,-1634 L1246,-1655 L1224,-1655 L1224,-1634 L1246,-1634 Z" stroke-width="5" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="52.2425" preserveAspectRatio="none"
+    viewBox="382.02 -559.01 58.976 31.008" height="27.4677" xmlns="http://www.w3.org/2000/svg"
+    color-interpolation-filters="sRGB" x="0" y="1.5">
+    <path stroke-width="2" d="M1149,-1643 L1189,-1676 L1320,-1676 L1286,-1643 L1149,-1643 Z M1286,-1586 L1320,-1620 
+        L1320,-1676 L1286,-1643 L1286,-1586 Z M1286,-1585 L1286,-1643 L1149,-1643 L1149,-1585 L1286,-1585 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path stroke-width="2" d="M1246,-1622 C1246,-1617 1235,-1612 1220,-1612 C1206,-1612 1195,-1617 1195,-1622 
+        C1195,-1607 1195,-1607 1195,-1607 C1195,-1602 1206,-1597 1220,-1597 C1235,-1597 1246,-1602 1246,-1607 Z"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path stroke-width="2" d="M1220,-1612 C1235,-1612 1246,-1617 1246,-1622 C1246,-1628 1235,-1632 1220,-1632 
+        C1206,-1632 1195,-1628 1195,-1622 C1195,-1617 1206,-1612 1220,-1612 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="none" d="M1181,-1632 L1149,-1632" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+    <path fill="#ffffff" d="M1192,-1632 L1173,-1624 L1177,-1632 L1173,-1639 L1192,-1632 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M1181,-1615 L1149,-1615" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+    <path fill="#ffffff" d="M1192,-1615 L1173,-1607 L1177,-1615 L1173,-1623 L1192,-1615 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M1275,-1615 L1260,-1615" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+    <path fill="#ffffff" d="M1284,-1615 L1269,-1609 L1272,-1615 L1269,-1621 L1284,-1615 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M1181,-1598 L1149,-1598" stroke-width="3" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+    <path fill="#ffffff" d="M1192,-1598 L1173,-1590 L1177,-1598 L1173,-1606 L1192,-1598 Z M1263,-1621 L1260,-1615 
+        L1263,-1609 L1248,-1615 L1263,-1621 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="none"/>
+</svg>

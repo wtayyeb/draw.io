@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon fill="#ffff00" points="34.0,66.0 50.0,34.0 66.0,66.0" stroke-linejoin="round" stroke="#000000"/>
+    <ellipse rx="2" fill="#000000" ry="2" cx="50" cy="61" stroke="none"/>
+    <line stroke-linecap="round" fill="none" x1="50.0" x2="50.0" y1="55" y2="45" stroke="#000000" stroke-width="3.5"/>
+</svg>

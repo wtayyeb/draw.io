@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="57.5717" preserveAspectRatio="none"
+    viewBox="167.01 -700.99 64.992 32" height="28.3465" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB"
+    x="0" y="1.5">
+    <path stroke-width="2" d="M502,-2053 L560,-2100 L693,-2100 L645,-2053 L502,-2053 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#000000" d="M633,-2075 L637,-2079 L648,-2074 L628,-2068 L633,-2074 L597,-2074 L599,-2075 L633,-2075 Z 
+        M612,-2087 L611,-2086 L574,-2086 L569,-2082 L560,-2086 L581,-2092 L576,-2087 L612,-2087 Z M592,-2067 L591,-2066 
+        L554,-2066 L549,-2062 L539,-2066 L561,-2072 L556,-2067 L592,-2067 Z M654,-2092 L657,-2096 L668,-2091 L649,-2085 
+        L653,-2091 L617,-2091 L619,-2092 L654,-2092 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="none"/>
+    <path fill="#ffffff" d="M633,-2074 L637,-2078 L647,-2073 L627,-2068 L632,-2073 L596,-2073 L598,-2074 L633,-2074 Z 
+        M611,-2086 L609,-2085 L574,-2085 L570,-2081 L560,-2085 L580,-2091 L575,-2086 L611,-2086 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path d="M645,-2008 L693,-2056 L693,-2100 L645,-2053 L645,-2008 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M590,-2066 L589,-2065 L554,-2065 L550,-2061 L540,-2065 L560,-2071 L555,-2066 L590,-2066 Z 
+        M654,-2091 L657,-2094 L667,-2090 L647,-2085 L652,-2090 L617,-2090 L618,-2091 L654,-2091 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="none"/>
+    <path fill="none" d="M651,-2089 L647,-2085 M631,-2072 L626,-2068 M598,-2075 L596,-2073 M619,-2092 L617,-2090"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke-linejoin="round" stroke-linecap="round" stroke="#000000"/>
+    <path d="M645,-2007 L645,-2053 L502,-2053 L502,-2007 L645,-2007 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="#ffffff" d="M555,-2030 L529,-2030 L529,-2032 L518,-2029 L529,-2025 L529,-2027 L555,-2027 L555,-2030 Z 
+        M570,-2022 L570,-2013 L563,-2013 L574,-2009 L584,-2013 L577,-2013 L577,-2022 L570,-2022 Z M570,-2035 L570,-2044 
+        L563,-2044 L574,-2048 L584,-2044 L577,-2044 L577,-2035 L570,-2035 Z M592,-2027 L619,-2027 L619,-2025 L629,-2029 
+        L619,-2032 L619,-2030 L592,-2030 L592,-2027 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="none"/>
+    <path fill="none" stroke-width="2" d="M617,-2013 C612,-2011 589,-2017 565,-2025 C542,-2033 527,-2041 532,-2043 
+        C537,-2045 560,-2040 583,-2032 C607,-2023 622,-2015 617,-2013 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="none" stroke-width="2" d="M615,-2043 C621,-2042 606,-2033 583,-2025 C560,-2017 536,-2012 531,-2013 
+        C526,-2015 540,-2023 564,-2032 C587,-2040 610,-2045 615,-2043 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#ffffff"/>
+    <path fill="#b5b5b5" d="M585,-2023 C593,-2025 596,-2030 589,-2033 C583,-2036 571,-2037 562,-2034 C553,-2032 
+        551,-2028 557,-2025 C564,-2022 576,-2021 585,-2023 Z" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="none"/>
+</svg>

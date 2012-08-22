@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="38.0693" preserveAspectRatio="none"
+    viewBox="390.02 -579.01 42.976 62.016" height="54.9354" xmlns="http://www.w3.org/2000/svg"
+    color-interpolation-filters="sRGB" x="0" y="1.5">
+    <path fill="none" d="M1230,-1686 L1230,-1550 M1230,-1686 L1288,-1572 M1230,-1686 L1172,-1572" stroke-width="4"
+        transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="#126d99"/>
+    <path d="M1247,-1670 L1247,-1702 L1213,-1702 L1213,-1670 L1247,-1670 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1180,-1703 C1178,-1703 1177,-1707 1177,-1712 C1177,-1718 1178,-1722 1180,-1722 C1197,-1722 1197,-1722 
+        1197,-1722 C1199,-1722 1201,-1718 1201,-1712 C1201,-1707 1199,-1703 1197,-1703 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1193,-1689 L1193,-1723 L1267,-1723 L1267,-1689 L1193,-1689 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1267,-1689 L1267,-1723 L1193,-1723 L1202,-1733 L1268,-1733 L1277,-1733 L1277,-1699 L1267,-1689 Z"
+        stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="none" d="M1267,-1723 L1277,-1733" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="none" d="M1267,-1698 L1193,-1698" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path fill="none" d="M1277,-1708 L1267,-1698" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+    <path d="M1299,-1735 L1297,-1727 L1271,-1711 L1270,-1724 L1299,-1735 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"/>
+</svg>

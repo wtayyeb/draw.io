@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\sports.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 77.33 46.13 v 5.02 h -8.15 l 4.83 11.96 h 12.19 v 4.98 H 76.0 l 5.65 13.99 h -5.97 l -5.65 -13.99 H 51.75 
+        l -5.61 13.99 h -6.0 l 5.65 -13.99 H 35.59 v -4.98 h 12.21 l 4.81 -11.96 h -8.15 v -5.02 H 77.33 z M 68.01 63.1 
+        l -4.81 -11.96 h -4.61 l -4.83 11.96 H 68.01 z M 10.44 97.2 L 99.49 97.2 L 99.49 87.86 L 19.69 87.86 L 19.69 
+        48.65 L 99.49 12.22 L 99.49 2.5 L 0.5 47.67 L 0.5 57.38 L 10.44 52.88 z"/>
+</svg>

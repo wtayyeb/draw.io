@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\protection_and_switching.css" ?>
+<svg contentScriptType="text/ecmascript" width="500.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="500.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon points="105.0,400.0 105.0,140.0 100.0,140.0 100.0,100.0 478.0,100.0 478.0,140.0 473.0,140.0 473.0,400.0"/>
+    <rect fill="none" x="130" width="318" height="270.0" y="114"/>
+    <ellipse rx="6" fill="none" ry="6" cx="110" cy="110"/>
+    <ellipse rx="6" fill="none" ry="6" cx="468" cy="110"/>
+    <ellipse rx="6" fill="none" ry="6" cx="114" cy="390"/>
+    <ellipse rx="6" fill="none" ry="6" cx="464" cy="390"/>
+    <rect fill="none" x="190" width="175" height="250" y="125"/>
+    <rect fill="none" x="145" width="40" height="175" y="200"/>
+    <rect fill="none" x="240" width="30.0" height="50" y="125"/>
+    <rect fill="#ffffff" x="240" width="30" height="40" y="185"/>
+    <rect fill="#ffffff" x="240" width="30" height="8" y="250"/>
+    <rect fill="#ffffff" x="300" width="30" height="40" y="185.0"/>
+    <rect fill="#ffffff" x="300" width="30" height="8" y="250"/>
+    <line y2="375" fill="none" x1="230" x2="230" y1="125"/>
+    <line y2="374.0" fill="none" x1="337.5" x2="338.0" y1="126.0"/>
+    <line y2="240.0" fill="none" x1="230" x2="190" y1="240.0"/>
+    <line y2="366.0" fill="none" x1="338.0" x2="190" y1="366.0"/>
+    <line y2="362.0" fill="none" x1="338.0" x2="190" y1="362.0"/>
+    <line y2="328.5" fill="none" x1="338.5" x2="365.5" y1="328.0"/>
+    <line y2="271.5" fill="none" x1="338.0" x2="365.5" y1="272.0"/>
+    <line y2="193.0" fill="none" x1="365.0" x2="448.0" y1="192.0"/>
+    <rect fill="#ffffff" x="197" width="26" y="275" height="10"/>
+    <polyline fill="none" points="105.0,400.0 105.0,422.0 83.0,422.0" stroke-width="2"/>
+    <polyline fill="none" points="473.0,400.0 473.0,422.0 495.0,422.0" stroke-width="2"/>
+    <rect x="410" width="48" y="59" height="41"/>
+    <line y2="100.0" x1="434" x2="434" y1="59"/>
+    <line y2="100" x1="422" x2="422" y1="59"/>
+    <line y2="100" x1="446" x2="446" y1="59.0"/>
+    <rect x="185" width="12" height="41" y="59"/>
+</svg>

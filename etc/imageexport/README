@@ -1,0 +1,16 @@
+1 Development
+-------------
+
+For development, use the export URL parameter as follows:
+
+http://devhost.jgraph.com:8888/?export=dev or
+http://devhost.jgraph.com:8888/?export=devhost.jgraph.com:8888/export
+
+Where the latter can use any URL without the http prefix.
+
+2 Deployment
+------------
+
+The built.xml Ant script will use the mxgraph-core.jar from ../../war/WEB-INF.
+The war file does not depend on any special APIs and can be deployed to any
+servlet container.

@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\transportation.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <path d="M 99.04 58.06 l -18.14 7.64 l 6.0 3.71 c -6.03 11.47 -18.28 19.71 -32.82 21.22 V 29.17 c 6.49 -1.78 11.34 
+        -7.23 11.34 -13.99 c 0.0 -8.13 -6.9 -14.73 -15.42 -14.79 c -8.52 0.07 -15.42 6.66 -15.42 14.79 c 0.0 6.76 4.85 
+        12.22 11.34 13.99 v 61.47 c -14.54 -1.51 -26.79 -9.75 -32.82 -21.22 l 6.0 -3.71 L 0.96 58.06 L 0.5 77.18 l 5.55 
+        -3.43 C 13.91 88.62 30.59 98.99 50.0 99.34 c 19.41 -0.35 36.09 -10.72 43.95 -25.59 L 99.5 77.18 L 99.04 58.06 z 
+        M 43.23 15.18 c 0.0 -3.59 3.02 -6.49 6.77 -6.55 c 3.75 0.06 6.77 2.96 6.77 6.55 c 0.0 3.58 -3.02 6.5 -6.77 6.56 
+        C 46.25 21.67 43.23 18.76 43.23 15.18 z"/>
+</svg>

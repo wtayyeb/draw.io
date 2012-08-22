@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet type="text/css" href="..\cisco_network.css" ?>
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" enable-background="new" version="1.0" width="26.5606" preserveAspectRatio="none"
+    viewBox="394.02 -564.99 29.984 42.976" height="38.0693" xmlns="http://www.w3.org/2000/svg"
+    color-interpolation-filters="sRGB" x="0" y="33.9307">
+    <path fill="#ffffff" d="M1273,-1669 L1273,-1565 L1183,-1565 L1183,-1693 L1246,-1693 L1246,-1692 L1246,-1668 
+        L1273,-1668 L1273,-1669 Z" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)" stroke="#0d6c9b"/>
+    <path fill="none" d="M1246,-1693 L1273,-1669" stroke-width="2" transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+        stroke="#0d6c9b"/>
+</svg>

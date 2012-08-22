@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="500.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="500.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100" y="100" fill="#fafafa" width="350" rx="5" ry="5" height="44" stroke="#000000"/>
+    <rect x="110" y="110" fill="#ffffff" width="250" rx="0" ry="0" height="24" stroke="#000000"/>
+    <ellipse fill="none" rx="5" cx="119" ry="5" cy="119" stroke="#2c457e" stroke-width="4"/>
+    <line stroke-linecap="round" fill="none" x1="127.0" x2="122.0" y1="130" y2="123.0" stroke="#2c457e" stroke-width="4"/>
+</svg>

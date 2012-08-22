@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet type="text/css" href="..\database.css" ?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    contentStyleType="text/css" id="Layer_1" enable-background="new 0 0 70 70" version="1.1" width="70px" xml:space="preserve"
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 70 70" height="70px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px">      
+    <g>           
+        <path d="M35.381,61.392h26.633v-15.99H35.381V61.392z M48.342,47.968c2.871,0,5.199,2.33,5.199,5.201 
+            c0,2.873-2.328,5.201-5.199,5.201c-2.873,0-5.201-2.328-5.201-5.201C43.141,50.298,45.469,47.968,48.342,47.968z"/>           
+        <rect x="7.986" width="25.395" y="45.401" height="15.99"/>           
+        <path d="M35.381,43.4h26.633V27.615H35.381V43.4z M48.342,30.008c2.871,0,5.199,2.328,5.199,5.201 
+            c0,2.871-2.328,5.199-5.199,5.199c-2.873,0-5.201-2.328-5.201-5.199C43.141,32.336,45.469,30.008,48.342,30.008z"/>           
+        <path d="M35.381,8.608v17.007h26.633V8.608H35.381z M48.342,22.448c-2.873,0-5.201-2.329-5.201-5.201 
+            s2.328-5.2,5.201-5.2c2.871,0,5.199,2.328,5.199,5.2S51.213,22.448,48.342,22.448z"/>           
+        <rect x="7.986" width="25.395" y="27.615" height="15.785"/>           
+        <rect x="7.986" width="25.395" y="8.608" height="17.007"/>           
+        <circle fill="#FFFFFF" r="5.201" cx="48.342" cy="17.248"/>           
+        <circle fill="#FFFFFF" r="5.2" cx="48.342" cy="35.208"/>           
+        <circle fill="#FFFFFF" r="5.201" cx="48.342" cy="53.169"/> </g> </svg>

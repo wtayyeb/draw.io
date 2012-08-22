@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\power_semiconductors.css" ?>
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <polygon points="50.0,5.0 95.0,50.0 50.0,95.0 5.0,50.0"/>
+    <path fill="none" d="M 45.0 15.0 A 3.0 3.0 0.0 0 1 50.0 15.0 A 3.0 3.0 0.0 0 0 55.0 15.0"/>
+    <path fill="none" d="M 45.0 85.0 A 3.0 3.0 0.0 0 1 50.0 85.0 A 3.0 3.0 0.0 0 0 55.0 85.0"/>
+    <line y2="50" x1="12" x2="18" y1="50"/>
+    <line y2="53" x1="15" x2="15" y1="47"/>
+    <line y2="50" x1="88" x2="82" y1="50"/>
+    <line y2="32.5" x1="22.5" x2="27.5" y1="27.5"/>
+    <line y2="72.5" x1="27.5" x2="22.5" y1="67.5"/>
+    <line y2="77.5" x1="67.5" x2="72.5" y1="72.5"/>
+    <line y2="27.5" x1="72.5" x2="67.5" y1="22.5"/>
+    <polygon points="30.0,30.0 25.0,30.0 25.0,25.0"/>
+    <polygon points="25.25,75.0 25.0,70.0 30.0,70.0"/>
+    <polygon points="70.0,30.0 70.0,25.0 75.0,25.0"/>
+    <polygon points="70.0,70.0 70.0,75.0 75.0,75.0"/>
+</svg>

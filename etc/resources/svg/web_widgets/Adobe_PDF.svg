@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <defs>
+        <radialGradient r="100%" cx="0.5" cy="-0.3" id="radGradient">
+            <stop style="stop-color: #FF7777;" offset="40%"/>
+            <stop style="stop-color: #6D0000;" offset="100%"/>
+        </radialGradient>
+    </defs>
+    <rect x="1" y="1.0" fill="url(#radGradient)" width="98" rx="10" ry="10" height="98" stroke="#630603" stroke-width="2"/>
+    <path fill="#ffffff" d="M 30.0 67.5 A 30.0 30.0 0.0 0 0 22.0 77.0 A 20.0 20.0 0.0 0 0 21.0 80.0 A 15.0 11.0 0.0 0 0 
+        28.0 75.0 A 170.0 170.0 0.0 0 0 50.5 29.0 A 70.0 70.0 0.0 0 1 45.0 50.0 A 150.0 150.0 0.0 0 1 31.0 75.0 A 25.0 
+        25.0 0.0 0 1 25.5 81.0 A 5.0 5.0 0.0 0 1 20.0 81.0 A 3.0 3.0 0.0 0 1 19.0 77.0 A 20.0 20.0 0.0 0 1 30.0 67.5 z M 
+        51.5 23.0 A 10.0 10.0 0.0 0 0 48.0 16.0 A 38.0 38.0 0.0 0 0 80.0 62.5 A 10.0 10.0 0.0 0 0 84.5 61.0 A 4.0 4.0 
+        0.0 0 1 80.0 64.5 A 40.0 40.0 0.0 0 1 44.5 18.0 A 4.5 8.0 0.0 0 1 51.5 19.0 A 8.0 8.0 20.0 0 1 51.5 23.0 z"
+        stroke-miterlimit="10" stroke="#ffffff"/>
+    <path fill="#ffffff" d="M 84.5 60.0 A 65.0 16.0 -26.0 0 0 35.0 65.0 A 90.0 20.0 -25.0 0 1 84.5 60.0 z"
+        stroke-miterlimit="10" stroke="#ffffff"/>
+</svg>

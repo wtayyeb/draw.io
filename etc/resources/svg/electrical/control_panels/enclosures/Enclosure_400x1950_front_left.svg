@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\enclosures.css" ?>
+<svg contentScriptType="text/ecmascript" width="1000.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="2500.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <rect x="100" width="400" stroke-width="3" height="1950" y="100"/>
+    <rect x="100" width="400" stroke-width="3" height="100" y="2050"/>
+    <rect x="420" width="30" stroke-width="2" height="250" y="1000"/>
+    <line y2="1200" stroke-width="2" x1="420" x2="450" y1="1200"/>
+    <ellipse rx="10.0" ry="10.0" cx="435" cy="1170"/>
+    <ellipse rx="8" ry="8" cx="435" cy="1170"/>
+</svg>

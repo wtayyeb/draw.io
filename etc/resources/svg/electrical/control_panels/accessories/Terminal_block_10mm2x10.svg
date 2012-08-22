@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
+<?xml-stylesheet type="text/css" href="..\accessories.css" ?>
+<svg contentScriptType="text/ecmascript" width="2000.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="2000.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.0">
+    <defs>
+        <g id="tb10mm">
+            <rect x="100.0" width="8.2" y="100.0" height="70"/>
+            <line y2="158" x1="100" x2="108.2" y1="158"/>
+            <line y2="112" x1="100" x2="108.2" y1="112"/>
+            <line y2="130" x1="100" x2="108.2" y1="130"/>
+            <line y2="140" x1="100" x2="108.2" y1="140"/>
+            <ellipse rx="1.5" fill="#000000" ry="1.5" cx="104.1" cy="124"/>
+            <ellipse rx="1.5" fill="#000000" ry="1.5" cx="104.1" cy="145"/>
+        </g>
+    </defs>
+    <use x="0" y="0" xlink:href="#tb10mm"
+       />
+    <use x="8.2" y="0" xlink:href="#tb10mm"
+       />
+    <use x="16.4" y="0" xlink:href="#tb10mm"
+       />
+    <use x="24.6" y="0" xlink:href="#tb10mm"
+       />
+    <use x="32.8" y="0" xlink:href="#tb10mm"
+       />
+    <use x="41.0" y="0" xlink:href="#tb10mm"
+       />
+    <use x="49.2" y="0" xlink:href="#tb10mm"
+       />
+    <use x="57.4" y="0" xlink:href="#tb10mm"
+       />
+    <use x="65.6" y="0" xlink:href="#tb10mm"
+       />
+    <use x="73.8" y="0" xlink:href="#tb10mm"
+       />
+</svg>
