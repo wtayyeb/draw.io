@@ -1,5 +1,5 @@
 /**
- * $Id: OpenServlet.java,v 1.9 2012-07-27 05:34:11 gaudenz Exp $
+ * $Id: OpenServlet.java,v 1.11 2012-08-23 14:41:52 david Exp $
  * Copyright (c) 2011-2012, JGraph Ltd
  */
 package com.mxgraph.online;
@@ -31,7 +31,7 @@ import com.mxgraph.io.mxCodec;
 import com.mxgraph.io.mxVdxCodec;
 import com.mxgraph.util.mxXmlUtils;
 import com.mxgraph.view.mxGraph;
-import com.mxgraph.view.mxGraphGAE;
+import com.mxgraph.view.mxGraphHeadless;
 
 /**
  * Servlet implementation class OpenServlet
@@ -96,10 +96,11 @@ public class OpenServlet extends HttpServlet
 				{
 					// NOTE: On GAE this will throw java.lang.NoClassDefFoundError: Could not initialize class com.mxgraph.util.mxConstants
 					// in the following line because mxGraph has dependencies on AWT
-					mxGraph graph = new mxGraphGAE();
+					mxGraph graph = new mxGraphHeadless();
 					Document doc = mxXmlUtils.parseXml(xml);
-					mxVdxCodec.setHtmlLabelsEnable(false);
-					mxVdxCodec.decode(doc, graph);
+					mxVdxCodec vdxCodec = new mxVdxCodec(doc);
+					vdxCodec.setHtmlLabelsEnable(false);
+					vdxCodec.decode(graph);
 
 					mxCodec codec = new mxCodec();
 					Node node = codec.encode(graph.getModel());

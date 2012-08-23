@@ -1,5 +1,5 @@
 /*
- * $Id: Dialogs.js,v 1.15 2012-08-02 10:32:54 gaudenz Exp $
+ * $Id: Dialogs.js,v 1.16 2012-08-21 20:12:49 gaudenz Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 /**
@@ -235,7 +235,12 @@ function EmbedDialog(editorUi)
 		node.setAttribute('fit', (fitCheckBox.checked) ? '1': '0');
 		node.setAttribute('border', borderInput.value);
 		
-		var xml = encodeURIComponent(mxUtils.getXml(node));
+		// Hidden attributes
+		node.setAttribute('links', '1');
+		// Highlight can contain a color code for links
+		//node.setAttribute('highlight', '1');
+		
+		var xml = Base64.encode(RawDeflate.deflate(encodeURIComponent(mxUtils.getXml(node))), true);
 		var style = 'position:relative;overflow:' + ((scrollbarsCheckBox.checked) ? 'auto' : 'hidden') + ';';
 		
 		if (widthInput.value != '')

@@ -127,16 +127,20 @@
 							}
 							
 							var xml = child.innerHTML;
-							
+
 							if (xml.substring(0, 16) == '&lt;mxGraphModel')
 							{
 								xml = xml.replace(/&lt;/g, '<').replace(/&gt;/g, '>').
 									replace(/&amp;gt;/g, '&gt;').replace(/&amp;lt;/g, '&lt;').
 									replace(/&amp;quot;/g, '&quot;').replace(/&#xa;/g, '\n');
 							}
-							else
+							else if (xml.substring(0, 15) == '%3CmxGraphModel')
 							{
 								xml = decodeURIComponent(xml);
+							}
+							else
+							{
+								xml = decodeURIComponent(RawDeflate.inflate(Base64.decode(xml, true)));
 							}
 							
 							var xmlDocument = mxUtils.parseXml(xml);

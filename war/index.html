@@ -249,6 +249,7 @@
 	</script>
 </head>
 <body class="geEditor">
+<div id="fb-root"></div>
 <div id="geInfo">
 	<div class="geBlock">
 		<h1>Free Online Diagramming Software</h1>
@@ -281,15 +282,18 @@
 <div id="geFooter" style="visibility:hidden;padding-top:6px;padding-left:6px;">
 	<table width="100%" height="100%" align="right">
 	  <tr> 
-	    <td width="40%" align="left" style="white-space:nowrap;overflow:hidden;padding-bottom:10px;">
+	    <td id="gplus" width="25%" align="left" style="white-space:nowrap;overflow:hidden;padding-bottom:10px;">
 	      	<g:plusone size="small"></g:plusone>
 	      	<a rel="author" href="https://plus.google.com/b/100634082864796769666/" target="__blank"><img title="Diagramly on Google+" src="http://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" border=""></a>
-	    </td> 
-	    <td width="30%" style="white-space:nowrap;overflow:hidden;align:left;padding-bottom:10px;padding-right:10px;padding-top:2px;"> 
+	    </td>
+	    <td id="twitter" width="35%" style="white-space:nowrap;overflow:hidden;align:right;padding-bottom:10px;padding-right:10px;padding-top:2px;"> 
 	      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.diagram.ly" data-text="Diagramly - Draw Diagrams Online, Free HTML 5 web app" data-via="Diagramly">Tweet</a>
 	      <a href="https://twitter.com/Diagramly" class="twitter-follow-button" data-show-count="false">Follow @Diagramly</a>
 	    </td>
-		<td width="30%" valign="top" align="right" style="white-space:nowrap;overflow:hidden;padding-top:3px;font-family:'Helvetica Neue',Arial,sans-serif;padding-right:8px;_padding-right:16px;"> 
+	    <td width="20%" align="left" style="white-space:nowrap;overflow:hidden;padding-bottom:10px;">
+	    	<div class="fb-like" data-href="http://www.draw.io/" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false"></div>
+	    </td>
+		<td width="20%" valign="top" align="right" style="white-space:nowrap;overflow:hidden;padding-top:3px;font-family:'Helvetica Neue',Arial,sans-serif;padding-right:8px;_padding-right:16px;"> 
 	      <a title="Powered by mxGraph" href="http://www.jgraph.com/mxgraph.html" target="_blank" style="font-size:8pt;text-decoration:none;font-weight:bold;color:#454545;">
 	      Powered by mxGraph
 	      <img src="/images/logo-small.gif" width="16" height="16" border="0" align="absmiddle" style="margin-bottom:4px;_margin-bottom:-2px;margin-left:3px;"/></a>
@@ -386,10 +390,19 @@ if (urlParams['social'] != '0')
 			fjs.parentNode.insertBefore(js,fjs);
 		}
 	}(document,"script","twitter-wjs");
+	
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
 }
 else
 {
-	
+	document.getElementById('gplus').innerHTML = '';
+	document.getElementById('twitter').innerHTML = '';
 }
 
 // Loads Google Image Picker API
@@ -398,11 +411,14 @@ if (urlParams['picker'] != '0' && !mxClient.IS_IE6 && !((mxClient.IS_TOUCH || mx
 	mxscript(document.location.protocol + '//www.google.com/jsapi?autoload=%7B%22modules%22%3A%5B%7B%22name%22%3A%22picker%22%2C%22version%22%3A%221%22%2C%22language%22%3A%22' + mxClient.language + '%22%7D%5D%7D');
 }
 
-//For developers only
+// Used for embed dialog
+mxscript('/js/deflate/rawdeflate.js');
+mxscript('/js/deflate/base64.js');
+
+// For developers only
 if (urlParams['test'] == '1')
 {
 	// LATER: jsPDF requires BinaryToArray VBScript function in IE
-	mxscript(mxDevUrl + '/mxgraph/etc/html/export/base64.js');
 	mxscript(mxDevUrl + '/mxgraph/etc/html/export/jspdf.js');
 	mxscript(mxDevUrl + '/mxgraph/etc/html/export/jscanvas.js');
 	mxLog.show();

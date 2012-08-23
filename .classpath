@@ -25,5 +25,6 @@
 	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
 	<classpathentry kind="lib" path="etc/imageexport/jars/com.objectplanet.image.PngEncoder.jar"/>
 	<classpathentry kind="lib" path="etc/imageexport/jars/iText-2.1.7_mx-1.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/vsdio.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

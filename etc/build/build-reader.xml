@@ -20,6 +20,10 @@
 			<sources dir="${basedir}/../../../mxgraph/javascript/examples/grapheditor/www/js">
 				<file name="Shapes.js"/>
 			</sources>
+			<sources dir="${basedir}/../../war/js/deflate">
+				<file name="base64.js"/>
+				<file name="rawinflate.js"/>
+			</sources>
 			<sources dir="${basedir}/../../war/js/diagramly">
 				<file name="Embed.js"/>
 			</sources>

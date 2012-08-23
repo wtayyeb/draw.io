@@ -16,7 +16,7 @@ uses the correct last-modified headers if it was deployed to GAE.
 The build.xml Ant script will use etc/build/mxClient.js and the code for the
 grapheditor example from ../mxgraph.
 
-The built-reader.xml Ant script will use the for mxClient from ../mxgraph.
+The build-reader.xml Ant script will use the for mxClient from ../mxgraph.
 (The reader is used for read-only embedded diagrams in external pages.)
 
 To deploy Diagramly:
