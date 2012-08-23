@@ -107,6 +107,10 @@
 			<arg value="${local.repo}" />
 		</exec>
 
+		<delete includeEmptyDirs="true">
+			<fileset dir="${local.repo}"/>
+		</delete>
+
 		<copy todir="${local.repo}" overwrite="true">
 			<fileset dir="../../../diagramly_gae">
 				<excludesfile name="github_excludes" />
