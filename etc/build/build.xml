@@ -117,6 +117,7 @@
 			</fileset>
 		</copy>
 
+
 		<move overwrite="true" tofile="${local.repo}/war/WEB-INF/client_secrets.json" file="${local.repo}/war/WEB-INF/client_secrets_template.json" />
 		<move overwrite="true" tofile="${local.repo}/war/WEB-INF/iconfinder_key" file="${local.repo}/war/WEB-INF/iconfinder_key_template" />
 
@@ -127,7 +128,7 @@
 
 		<exec executable="git" dir="${local.repo}">
 			<arg value="commit" />
-			<arg value="-m" />
+			<arg value="-am" />
 			<arg value='"${version} release"' />
 		</exec>
 
