@@ -104,7 +104,7 @@
 		<exec executable="git" dir="${local.repo}">
 			<arg value="commit" />
 			<arg value="-am" />
-			<arg value='"${version} release"' />
+			<arg value="${version} release" />
 		</exec>
 
 		<exec executable="git" dir="${local.repo}">
@@ -116,9 +116,9 @@
 		<exec executable="git" dir="${local.repo}">
 			<arg value="tag" />
 			<arg value="-a" />
-			<arg value="${version}" />
+			<arg value="v${version}" />
 			<arg value="-m" />
-			<arg value='"${version}"' />
+			<arg value="v${version}" />
 		</exec>
 
 		<exec executable="git" dir="${local.repo}">
