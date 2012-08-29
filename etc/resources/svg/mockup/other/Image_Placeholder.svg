@@ -1,9 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
-<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
-    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
-    version="1.0">
-    <rect x="0.0" fill="none" width="100" height="100" y="0.0" stroke="#000000"/>
-    <line y2="0.0" fill="none" x1="0.0" x2="100.0" y1="100.0" stroke="#000000"/>
-    <line y2="100.0" fill="none" x1="0.0" x2="100.0" stroke="#000000" y1="0.0"/>
-</svg>

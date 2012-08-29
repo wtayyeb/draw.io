@@ -1,9 +1,0 @@
-<shape>
-<connections>
-	<constraint x="0.0" y="0.25" perimeter="0" name="S"/>
-	<constraint x="0.0" y="0.5" perimeter="0" name="E"/>
-	<constraint x="0.0" y="0.75" perimeter="0" name="R"/>
-	<constraint x="1.0" y="0.25" perimeter="0" name="Q"/>
-	<constraint x="1.0" y="0.75" perimeter="0" name="Qneg"/>
-</connections>
-</shape>

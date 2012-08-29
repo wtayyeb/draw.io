@@ -1,9 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
-<?xml-stylesheet type="text/css" href="..\iec417.css" ?>
-<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
-    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
-    version="1.0">
-    <rect x="10" width="80" y="10" height="80"/>
-    <polyline fill="none" points="10.0,10.0 89.0,50.0 10.0,90.0"/>
-</svg>

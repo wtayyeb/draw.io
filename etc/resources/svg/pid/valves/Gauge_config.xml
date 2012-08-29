@@ -1,6 +1,0 @@
-<shape background="0">
-<connections>
-	<constraint x="0.232" y="1" perimeter="0" name="S"/>
-	<constraint x="1" y="0.444" perimeter="0" name="E"/>
-</connections>
-</shape>

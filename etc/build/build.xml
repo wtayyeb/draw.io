@@ -1,33 +1,18 @@
 <?xml version="1.0"?>
 <project basedir="." default="compile">
-	<!-- ===========================Instructions ==================================== -->
-	<!-- Before running the 'git-deploy' task make sure you run 'ssh git@github.com'  -->
-	<!-- This is because ant cannot prompt user to answer whether or not to add the   -->
-	<!-- host to the list of known hosts. Not doing so would lock up the task for     -->
-	<!-- all eternity!                                                                -->
 	
-	<!-- ========================== Project Environment ============================= -->
-
 	<property file="build.properties" />
-	<property environment="env"/>
-	<property name="src.dir" value="${basedir}/../../src" />
-	<property name="war.dir" value="${basedir}/../../war" />
-	<property name="javac.dir" value="${war.dir}/WEB-INF/classes" />
-	<property name="build.dir" value="${basedir}/../../build" />
-	<property name="war.name" value="diagramly.war" />
+	<taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="${jscompiler}" />
 
-	<property name="github.repo" value="git@github.com:${username}/${remote.repo.name}.git" />
-	<loadfile property="version" srcFile="../../VERSION" />
-	
 	<!-- ============ Merges and minimizes JavaScript code into one file =============== -->
-
-	<taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="${basedir}/../../../mxgraph/etc/build/compiler.jar" />
+	
 	<target name="compile">
 		<jscomp compilationLevel="simple" debug="false" output="${basedir}/../../war/js/diagramly.min.js">
-			<sources dir="${basedir}">
+			<sources dir="${basedir}/../../war/js/mxgraph">
 				<file name="mxClient.js" />
 			</sources>
-			<sources dir="${basedir}/../../../mxgraph/javascript/examples/grapheditor/www/js">
+			
+			<sources dir="${grapheditor.dir}">
 				<file name="Editor.js" />
 				<file name="Graph.js" />
 				<file name="Shapes.js" />
@@ -38,11 +23,13 @@
 				<file name="Toolbar.js" />
 				<file name="Dialogs.js" />
 			</sources>
+			
 			<sources dir="${basedir}/../../war/js/diagramly">
 				<file name="Dialogs.js" />
 				<file name="Sharing.js" />
 				<file name="Diagramly.js" />
 			</sources>
+			
 			<sources dir="${basedir}/../../war/js/sharejs">
 				<file name="socket.io.js" />
 				<file name="share.uncompressed.js" />
@@ -51,107 +38,4 @@
 		</jscomp>
 	</target>
 
-	<!-- ========================= Java Compiler class path ========================= -->
-
-	<path id="javac.class.path">
-		<fileset dir="${war.dir}/WEB-INF/lib" includes="*.jar" />
-		<fileset dir="${env.GAE_SDK}/lib/shared" includes="servlet-api.jar" />
-	</path>
-
-	<!-- ================= Compiles the code with Java compiler ====================== -->
-
-	<target name="javac">
-
-		<javac srcdir="${src.dir}" includes="**/*.java" encoding="utf-8" destdir="${javac.dir}" source="1.6" target="1.6" debug="true" debuglevel="lines,vars,source">
-			<classpath refid="javac.class.path" />
-		</javac>
-		<copy todir="${javac.dir}/META-INF">
-			<fileset dir="${src.dir}/META-INF">
-			</fileset>
-		</copy>
-		<copy todir="${javac.dir}" file="${src.dir}/log4j.properties" />
-	</target>
-
-	<!-- ================== Cleans the output directories ============================= -->
-
-	<target name="clean">
-		<delete failonerror="false">
-			<fileset dir="${javac.dir}">
-			</fileset>
-			<fileset dir="${build.dir}">
-			</fileset>
-			<fileset dir="jetty-temp">
-			</fileset>
-		</delete>
-	</target>
-
-	<target name="war" depends="javac" description="Create a war file">
-		<zip destfile="${build.dir}/${war.name}" basedir="${war.dir}">
-			<exclude name="**/Collab.js" />
-		</zip>
-	</target>
-
-	<target name="jetty.run">
-		<jetty tempDirectory="jetty-temp">
-			<webApp name="diagramly" warfile="${build.dir}/${war.name}" contextpath="/" />
-		</jetty>
-	</target>
-
-	<!-- ================== Commits to Github repo and tags the release ================ -->
-
-	<target name="git-deploy">
-		
-		<exec executable="git" >
-			<arg value="clone" />
-			<arg value="${github.repo}" />
-			<arg value="${local.repo}" />
-		</exec>
-
-		<delete includeEmptyDirs="true">
-			<fileset dir="${local.repo}"/>
-		</delete>
-
-		<copy todir="${local.repo}" overwrite="true">
-			<fileset dir="../../../diagramly_gae">
-				<excludesfile name="github_excludes" />
-			</fileset>
-		</copy>
-
-
-		<move overwrite="true" tofile="${local.repo}/war/WEB-INF/client_secrets.json" file="${local.repo}/war/WEB-INF/client_secrets_template.json" />
-		<move overwrite="true" tofile="${local.repo}/war/WEB-INF/iconfinder_key" file="${local.repo}/war/WEB-INF/iconfinder_key_template" />
-
-		<exec  executable="git" dir="${local.repo}">
-			<arg value="add" />
-			<arg value="." />
-		</exec>
-
-		<exec executable="git" dir="${local.repo}">
-			<arg value="commit" />
-			<arg value="-am" />
-			<arg value='"${version} release"' />
-		</exec>
-
-		<exec executable="git" dir="${local.repo}">
-			<arg value="push" />
-			<arg value="origin" />
-			<arg value="master" />
-		</exec>
-
-		<exec executable="git" dir="${local.repo}">
-			<arg value="tag" />
-			<arg value="-a" />
-			<arg value="${version}" />
-			<arg value="-m" />
-			<arg value='"${version}"' />
-		</exec>
-
-		<exec executable="git" dir="${local.repo}">
-			<arg value="push" />
-			<arg value="origin" />
-			<arg value="--tags" />
-		</exec>
-
-		<delete dir="${local.repo}" includeemptydirs="true" />
-	</target>
 </project>

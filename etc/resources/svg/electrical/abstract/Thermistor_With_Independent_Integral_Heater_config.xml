@@ -1,8 +1,0 @@
-<shape>
-<connections>
-	<constraint x="0.0" y="0.48" perimeter="0" name="in"/>
-	<constraint x="1.0" y="0.48" perimeter="0" name="out"/>
-	<constraint x="0.435" y="1" perimeter="0" name="v-"/>
-	<constraint x="0.625" y="1" perimeter="0" name="v+"/>
-</connections>
-</shape>

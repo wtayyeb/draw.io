@@ -1,7 +1,0 @@
-<shape>
-<connections>
-	<constraint x="0.0" y="0.72" perimeter="0" name="W"/>
-	<constraint x="1.0" y="0.72" perimeter="0" name="E"/>
-	<constraint x="0.5" y="0.0" perimeter="0" name="N"/>
-</connections>ions>
-</shape>

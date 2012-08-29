@@ -1,7 +1,0 @@
-<shape>
-<connections>
-	<constraint x="0" y="0.305" perimeter="0" name="V+"/>
-	<constraint x="0.35" y="1" perimeter="0" name="V-"/>
-	<constraint x="1.0" y="0.445" perimeter="0" name="Vout"/>
-</connections>
-</shape>

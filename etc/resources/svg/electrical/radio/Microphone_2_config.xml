@@ -1,6 +1,0 @@
-<shape>
-<connections>
-	<constraint x="0.0" y="0.5" perimeter="0" name="in"/>
-	<constraint x="0.835" y="0.5" perimeter="0" name="out"/>
-</connections>
-</shape>

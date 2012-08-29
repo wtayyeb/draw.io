@@ -1,3 +1,8 @@
+- Fixes Github deployment Ant task
+- Fixes German Facebook button (changes to English)
+- Fixes touch-based panning for embedded diagrams
+- Uses mxGraph 1.10.3.0
+
 22-AUG-2012: 1.6.1.8
 
 - Adds Facebook like button

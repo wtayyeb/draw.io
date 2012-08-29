@@ -105,6 +105,15 @@
 		}
 	}
 	
+	// Panning for touch devices
+	if (mxClient.IS_TOUCH)
+	{
+		mxPanningHandler.prototype.isPanningTrigger = function(me)
+		{
+			return true;
+		};
+	}
+	
 	(function()
 	{
 		if (mxClient.isBrowserSupported())
@@ -347,9 +356,6 @@
 										bw = 24;
 										bh = 24;
 										var fontSize = 14;
-										
-										// Replaces overflow for touch devices
-										container.style.overflow = 'scroll';
 									}
 									
 									function addButton(label, funct)
@@ -383,14 +389,17 @@
 										table.appendChild(tbody);
 										btn.appendChild(table);
 										
-										mxEvent.addListener(btn, 'mouseup', function(evt)
+										var md = (mxClient.IS_TOUCH) ? 'touchstart' : 'mousedown';
+										var mu = (mxClient.IS_TOUCH) ? 'touchend' : 'mouseup';
+
+										mxEvent.addListener(btn, md, function(evt)
 										{
-											funct();
 											mxEvent.consume(evt);
 										});
 										
-										mxEvent.addListener(btn, 'mousedown', function(evt)
+										mxEvent.addListener(btn, mu, function(evt)
 										{
+											funct();
 											mxEvent.consume(evt);
 										});
 										
@@ -409,15 +418,15 @@
 										graph.zoomOut();
 									});
 									
+									function show()
+									{
+										buttons.style.top = (container.offsetTop + bs.y) + 'px';
+										buttons.style.left = (container.offsetLeft + bs.x) + 'px';
+										buttons.style.visibility = 'visible';
+									};
+									
 									if (!mxClient.IS_TOUCH)
 									{
-										function show()
-										{
-											buttons.style.top = (container.offsetTop + bs.y) + 'px';
-											buttons.style.left = (container.offsetLeft + bs.x) + 'px';
-											buttons.style.visibility = 'visible';
-										};
-										
 										function hide()
 										{
 											buttons.style.visibility = 'hidden';
@@ -429,6 +438,10 @@
 										mxEvent.addListener(buttons, 'mouseout', hide);
 										hide();
 									}
+									else
+									{
+										show();
+									}
 
 									if (container.nextSibling != null)
 									{
@@ -436,7 +449,7 @@
 									}
 									else
 									{
-										container.appendChild(buttons);
+										container.parentNode.appendChild(buttons);
 									}
 								}
 							}

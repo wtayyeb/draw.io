@@ -1,9 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
-<?xml-stylesheet type="text/css" href="..\arrows.css" ?>
-<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
-    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
-    version="1.0">
-    <path stroke-linejoin="round" d="M 32.0 60.0 L 50.0 60.0 A 60.0 60.0 0.0 0 0 2.0 2.0 A 75.0 75.0 0.0 0 1 80.0 60.0 L 
-        98.0 60.0 L 65.0 99.0 z"/>
-</svg>

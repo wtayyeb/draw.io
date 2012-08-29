@@ -1,9 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
-<?xml-stylesheet type="text/css" href="..\radio.css" ?>
-<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
-    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
-    version="1.0">
-    <polygon points="10.5,0.5 50.0,40.0 89.5,0.5"/>
-    <line y2="100" x1="50" x2="50"/>
-</svg>

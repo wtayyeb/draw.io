@@ -1,9 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<!--Created with Sketsa SVG Editor (http://www.kiyut.com)-->
-<?xml-stylesheet type="text/css" href="..\heat_exchangers.css" ?>
-<svg contentScriptType="text/ecmascript" width="100.0px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
-    zoomAndPan="magnify" contentStyleType="text/css" height="100.0px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
-    version="1.0">
-    <ellipse rx="30" ry="30" cx="50" cy="50"/>
-    <polyline fill="none" points="27.5,30.0 65.0,30.0 35.0,50.0 65.0,70.0 27.5,70.0"/>
-</svg>
