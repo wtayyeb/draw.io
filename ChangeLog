@@ -1,3 +1,5 @@
+29-AUG-2012: 1.6.1.9
+
 - Fixes Github deployment Ant task
 - Fixes German Facebook button (changes to English)
 - Fixes touch-based panning for embedded diagrams

@@ -31,7 +31,7 @@
 	<target name="clean">
 		<delete dir="${local.repo}" includeemptydirs="true" failonerror="false" />
 		<delete dir="${javac.dir}" includeemptydirs="true" failonerror="false" />
-		<delete dir="${build.dir}" includeemptydirs="true" failonerror="false" />
+		<delete file="${build.dir}/${war.name}" includeemptydirs="true" failonerror="false" />
 		<delete dir="jetty-temp" includeemptydirs="true" failonerror="false" />
 	</target>
 
@@ -95,7 +95,7 @@
 	
 	<!-- ================== Commits to Github repo and tags the release ================ -->
 
-	<target name="git-commit" depends="git-stage" >
+	<target name="git-deploy" depends="git-stage" >
 		<exec executable="git" dir="${local.repo}">
 			<arg value="add" />
 			<arg value="." />
@@ -126,12 +126,6 @@
 			<arg value="origin" />
 			<arg value="--tags" />
 		</exec>
-	</target>
-	
-	<!-- ================== Commits to Github repo and cleans the stage directory ================ -->
-
-	<target name="git-deploy" depends="git-commit" >
-		<delete dir="${local.repo}" includeemptydirs="true" />
 	</target>
 
 </project>
