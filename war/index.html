@@ -406,7 +406,7 @@ else
 }
 
 // Loads Google Image Picker API
-if (urlParams['picker'] != '0' && !mxClient.IS_IE6 && !((mxClient.IS_TOUCH || mxClient.IS_MAC) && (mxClient.IS_SF || mxClient.IS_GC)))
+if (urlParams['picker'] != '0' && !mxClient.IS_IE6)
 {
 	mxscript(document.location.protocol + '//www.google.com/jsapi?autoload=%7B%22modules%22%3A%5B%7B%22name%22%3A%22picker%22%2C%22version%22%3A%221%22%2C%22language%22%3A%22' + mxClient.language + '%22%7D%5D%7D');
 }

@@ -1,5 +1,5 @@
 /*
- * $Id: Diagramly.js,v 1.28 2012-08-02 10:32:54 gaudenz Exp $
+ * $Id: Diagramly.js,v 1.29 2012-08-30 06:47:19 gaudenz Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 // For compatibility with open servlet on GAE
@@ -2008,6 +2008,10 @@ function setCurrentXml(data, filename)
 		{
 			window.open('http://forum.jgraph.com/');
 		})));
+		this.editorUi.actions.put('github', new Action('Fork me on GitHub', mxUtils.bind(this, function()
+		{
+			window.open('https://github.com/jgraph/draw.io');
+		})));
 		this.editorUi.actions.addAction('image', function()
 		{
 			function updateImage(value, w, h)
@@ -2135,7 +2139,7 @@ function setCurrentXml(data, filename)
 		
 		this.put('help', new Menu(mxUtils.bind(this, function(menu, parent)
 		{
-			this.addMenuItems(menu, ['didYouKnow', 'help', '-', 'about']);
+			this.addMenuItems(menu, ['didYouKnow', 'help', '-', 'github', '-', 'about']);
 			
 			if (urlParams['test'] == '1')
 			{

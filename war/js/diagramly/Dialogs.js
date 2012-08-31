@@ -1,5 +1,5 @@
 /*
- * $Id: Dialogs.js,v 1.16 2012-08-21 20:12:49 gaudenz Exp $
+ * $Id: Dialogs.js,v 1.18 2012-08-31 08:56:49 gaudenz Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 /**
@@ -427,7 +427,7 @@ function ParseDialog(editorUi)
 	this.container = div;
 };
 
-// Constructs a new about dialog.
+// Constructs a dialog for creating new files from templates.
 function NewDialog(editorUi)
 {
 	var div = document.createElement('div');
@@ -786,7 +786,14 @@ function ExportDialog(editorUi)
 	    
 		if (backgroundInput.value != '' && backgroundInput.value != mxConstants.NONE && !backgroundCheckbox.checked)
 		{
-    		root.style.backgroundColor = backgroundInput.value;
+			if (root.style != null)
+			{
+				root.style.backgroundColor = backgroundInput.value;
+			}
+			else
+			{
+				root.setAttribute('style', 'background-color:' + backgroundInput.value);
+			}
 		}
 	    
 	    if (svgDoc.createElementNS == null)

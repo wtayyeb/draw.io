@@ -1,3 +1,10 @@
+31-AUG-2012: 1.6.7.0
+
+- Uses mxGraph 1.10.3.1
+- Fixes background color for SVG export in quirks mode
+- Enables Google image picker on Mac/iPad
+- Adds Github menu item in help menu
+
 29-AUG-2012: 1.6.1.9
 
 - Fixes Github deployment Ant task
