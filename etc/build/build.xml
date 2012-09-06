@@ -38,4 +38,43 @@
 		</jscomp>
 	</target>
 
+	<!-- ========================= Java Compiler class path ========================= -->
+
+	<path id="javac.class.path">
+		<fileset dir="${war.dir}/WEB-INF/lib" includes="*.jar" />
+		<fileset dir="${imageexport.dir}/jars" includes="servlet-api-2.5.jar" />
+	</path>
+
+	<!-- ================= Compiles the code with Java compiler ====================== -->
+
+	<target name="javac">
+		<mkdir dir="${javac.dir}"/>
+		<javac srcdir="${src.dir}" includes="**/*.java" encoding="utf-8" destdir="${javac.dir}" source="1.6" target="1.6" debug="true" debuglevel="lines,vars,source">
+			<classpath refid="javac.class.path" />
+		</javac>
+		<copy todir="${javac.dir}/META-INF">
+			<fileset dir="${src.dir}/META-INF">
+			</fileset>
+		</copy>
+		<copy todir="${javac.dir}" file="${src.dir}/log4j.properties" />
+	</target>
+	
+	<!-- ================== Cleans the output directories ============================= -->
+
+	<target name="clean">
+		<delete failonerror="false">
+			<fileset dir="${javac.dir}">
+			</fileset>
+			<fileset dir="${build.dir}">
+			</fileset>
+		</delete>
+	</target>
+
+	<!-- ================== Cleans the output directories ============================= -->
+
+	<target name="war" depends="javac" description="Create a war file">
+		<zip destfile="${build.dir}/${war.name}" basedir="${war.dir}" >
+		</zip>
+	</target>
+
 </project>

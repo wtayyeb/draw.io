@@ -1,3 +1,8 @@
 draw.io project sources
 -----------------------
 
+draw.io comprises three parts:
+
+1) The static web content under the war directory.
+2) The open, save, embed, proxy and iconfinder servlets as one servlet war. These are locationed under src/com/mxgraph/online/.
+3) The image export servlet. This is located under 

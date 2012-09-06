@@ -1,0 +1,107 @@
+/* --------------------------------------------------------	*/
+/*	Footer */
+/* --------------------------------------------------------	*/
+
+footer {
+	background:#292727;
+	margin:40px 0 0;
+	padding:20px 0 0;
+	color:#ccc;
+}
+footer h3 {
+	color:white;
+	margin:0 0 10px 0;
+}
+footer ul {
+	list-style-type:none;
+	margin:0 0 10px 0;
+}
+footer ul li {
+	padding:4px 0;
+}
+footer ul li a {
+	color:#999
+}
+footer ul li a:hover {
+	color:#fff;
+}
+footer input[type=submit].btn {
+	margin-top:-8px!important;
+}
+
+	/* --------------------------------------------------------	*/
+	/*	Footer - Social networks */
+	/* --------------------------------------------------------	*/
+
+	footer .social-networks a {
+		display:inline-block;
+		margin:10px 10px 0 0;
+		padding:4px 0 0 0;
+		font-size:22px;
+		border-radius:50%;
+		-moz-border-radius:50%;
+		-webkit-border-radius:50%;
+		text-align:center;
+		width:32px;
+		height:30px;
+		line-height:24px;
+		background:#222;
+		text-decoration:none;
+		color:#fff;
+		-webkit-transition:all 0.3s;
+		-moz-transition:all 0.3s;
+		-o-transition:all 0.3s;
+		-ms-transition:all 0.3s;
+		transition:all 0.3s;
+	}
+	footer .social-networks .icon-facebook {
+		border:3px solid #3B5998;
+	}
+	footer .social-networks .icon-facebook:hover {
+		background:#3B5998
+	}
+
+	footer .social-networks .icon-github {
+		border:3px solid #A9CF54;
+	}
+	footer .social-networks .icon-github:hover {
+		background:#A9CF54
+	}
+
+	footer .social-networks .icon-pinterest {
+		border:3px solid #DE2C6C;
+	}
+	footer .social-networks .icon-pinterest:hover {
+		background:#DE2C6C
+	}
+	footer .social-networks .icon-twitter {
+		border:3px solid #31CDFD;
+	}
+	footer .social-networks .icon-twitter:hover {
+		background:#31CDFD;
+	}
+
+	footer .social-networks .icon-google-plus {
+		border:3px solid #C9402E;
+	}
+	footer .social-networks .icon-google-plus:hover {
+		background:#C9402E;
+	}
+	footer .social-networks a:hover {
+		background:#000;
+		color:#fff;
+	}
+
+	/* --------------------------------------------------------	*/
+	/*	Footer extra */
+	/* --------------------------------------------------------	*/
+
+	#footer-extra {
+		background:#1c1c1c;
+		padding:10px 0;
+		font-size:0.9em;
+		color:#999;
+	}
+	#footer-extra i {
+		color:#AFDBEA;
+	}
