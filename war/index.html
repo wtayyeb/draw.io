@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--CUSTOM_PARAMETERS - Title, description, etc-->
     <title>Diagramly - Draw Diagrams Online</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="Description" content="Diagramly is a free online diagram drawing application for workflow, BPM, org charts, UML, ER, network diagrams">
@@ -11,7 +12,7 @@
 		database schema and networks. Also possible are telecommunication network, workflow, flowcharts, maps overlays and GIS, electronic 
 		circuit and social network diagrams. It's like a mini version of Visio in your browser.">
 	<meta itemprop="image" content="https://lh4.googleusercontent.com/-cLKEldMbT_E/Tx8qXDuw6eI/AAAAAAAAAAs/Ke0pnlk8Gpg/w500-h344-k/BPMN%2Bdiagram%2Brc2f.png">
-    <link rel="stylesheet" type="text/css" href="/styles/grapheditor.css">
+    <link rel="stylesheet" type="text/css" href="styles/grapheditor.css">
 	<style type="text/css">
 		.geSidebarContainer .geTitle { color:#606060; }
 		.geSidebar .geItem:hover { opacity:1; }
@@ -67,24 +68,25 @@
 		var MAX_WIDTH = 6000;
 		var MAX_HEIGHT = 6000;
 	
-		// URLs for save and export
+		// CUSTOM_PARAMETERS - URLs for save and export
 		var EXPORT_URL = 'http://shr.diagramly.com:8080/ImageExport/export';
 		var SHARE_HOST = 'http://shr.diagramly.com:8000';
-		var SAVE_URL = '/save';
-		var OPEN_URL = '/open';
+
+		var SAVE_URL = 'save';
+		var OPEN_URL = 'open';
 
 		// Paths and files
-		var STENCIL_PATH = '/stencils';
-		var IMAGE_PATH = '/images';
+		var STENCIL_PATH = 'stencils';
+		var IMAGE_PATH = 'images';
 		// Path for images inside the diagram
-		var GRAPH_IMAGE_PATH = '/img';
-		var ICONFINDER_PATH = '/iconfinder';
-		var STYLE_PATH = '/styles';
-		var CSS_PATH = '/styles';
-		var OPEN_FORM = '/open.html';
+		var GRAPH_IMAGE_PATH = 'img';
+		var ICONFINDER_PATH = 'iconfinder';
+		var STYLE_PATH = 'styles';
+		var CSS_PATH = 'styles';
+		var OPEN_FORM = 'open.html';
 		
 		// Directory for i18 files and basename for main i18n file
-		var RESOURCES_PATH = '/resources';
+		var RESOURCES_PATH = 'resources';
 		var RESOURCE_BASE = RESOURCES_PATH + '/dia';
 	
 		// Specifies connection mode for touch devices (at least one should be true)
@@ -172,8 +174,8 @@
 		var mxLoadResources = false;
 		var mxLanguage = urlParams['lang'];
 		var mxLanguages = ['ar', 'de', 'es', 'fr', 'hu', 'it', 'ja', 'ko', 'nl', 'pl', 'pt-br', 'pt', 'ru', 'sr', 'sv', 'zh'];
-		var geBasePath = '/js';
-		var mxBasePath = '/mxgraph/';
+		var geBasePath = 'js';
+		var mxBasePath = 'mxgraph';
 		var mxDevUrl = 'http://' + (urlParams['devhost'] || 'devhost.jgraph.com');
 
 		// Checks for domain to show certain libs
@@ -221,19 +223,19 @@
 		}
 		else
 		{
-			document.write('<script src="/js/diagramly.min.js"></' + 'script>');
+			document.write('<script src="js/diagramly.min.js"></' + 'script>');
 		}
 
 		// Loads JSON for older browsers
 		if (typeof(JSON) == 'undefined')
 		{
-			mxscript('/js/json/json2.min.js');
+			mxscript('js/json/json2.min.js');
 		}
 
 		// Loads spinner for Google Drive operations
 		if (driveDomain || urlParams['url'] != null)
 		{
-			mxscript('/js/spin/spin.min.js');
+			mxscript('js/spin/spin.min.js');
 		}
 
 		// Adds basic error handling
@@ -296,7 +298,7 @@
 		<td width="20%" valign="top" align="right" style="white-space:nowrap;overflow:hidden;padding-top:3px;font-family:'Helvetica Neue',Arial,sans-serif;padding-right:8px;_padding-right:16px;"> 
 	      <a title="Powered by mxGraph" href="http://www.jgraph.com/mxgraph.html" target="_blank" style="font-size:8pt;text-decoration:none;font-weight:bold;color:#454545;">
 	      Powered by mxGraph
-	      <img src="/images/logo-small.gif" width="16" height="16" border="0" align="absmiddle" style="margin-bottom:4px;_margin-bottom:-2px;margin-left:3px;"/></a>
+	      <img src="images/logo-small.gif" width="16" height="16" border="0" align="absmiddle" style="margin-bottom:4px;_margin-bottom:-2px;margin-left:3px;"/></a>
 	    </td>
 	  </tr> 
 	</table>
@@ -306,7 +308,7 @@
 new EditorUi(new Editor());
 </script>
 <!-- tinyMCE - LATER: Do not load if touchStyle is true -->
-<script src="/js/tiny_mce/tiny_mce.js"></script>
+<script src="js/tiny_mce/tiny_mce.js"></script>
 <script type="text/javascript">
 if (typeof(tinyMCE) != 'undefined')
 {
@@ -351,13 +353,13 @@ if (typeof(tinyMCE) != 'undefined')
 }
 
 // Color picker
-mxscript('/js/jscolor/jscolor.js');
+mxscript('js/jscolor/jscolor.js');
 
 // Downloadify for local file save
 if (urlParams['flash'] == '1')
 {
-	mxscript('/js/downloadify/downloadify.js');
-	mxscript('/js/downloadify/swfobject.js');
+	mxscript('js/downloadify/downloadify.js');
+	mxscript('js/downloadify/swfobject.js');
 }
 
 //Loads filepicker.io
@@ -412,8 +414,8 @@ if (urlParams['picker'] != '0' && !mxClient.IS_IE6)
 }
 
 // Used for embed dialog
-mxscript('/js/deflate/rawdeflate.js');
-mxscript('/js/deflate/base64.js');
+mxscript('js/deflate/rawdeflate.js');
+mxscript('js/deflate/base64.js');
 
 // For developers only
 if (urlParams['test'] == '1')
