@@ -307,10 +307,8 @@
 <script type="text/javascript">
 new EditorUi(new Editor());
 </script>
-<!-- tinyMCE - LATER: Do not load if touchStyle is true. Not used in IE6. -->
-<!--[if gt IE 6]>-->
+<!-- tinyMCE - LATER: Do not load if touchStyle is true. -->
 <script src="js/tiny_mce/tiny_mce.js"></script>
-<!--<![endif]-->
 <script type="text/javascript">
 if (typeof(tinyMCE) != 'undefined')
 {
@@ -382,8 +380,6 @@ if (urlParams['analytics'] != '0')
 
 if (urlParams['social'] != '0')
 {
-	mxinclude('https://apis.google.com/js/plusone.js');
-	
 	!function(d,s,id){
 		var js,fjs=d.getElementsByTagName(s)[0];
 		if(!d.getElementById(id)){
@@ -394,13 +390,22 @@ if (urlParams['social'] != '0')
 		}
 	}(document,"script","twitter-wjs");
 	
-	(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
+	if (!mxClient.IS_IE6)
+	{
+		mxinclude('https://apis.google.com/js/plusone.js');
+		
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	}
+	else
+	{
+		document.getElementById('gplus').innerHTML = '';
+	}
 }
 else
 {
