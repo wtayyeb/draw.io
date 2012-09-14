@@ -307,7 +307,8 @@
 <script type="text/javascript">
 new EditorUi(new Editor());
 </script>
-<!-- tinyMCE - LATER: Do not load if touchStyle is true -->
+<!-- tinyMCE - LATER: Do not load if touchStyle is true. Not used in IE6. -->
+<!--[if gt IE 6]>
 <script src="js/tiny_mce/tiny_mce.js"></script>
 <script type="text/javascript">
 if (typeof(tinyMCE) != 'undefined')
@@ -351,7 +352,7 @@ if (typeof(tinyMCE) != 'undefined')
 		});
 	}
 }
-
+<![endif]-->
 // Color picker
 mxscript('js/jscolor/jscolor.js');
 

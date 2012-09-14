@@ -1,5 +1,5 @@
 /*
- * $Id: Diagramly.js,v 1.29 2012-08-30 06:47:19 gaudenz Exp $
+ * $Id: Diagramly.js,v 1.30 2012-09-14 08:20:19 gaudenz Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 // For compatibility with open servlet on GAE
@@ -2209,23 +2209,6 @@ function setCurrentXml(data, filename)
 					
 					this.addMenuItems(menu, ['pdfExport'], parent);
 				}
-				
-				mxResources.parse('hierarchicalVertical=Hierarchical (Vertical)');
-				mxResources.parse('hierarchicalHorizontal=Hierarchical (Horizontal)');
-				
-				this.editorUi.actions.addAction('hierarchicalVertical', mxUtils.bind(this, function()
-				{
-					var layout = new mxHierarchicalLayout(graph, mxConstants.DIRECTION_NORTH);
-					this.editorUi.executeLayout(layout, true, true);
-				}));
-				
-				this.editorUi.actions.addAction('hierarchicalHorizontal', mxUtils.bind(this, function()
-				{
-					var layout = new mxHierarchicalLayout(graph, mxConstants.DIRECTION_WEST);
-					this.editorUi.executeLayout(layout, true, true);
-				}));
-				
-				this.addMenuItems(menu, ['-', 'hierarchicalVertical', 'hierarchicalHorizontal'], parent);
 
 				mxResources.parse('snapshot=Snapshot');
 				mxResources.parse('debug=Debug');
@@ -2336,8 +2319,8 @@ function setCurrentXml(data, filename)
 				onComplete: onComplete,
 				onCancel: function() { },
 				onError: function() { },
-				swf: 'js/downloadify/downloadify.swf',
-				downloadImage: 'js/downloadify/transparent.png',
+				swf: '/js/downloadify/downloadify.swf',
+				downloadImage: '/js/downloadify/transparent.png',
 				width: elt.offsetWidth + 2,
 				height: elt.offsetHeight + 2,
 				transparent: true,

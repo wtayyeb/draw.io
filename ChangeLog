@@ -1,3 +1,12 @@
+14-SEP-2012: 1.6.7.2
+
+- Disables tinyMCE in IE6
+- Adds layout options via grapheditor example
+
+13-SEP-2012: 1.6.7.1
+
+- Fixes use of custom handlers with closure compiler
+
 31-AUG-2012: 1.6.7.0
 
 - Uses mxGraph 1.10.3.1
