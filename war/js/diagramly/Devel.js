@@ -1,5 +1,5 @@
 /*
- * $Id: Devel.js,v 1.5 2012-07-27 05:22:25 mate Exp $
+ * $Id: Devel.js,v 1.6 2012-09-19 10:29:51 david Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 // This provides an indirection to make sure the mxClient.js
@@ -37,7 +37,6 @@ if (urlParams['test'] == '1')
 	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Misc.js');
 	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Navigation.js');
 	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Markup.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Test.js');
 	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Text.js');
 	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/MockupFinal.js');
 }

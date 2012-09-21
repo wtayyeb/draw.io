@@ -1,6 +1,6 @@
 14-SEP-2012: 1.6.7.2
 
-- Disables tinyMCE in IE6
+- Removes Facebook footer in IE6
 - Adds layout options via grapheditor example
 
 13-SEP-2012: 1.6.7.1

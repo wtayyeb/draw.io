@@ -1,5 +1,5 @@
 /*
- * $Id: Diagramly.js,v 1.30 2012-09-14 08:20:19 gaudenz Exp $
+ * $Id: Diagramly.js,v 1.31 2012-09-20 11:48:28 david Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 // For compatibility with open servlet on GAE
@@ -2319,8 +2319,8 @@ function setCurrentXml(data, filename)
 				onComplete: onComplete,
 				onCancel: function() { },
 				onError: function() { },
-				swf: '/js/downloadify/downloadify.swf',
-				downloadImage: '/js/downloadify/transparent.png',
+				swf: 'js/downloadify/downloadify.swf',
+				downloadImage: 'js/downloadify/transparent.png',
 				width: elt.offsetWidth + 2,
 				height: elt.offsetHeight + 2,
 				transparent: true,
