@@ -1,5 +1,5 @@
 /*
- * $Id: Dialogs.js,v 1.18 2012-08-31 08:56:49 gaudenz Exp $
+ * $Id: Dialogs.js,v 1.19 2012-09-24 08:47:46 gaudenz Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 /**
@@ -485,10 +485,6 @@ function AboutDialog(editorUi)
 {
 	var div = document.createElement('div');
 	div.setAttribute('align', 'center');
-	var h3 = document.createElement('h3');
-	mxUtils.write(h3, mxResources.get('aboutDiagramly'));
-	h3.style.marginTop = '10px';
-	div.appendChild(h3);
 	var img = document.createElement('img');
 	img.style.border = '0px';
 	img.setAttribute('width', '176');
@@ -499,20 +495,37 @@ function AboutDialog(editorUi)
 	img.setAttribute('title', 'mxGraph v ' + mxClient.VERSION);
 	div.appendChild(img);
 	mxUtils.br(div);
-	mxUtils.write(div, 'Diagramly is an example application built using the ');
+	var h3 = document.createElement('h2');
+	mxUtils.write(h3, 'draw.io');
+	h3.style.margin = '0px';
+	div.appendChild(h3);
+	mxUtils.br(div);
+	mxUtils.write(div, 'draw.io is an example application built using the ');
 	var link = document.createElement('a');
 	link.setAttribute('href', 'http://www.jgraph.com/mxgraph.html');
 	link.setAttribute('target', '_blank');
 	mxUtils.write(link, 'mxGraph JavaScript Diagramming library');
 	div.appendChild(link);
 	mxUtils.br(div);
-	div.innerHTML += '&copy; 2012 JGraph Ltd.';
 	mxUtils.br(div);
-	mxUtils.br(div);
-	div.appendChild(mxUtils.button(mxResources.get('close'), function()
+	div.appendChild(mxUtils.button('More Info...', function(e)
 	{
-		editorUi.hideDialog();
+		mxEvent.consume(e);
+		window.open('about.html');
 	}));
+	mxUtils.br(div);
+	mxUtils.br(div);
+	var small = document.createElement('small');
+	small.innerHTML = '&copy; 2012 JGraph Ltd.<br>All Rights Reserved.';
+	div.appendChild(small);
+	
+	mxEvent.addListener(div, 'click', function(e)
+	{
+		if (!mxEvent.isConsumed(e) && mxEvent.getSource(e) != link)
+		{
+			editorUi.hideDialog();
+		}
+	});
 	
 	this.container = div;
 };

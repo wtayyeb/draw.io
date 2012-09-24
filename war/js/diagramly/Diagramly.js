@@ -1,5 +1,5 @@
 /*
- * $Id: Diagramly.js,v 1.31 2012-09-20 11:48:28 david Exp $
+ * $Id: Diagramly.js,v 1.33 2012-09-24 08:50:54 gaudenz Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 // For compatibility with open servlet on GAE
@@ -1256,7 +1256,7 @@ function setCurrentXml(data, filename)
 			
 			if (host == 'drive.diagram.ly')
 			{
-				host = 'www.diagram.ly';
+				host = 'www.draw.io';
 			}
 			
 			return this.getUrl(window.location.protocol + '//' + host + port +
@@ -1996,9 +1996,9 @@ function setCurrentXml(data, filename)
 		{
 			this.editorUi.showDialog(new ShareDialog(this.editorUi).container, 340, 100, true, true);
 		}));
-		this.editorUi.actions.put('about', new Action(mxResources.get('aboutDiagramly'), mxUtils.bind(this, function()
+		this.editorUi.actions.put('about', new Action(mxResources.get('aboutDrawio'), mxUtils.bind(this, function()
 		{
-			this.editorUi.showDialog(new AboutDialog(this.editorUi).container, 320, 320, true, true);
+			this.editorUi.showDialog(new AboutDialog(this.editorUi).container, 300, 330, true, true);
 		}), null, null, 'F1'));
 		this.editorUi.actions.put('didYouKnow', new Action(mxResources.get('didYouKnow'), mxUtils.bind(this, function()
 		{
@@ -2192,7 +2192,7 @@ function setCurrentXml(data, filename)
 						pdfCanvas.setProperties(
 						{
 							title: this.editorUi.editor.getFilename(),
-							creator: 'Diagram.ly'
+							creator: 'draw.io'
 						});
 			
 						// Asynchronous handling of output (required for images) requires
