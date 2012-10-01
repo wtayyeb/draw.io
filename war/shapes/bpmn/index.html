@@ -8,6 +8,10 @@
 <h1>BPMN shapes</h1>
 <p>
 	This directory contains a set of BPMN 2.0 vector shapes for rendering using mxGraph.
+	<strong>Note</strong> this set is currently in beta release. This means that the majority 
+	of features are usable, but there may be missing functionality, a higher level of bugs 
+	than found in production quality code and some API function and variables names may change prior 
+	to the release of the first stable version.
 </p>
 <h2>Directory contents</h2>
 <p>
@@ -17,77 +21,44 @@
 	adding a right click content menu option for shape configurations.
 </p>
 <h3>Configuring the shapes</h3>
-<ul>
-	These shapes are applied to vertices using the style string <code>shape=bpmn</code>.
+<p>
+	Registering the BPMN shapes within mxGraph can be performed with:
+	<pre><code>mxCellRenderer.prototype.defaultShapes['bpmn'] = mxBpmnShape;</code></pre>
+</p>
+<p>
+	These shapes are applied to vertices using the style string <code>shape=bpmn</code>. If you wish the value to change, 
+	alter the above string key added to <code>defaultShapes</code>.
 	The type of shapes displayed is controlled by the <code>bpmnEvent</code> and <code>bpmnEventType</code> styles.
-</ul>
-<h3>Installation &amp; Examples</h3>
-<ul>
-	<li><a href="php/index.html">PHP</a></li>
-	<li><a href="dotnet/index.html">.NET</a></li>
-	<li><a href="java/index.html">Java</a></li>
-	<li><a href="javascript/index.html">JavaScript</a></li>
-</ul>
-<h3>API Specifications</h3>
-<ul>
-	<li><a href="docs/php-api/index.html">PHP</a></li>
-	<li><a href="dotnet/docs/html/index.html">.NET</a></li>
-	<li><a href="java/docs/index.html">Java</a></li>
-	<li><a href="docs/js-api/index.html">JavaScript</a></li>
-</ul>
-<h2>Support</h2>
-<p>
-	For commercial grade technical support as part of a commercial evaluation, 
-	please <a href="http://www.jgraph.com/contact.html" target="_blank">
-	contact us</a>. For free technical support, please use the 
-	<a href="http://forum.jgraph.com/" target="_blank">technical forum</a>, 
-	tagging questions <strong>mxgraph</strong>. Please also read the
-	<a href="docs/known-issues.html">Known Issues</a> before contacting support.
-	If you have purchased mxGraph with technical support, please refer to 
-	your puchase email for details on how to invoke technical support.
-</p>
-<h2>License</h2>
-<p>
-	mxGraph can be licensed under the 
-	<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">
-	non-commercial Creative Commons</a> or the commercial 
-	<a href="http://www.jgraph.com/mxlicense.html" target="_blank">
-	mxGraph License</a>. Free commercial evaluation is permitted for up to 3 
-	months. If you require longer, please 
-	<a href="http://www.jgraph.com/contact.html" target="_blank">contact us</a>.
-</p>
-<h2>Source Code</h2>
-<p>
-	The source code ships with the package. If you prefer to obtain mxGraph 
-	directly from source control, each release is pushed to 
-	<a href="https://github.com/jgraph/mxgraph" target="_blank">github</a>.
-</p>
-<h2>Requirements</h2>
-<p>
-  	The JavaScript client requires Firefox 1.5 and later, Microsoft Internet
-  	Explorer 6.0 and later, Safari 3.0 and later, Camino 1.0.2 and later,
-  	Opera 9.0 and later, Iceape 1.0 and later, Epiphany 2.0 and later, Galeon
-  	2.0 and later or Google Chrome.
+	Possible values for the programmatic variable names and style string values for both these styles can 
+	be found at the top of the <a href="mxBpmnShape.js">mxBpmnShape.js file</a>
 </p>
 <p>
-  	The servers require Java 5.0 or later, .NET 1.1 or later, or PHP 5.0 or
-  	later. The I/O module for PHP requires libxml. The mxGdCanvas class and the
-  	update of the label bounding box in mxUtils for PHP require the GD Graphics
-  	Library, however, it is not required for the PHP backend to work. Support
-  	for TrueType fonts in PHP is also optional, but recommended.
+	For example, the style string for a catching catching message event is:
+	<pre><code>shape=bpmn;bpmnEvent=message;bpmnEventType=catching</code></pre>
+	When setting and reading these values, either use the defined variables that represent these styles, or
+	define your own set to fully control the string values and set the variables in mxBpmnShape to equal 
+	your defined variables.
 </p>
-<h2>Updates</h2>
 <p>
-	To be notified of available updates subscribe to the 
-	<a href="http://freshmeat.net/projects/mxgraph/releases.atom" target="_blank">
-	RSS feed</a>. We have a <a href="https://twitter.com/Diagramly" target="_blank">
-	twitter feed<a> more related to Diagramly, but that may also be of interest. 
-	See the <a href="http://www.jgraph.com/mxchangelog.html" target="_blank">ChangeLog</a> for 
-	details of what changed between releases. We use Google+ for public networking, 
-	there is a feed specific to 
-	<a href="https://plus.google.com/114540847293379038765" target="_blank">
-	mxGraph</a> and another specific to 
-	<a href="https://plus.google.com/100634082864796769666" target="_blank">Diagramly</a>.
+	Note that this set does not validate if the combination of inner and outer shapes used is valid for any 
+	specific standard, that is up to your application to determine.
+</p>
+
+<h3>Integration with the GraphEditor example</h3>
+<p>
+	To enable easy integration with the GraphEditor example the <code>mxBpmnEditorHelper.js</code> file is supplied. This:
+	<ul>
+		<li>Registers the <code>bpmn</code> shape type.</li>
+		<li>Creates a library of BPMN shapes and inserts them into the GraphEditor sidebar.</li>
+		<li>Creates a custom context (right-click) menu option to configure the event type through the UI.</li>
+	</ul>
+	Note that the overridden <code>addCustomPalette</code> adds some shapes to the example palette that are not part of 
+	this shape set. The <code>swinlane</code> group is part of the core mxGraph shape set, for example. Various activity 
+	shapes can have inner shapes, we represent these using child cells at particular offsets. These are also demonstrated.
+</p>
+<p>
+	When loading the two JavaScript files in GraphEditor, ensure the helper file is loaded second and both are loaded 
+	in the head element prior to the editor UI being generated at the start of the body
 </p>
 <hr size="1">
 &copy; 2012 by JGraph Ltd.
