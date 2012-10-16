@@ -19,6 +19,7 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -29,6 +30,10 @@ import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.jackson.JacksonFactory;
+import com.google.api.services.oauth2.model.Userinfo;
+import com.mxgraph.online.dredit.CredentialMediator.CodeExchangeException;
+import com.mxgraph.online.dredit.CredentialMediator.NoRefreshTokenException;
+import com.mxgraph.online.dredit.CredentialMediator.NoUserIdException;
 
 /**
  * Abstract servlet that sets up credentials and provides some convenience
@@ -120,7 +125,7 @@ public abstract class DrEditServlet extends HttpServlet
 		// on first page load.  Then, credentials will be stored in the user's
 		// session.
 		updateSecrets();
-		CredentialMediator mediator = new CredentialMediator(req, secrets);
+		CredentialMediator mediator = new CredentialMediator(req, resp, secrets);
 		mediator.getActiveCredential();
 		return mediator;
 	}
@@ -159,5 +164,42 @@ public abstract class DrEditServlet extends HttpServlet
 		{
 			throw new RuntimeException("Failed to redirect for authorization.");
 		}
+	}
+	
+	protected boolean shouldInvalidateSession(HttpServletRequest request, CredentialMediator mediator)
+	{
+		boolean invalidate = false;
+
+		String authCode = request.getParameter("code");
+		String sessionUserId = (String) request.getSession().getAttribute(CredentialMediator.USER_ID_KEY);
+
+		if (authCode != null && sessionUserId != null)
+		{
+			try
+			{
+				Credential cred = mediator.exchangeCode(authCode);
+				Userinfo ui = mediator.getUserInfo(cred);
+				invalidate = !sessionUserId.equals(ui.getId());
+			}
+			catch (NoUserIdException e)
+			{
+				e.printStackTrace();
+			}
+			catch (CodeExchangeException e)
+			{
+				e.printStackTrace();
+			}
+		}
+
+		return invalidate;
+	}
+	
+	protected void endSession(HttpServletRequest request, HttpServletResponse response, CredentialMediator mediator) throws NoRefreshTokenException {
+		mediator.deleteActiveCredential();
+		request.getSession().invalidate();
+		Cookie cookie = new Cookie("drive", "");
+		cookie.setMaxAge(0);
+		response.addCookie(cookie);
+		throw new NoRefreshTokenException();
 	}
 }

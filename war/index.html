@@ -5,10 +5,10 @@
 	<!--CUSTOM_PARAMETERS - Title, description, etc-->
     <title>Diagrams Online | draw.io</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="Description" content="Diagramly is a free online diagram drawing application for workflow, BPM, org charts, UML, ER, network diagrams">
+    <meta name="Description" content="draw.io is a free online diagram drawing application for workflow, BPM, org charts, UML, ER, network diagrams">
     <meta name="Keywords" content="diagram, online, drawing, javascript">
-    <meta itemprop="name" content="Diagramly - draw free diagrams online">
-	<meta itemprop="description" content="Diagramly is a free online diagram drawing application. You can use it to create UML, entity relationship, org charts, BPMN and BPM, 
+    <meta itemprop="name" content="draw.io - free diagrams online">
+	<meta itemprop="description" content="draw.io is a free online diagram drawing application. You can use it to create UML, entity relationship, org charts, BPMN and BPM, 
 		database schema and networks. Also possible are telecommunication network, workflow, flowcharts, maps overlays and GIS, electronic 
 		circuit and social network diagrams. It's like a mini version of Visio in your browser.">
 	<meta itemprop="image" content="https://lh4.googleusercontent.com/-cLKEldMbT_E/Tx8qXDuw6eI/AAAAAAAAAAs/Ke0pnlk8Gpg/w500-h344-k/BPMN%2Bdiagram%2Brc2f.png">
@@ -226,6 +226,25 @@
 			document.write('<script src="js/diagramly.min.js"></' + 'script>');
 		}
 
+		// For developers only
+		if (urlParams['test'] == '1')
+		{
+			mxscript('shapes/bpmn/mxBpmnShape.js');
+			mxscript('shapes/bpmn/mxBpmnEditorHelper.js');
+			
+			// don't change the order of mockup scripts except if you know what you are doing
+			mxscript('shapes/mockup/MockupInit.js');
+			mxscript('shapes/mockup/Buttons.js');
+			mxscript('shapes/mockup/Containers.js');
+			mxscript('shapes/mockup/Forms.js');
+			mxscript('shapes/mockup/Graphics.js');
+			mxscript('shapes/mockup/Misc.js');
+			mxscript('shapes/mockup/Navigation.js');
+			mxscript('shapes/mockup/Markup.js');
+			mxscript('shapes/mockup/Text.js');
+			mxscript('shapes/mockup/MockupFinal.js');
+		}
+	
 		// Loads JSON for older browsers
 		if (typeof(JSON) == 'undefined')
 		{
@@ -289,15 +308,15 @@
 	      	<a rel="author" href="https://plus.google.com/b/100634082864796769666/" target="__blank"><img title="Draw.io on Google+" src="http://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" border=""></a>
 	    </td>
 	    <td id="twitter" width="32%" style="white-space:nowrap;overflow:hidden;align:right;padding-bottom:10px;padding-right:10px;padding-top:2px;"> 
-	      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.diagram.ly" data-text="draw.io - Draw Diagrams Online, Free HTML 5 web app" data-via="Diagramly">Tweet</a>
+	      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://draw.io" data-text="draw.io - Draw Diagrams Online, Free HTML 5 web app" data-via="Diagramly">Tweet</a>
 	      <a href="https://twitter.com/Diagramly" class="twitter-follow-button" data-show-count="false">Follow @Diagramly</a>
 	    </td>
 	    <td width="15%" align="left" style="white-space:nowrap;overflow:hidden;padding-bottom:10px;">
 	    	<div class="fb-like" data-href="http://www.draw.io/" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false"></div>
 	    </td>
-		<td width="15" valign="top" align="center" style="white-space:nowrap;overflow:hidden;padding-top:3px;font-family:'Helvetica Neue',Arial,sans-serif;padding-right:8px;_padding-right:16px;"> 
-	      <a title="Confluence Plugin" href="https://marketplace.atlassian.com/plugins/com.mxgraph.confluence.plugins.diagramly" target="_blank" style="font-size:8pt;text-decoration:none;font-weight:bold;color:#454545;">
-	      	Confluence | draw.io
+		<td width="15" valign="top" align="center" style="overflow:hidden;padding-top:3px;_padding-top:7px;font-family:'Helvetica Neue',Arial,sans-serif;padding-right:8px;_padding-right:16px;"> 
+	      <a title="Confluence Plugin" href="https://marketplace.atlassian.com/plugins/com.mxgraph.confluence.plugins.diagramly" target="_blank" style="font-size:8pt;white-space:nowrap;text-decoration:none;font-weight:bold;color:#454545;">
+	      	Confluence&reg Plugin
 	      </a>
 	    </td>
 		<td width="20%" valign="top" align="right" style="white-space:nowrap;overflow:hidden;padding-top:3px;font-family:'Helvetica Neue',Arial,sans-serif;padding-right:8px;_padding-right:16px;"> 
@@ -395,7 +414,7 @@ if (urlParams['social'] != '0')
 		}
 	}(document,"script","twitter-wjs");
 	
-	if (!mxClient.IS_IE6)
+	if (!mxClient.IS_QUIRKS)
 	{
 		mxinclude('https://apis.google.com/js/plusone.js');
 		

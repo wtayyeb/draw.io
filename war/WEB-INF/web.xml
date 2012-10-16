@@ -40,16 +40,6 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>ClientServlet</display-name>
-    <servlet-name>ClientServlet</servlet-name>
-    <servlet-class>com.mxgraph.online.ClientServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ClientServlet</servlet-name>
-    <url-pattern>/client</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
     <display-name>EmbedServlet</display-name>
     <servlet-name>EmbedServlet</servlet-name>
     <servlet-class>com.mxgraph.online.EmbedServlet</servlet-class>

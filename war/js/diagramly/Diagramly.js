@@ -1,5 +1,5 @@
 /*
- * $Id: Diagramly.js,v 1.33 2012-09-24 08:50:54 gaudenz Exp $
+ * $Id: Diagramly.js,v 1.35 2012-10-16 21:38:12 boris Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 // For compatibility with open servlet on GAE
@@ -677,6 +677,55 @@ function setCurrentXml(data, filename)
 
 	    // Switch to page view by default
 		this.actions.get('pageView').funct();
+		
+		var editorUi = this;
+		
+		if(driveDomain) 
+		{
+			var userControlsEl = document.createElement('div');
+			userControlsEl.style.padding = '4px 12px 5px 10px';
+			userControlsEl.style.cssFloat = 'right';
+			userControlsEl.style.styleFloat = 'right';
+			
+			var emailEl = document.createElement('span');
+			emailEl.style.display = 'none';
+			emailEl.style.cssFloat = 'left';
+			emailEl.style.styleFloat = 'left';
+			emailEl.style.padding = '0px 8px 5px 10px';
+			emailEl.style.fontStyle = 'italic';
+			
+			var logoutEl = document.createElement('a');
+			logoutEl.className = 'geItem';
+			logoutEl.style.cssFloat = 'left';
+			logoutEl.style.styleFloat = 'left';
+			logoutEl.style.display = 'none';
+			logoutEl.style.padding = '0px 12px 5px 10px';
+			logoutEl.href = 'javascript:void(0);';
+			logoutEl.innerHTML = mxResources.get('signOut', 'Sign Out');
+			
+			mxEvent.addListener(logoutEl, 'mouseup', function(evt) 
+			{
+				editorUi.userInfo.isLogout = true;// this gets checked in onunload
+				// redirect somewhere
+				window.location.href = 'http://drive.google.com';
+			});
+			
+			var clearDiv = document.createElement('div');
+			clearDiv.style.clear = 'both';
+			
+			userControlsEl.appendChild(emailEl);
+			userControlsEl.appendChild(logoutEl);
+			userControlsEl.appendChild(clearDiv);
+			editorUi.menubar.container.appendChild(userControlsEl);
+			editorUi.userInfo = editorUi.userInfo || {};
+			editorUi.userInfo.emailEl = emailEl;
+			editorUi.userInfo.logoutEl = logoutEl;
+			
+			setInterval(function()
+			{
+				editorUi.checkSession();
+			}, 1000);
+		}
 	};
 
 	/**
@@ -912,6 +961,8 @@ function setCurrentXml(data, filename)
 										
 										this.editor.setStatus('');
 										this.editor.graph.container.focus();
+										
+										this.setUserInfo(this.editor.googleFile.email, this.editor.googleFile.id);
 									}
 									else
 									{
@@ -937,10 +988,14 @@ function setCurrentXml(data, filename)
 							{
 								spinner.stop();
 								this.editor.setStatus('');
-								
+																
 								if (req.getStatus() != 200)
 								{
 									window.location.href = req.getText();
+								}
+								else {
+									var userInfo = JSON.parse(req.getText());
+									this.setUserInfo(userInfo.email, userInfo.id);
 								}
 							}), function()
 							{
@@ -1002,7 +1057,8 @@ function setCurrentXml(data, filename)
 					      'description': this.editor.googleFile.description,
 					      // Replaces all existing mime types with this new one
 					      'mimeType': 'application/mxe',
-					      'resource_id': this.editor.googleFile.resource_id
+					      'resource_id': this.editor.googleFile.resource_id,
+					      'userId' : this.userInfo.id
 					    };
 						
 						// TODO: This is ignored in the Files class, need to add support for it
@@ -1025,11 +1081,11 @@ function setCurrentXml(data, filename)
 							mxUtils.bind(this, function(req)
 							{
 								// Stores new file id
-								this.editor.googleFile.resource_id = mxUtils.eval(req.getText());
+								this.editor.googleFile.resource_id = req.getStatus() == 200 ? mxUtils.eval(req.getText()) : this.editor.googleFile.resource_id;
 								this.blocking = false;
 								spinner.stop();
 								
-								if (this.editor.googleFile.resource_id == null)
+								if (req.getStatus() != 200)
 								{
 									// Handles app not installed error
 									if (req.getStatus() == 403)
@@ -1106,6 +1162,9 @@ function setCurrentXml(data, filename)
 						    		this.editor.filename = name;
 									this.editor.modified = false;
 									this.editor.setStatus('');
+									this.userInfo.emailEl.style.display = 'inline';
+									this.userInfo.logoutEl.style.display = 'inline';
+									this.userInfo.loggedOut = false;
 								}
 							}),
 							mxUtils.bind(this, function()
@@ -1736,6 +1795,7 @@ function setCurrentXml(data, filename)
 	{
 		menusInit.apply(this, arguments);
 		var graph = this.editorUi.editor.graph;
+		var editorUi = this.editorUi;
 
 		// Adds shapes submenu
 		// LATER: Lazy creation of DOM for initially hidden palettes
@@ -1850,6 +1910,7 @@ function setCurrentXml(data, filename)
 					new google.picker.PickerBuilder().
 						addView(view).
 			            setAppId(420247213240).
+			            setAuthUser(editorUi.userInfo.id).
 			            enableFeature(google.picker.Feature.NAV_HIDDEN).
 			            enableFeature(google.picker.Feature.MULTISELECT_ENABLED).
 			            setCallback(function(data)
@@ -1880,7 +1941,7 @@ function setCurrentXml(data, filename)
 				
 				if (typeof(filepicker) != 'undefined')
 				{
-				    //Seting up Filepicker.io with your api key
+				    // Seting up Filepicker.io with your api key
 				    filepicker.setKey(urlParams['fp']);
 
 				    // Asks for a file
@@ -2279,29 +2340,18 @@ function setCurrentXml(data, filename)
 		wnd.BlobBuilder = wnd.BlobBuilder || wnd.WebKitBlobBuilder || wnd.MozBlobBuilder;
 
 		// Prefers BLOB Builder API in Chrome
-		/*if (mxClient.IS_GC && (wnd.URL != null && wnd.BlobBuilder != null))
-		{
-			// Experimental Chrome feature
-			result = mxUtils.button(mxResources.get('save'), mxUtils.bind(this, function()
-			{
-				var bb = new wnd.BlobBuilder();
-				bb.append(dataCallback());
-
-				var a = wnd.document.createElement('a');
-				a.download = filenameCallback();
-				a.href = wnd.URL.createObjectURL(bb.getBlob('text/plain'));
-				a.dataset.downloadurl = ['text/plain', a.download, a.href].join(':');
-				
-				var evt = document.createEvent("MouseEvents"); 
-				evt.initMouseEvent("click", true, true, window, 
-						0, 0, 0, 0, 0, false, false, false, false, 0, null); 
-				var allowDefault = a.dispatchEvent(evt);
-				onComplete();
-			}));
-			
-			elt.parentNode.replaceChild(result, elt);
-		}
-		else */
+		/*
+		 * if (mxClient.IS_GC && (wnd.URL != null && wnd.BlobBuilder != null)) { // Experimental Chrome feature result = mxUtils.button(mxResources.get('save'),
+		 * mxUtils.bind(this, function() { var bb = new wnd.BlobBuilder(); bb.append(dataCallback());
+		 * 
+		 * var a = wnd.document.createElement('a'); a.download = filenameCallback(); a.href = wnd.URL.createObjectURL(bb.getBlob('text/plain'));
+		 * a.dataset.downloadurl = ['text/plain', a.download, a.href].join(':');
+		 * 
+		 * var evt = document.createEvent("MouseEvents"); evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+		 * var allowDefault = a.dispatchEvent(evt); onComplete(); }));
+		 * 
+		 * elt.parentNode.replaceChild(result, elt); } else
+		 */
 		// FIXME:
 		// - Possible to hover over button in IE (near right border)
 		// - Removes focus from input element while entering filename
@@ -2474,5 +2524,106 @@ function setCurrentXml(data, filename)
 
 		return node;
 	};
+	
+	if(driveDomain) 
+	{
+		EditorUi.prototype.setUserInfo = function(email, userId) 
+		{
+			var editorUi = this;
+			editorUi.userInfo = editorUi.userInfo || {};
+			editorUi.userInfo.id = userId;
+			editorUi.userInfo.email = email;
+			editorUi.userInfo.loggedOut = false;
+			
+			editorUi.userInfo.emailEl.style.display = 'inline';
+			editorUi.userInfo.logoutEl.style.display = 'inline';
+			editorUi.userInfo.emailEl.innerHTML = email;
+			
+			//mxEvent.removeListener(editorUi.userInfo.logoutEl, 'mouseup');
+			
+			
+			window.onunload = function() 
+			{
+				if(editorUi.userInfo.isLogout)// attempt to clear cookies only if user clicked the 'Sign Out' link
+				{
+					var cookies = document.cookie.split(";");
+					// only clear the cookie if it belongs to the current user
+					if(editorUi.getUserIdFromCookie() == editorUi.userInfo.id) 
+					{
+						editorUi.clearCookies();
+					}
+				}
+			}
+		};
+		
+		EditorUi.prototype.getUserIdFromCookie = function()
+		{
+			var cookies = document.cookie.split(";");
+			var id = null;
+			for (var i = 0; i < cookies.length; i++) 
+		    {
+				var cookie = cookies[i];
+				var isDriveCookie = cookie.indexOf('drive') != -1;
+				if(!isDriveCookie) 
+				{
+					continue;
+				}
+				else {
+					var parts = cookie.split('=');
+					id = parts[1];
+				}
+		    }
+			
+			return id;
+		};
+	
+		EditorUi.prototype.checkSession = function() 
+		{
+			var cookieId = this.getUserIdFromCookie();
+			// do nothing if it's a newly opened page
+			if(typeof this.userInfo.id === 'undefined' || this.userInfo.loggedOut === 'undefined') 
+			{
+				return;
+			}
+			
+			// if the cookies value has changed, notify the user about the end of the session
+			if((this.userInfo.id != null && this.userInfo.id != cookieId && !this.userInfo.loggedOut) || (cookieId == null && !this.userInfo.loggedOut)) 
+			{
+				this.userInfo.loggedOut = true;// this is to avoid spamming about the end of session
+				this.userInfo.emailEl.style.display = 'none';
+				this.userInfo.logoutEl.style.display = 'none';
+				this.showDialog(new LogoutPopup(this).container, 320, 80, true, true);
+			}
+		};
+		
+		EditorUi.prototype.clearCookies = function()
+		{
+			var cookies = document.cookie.split(";");
+			for (var i = 0; i < cookies.length; i++) 
+			{
+				var cookie = cookies[i];
+				var eqPos = cookie.indexOf("=");
+				var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+				document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			}
+		};
+		
+		LogoutPopup = function(ui) 
+		{
+			var div = document.createElement('div');
+			div.setAttribute('align', 'center');
+			
+			mxUtils.write(div, mxResources.get('userLoggedOut') + ' ' + ui.userInfo.email);
+			mxUtils.br(div);
+			mxUtils.br(div);
+			
+			div.appendChild(mxUtils.button(mxResources.get('close'), function()
+			{
+				ui.hideDialog();
+			}));
+			
+			this.container = div;
+		}
+	}
 	
 })();

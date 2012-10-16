@@ -229,7 +229,7 @@ public class ExportServlet extends HttpServlet
 			if (format.equalsIgnoreCase("png"))
 			{
 				PngEncoder encoder = (bg != null) ? new PngEncoder()
-						: new PngEncoder(PngEncoder.COLOR_INDEXED_ALPHA);
+						: new PngEncoder(PngEncoder.COLOR_TRUECOLOR_ALPHA);
 				encoder.encode(image, response.getOutputStream());
 			}
 			else

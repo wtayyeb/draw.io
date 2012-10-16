@@ -1,5 +1,5 @@
 /*
- * $Id: Dialogs.js,v 1.19 2012-09-24 08:47:46 gaudenz Exp $
+ * $Id: Dialogs.js,v 1.20 2012-10-04 09:43:49 gaudenz Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 /**
@@ -222,7 +222,7 @@ function EmbedDialog(editorUi)
 		s = '?s=' + s.substring(0, s.length - 1);
 	}
 
-	textarea2.value = '<script type="text/javascript" src="//diagramly.appspot.com/embed.js' + s + '"></script>';
+	textarea2.value = '<script type="text/javascript" src="//drawdotio.appspot.com/embed.js' + s + '"></script>';
 
 	function update()
 	{

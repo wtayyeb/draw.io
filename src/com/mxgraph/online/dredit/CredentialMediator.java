@@ -15,9 +15,10 @@
 package com.mxgraph.online.dredit;
 
 import java.io.IOException;
-import java.util.Collection;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.auth.oauth2.CredentialStore;
@@ -51,6 +52,8 @@ public class CredentialMediator
 	 */
 	private HttpServletRequest request;
 
+	private HttpServletResponse response;
+
 	/**
 	 * Loaded data from war/WEB-INF/client_secrets.json.
 	 */
@@ -81,6 +84,8 @@ public class CredentialMediator
 	 */
 	public static final String EMAIL_KEY = "emailAddress";
 
+	public static final String AVATAR_URL_KEY = "avatarUrl";
+
 	/**
 	 * Creates a new CredentialsManager for the given HTTP request.
 	 *
@@ -88,10 +93,12 @@ public class CredentialMediator
 	 * @param clientSecretsStream Stream of client_secrets.json.
 	 * @throws InvalidClientSecretsException
 	 */
-	public CredentialMediator(HttpServletRequest request,
-			GoogleClientSecrets secrets)
+	public CredentialMediator(HttpServletRequest request, HttpServletResponse response,
+
+	GoogleClientSecrets secrets)
 	{
 		this.request = request;
+		this.response = response;
 		this.secrets = secrets;
 		this.credentialStore = new AppEngineCredentialStore();
 	}
@@ -110,8 +117,7 @@ public class CredentialMediator
 	 */
 	private Credential buildEmptyCredential()
 	{
-		return new GoogleCredential.Builder().setClientSecrets(this.secrets)
-				.setTransport(TRANSPORT).setJsonFactory(JSON_FACTORY).build();
+		return new GoogleCredential.Builder().setClientSecrets(this.secrets).setTransport(TRANSPORT).setJsonFactory(JSON_FACTORY).build();
 	}
 
 	/**
@@ -152,16 +158,13 @@ public class CredentialMediator
 	 * @return Credential representing the upgraded authorizationCode.
 	 * @throws CodeExchangeException An error occurred.
 	 */
-	private Credential exchangeCode(String authorizationCode)
-			throws CodeExchangeException
+	Credential exchangeCode(String authorizationCode) throws CodeExchangeException
 	{
 		// Talk to Google and upgrade the given authorization code to an access
 		// token and hopefully a refresh token.
 		try
 		{
-			GoogleTokenResponse response = new GoogleAuthorizationCodeTokenRequest(
-					TRANSPORT, JSON_FACTORY, secrets.getWeb().getClientId(),
-					secrets.getWeb().getClientSecret(), authorizationCode,
+			GoogleTokenResponse response = new GoogleAuthorizationCodeTokenRequest(TRANSPORT, JSON_FACTORY, secrets.getWeb().getClientId(), secrets.getWeb().getClientSecret(), authorizationCode,
 					secrets.getWeb().getRedirectUris().get(0)).execute();
 			return buildEmptyCredential().setFromTokenResponse(response);
 		}
@@ -181,14 +184,12 @@ public class CredentialMediator
 	 * @throws NoUserIdException An error occurred, and the retrieved email
 	 *                                 address was null.
 	 */
-	private Userinfo getUserInfo(Credential credential)
-			throws NoUserIdException
+	Userinfo getUserInfo(Credential credential) throws NoUserIdException
 	{
 		Userinfo userInfo = null;
 
 		// Create a user info service, and make a request to get the user's info.
-		Oauth2 userInfoService = Oauth2.builder(TRANSPORT, JSON_FACTORY)
-				.setHttpRequestInitializer(credential).build();
+		Oauth2 userInfoService = Oauth2.builder(TRANSPORT, JSON_FACTORY).setHttpRequestInitializer(credential).build();
 		try
 		{
 			userInfo = userInfoService.userinfo().get().execute();
@@ -232,11 +233,20 @@ public class CredentialMediator
 	public Credential getActiveCredential() throws NoRefreshTokenException
 	{
 		String userId = (String) request.getSession().getAttribute(USER_ID_KEY);
+		String email = (String) request.getSession().getAttribute(EMAIL_KEY);
 		Credential credential = null;
 		try
 		{
 			// Only bother looking for a Credential if the user has an existing
 			// session with their email address stored.
+			if (userId == null)
+			{
+				userId = getUserIdFromCookie();
+				if(request.getSession().getAttribute(USER_ID_KEY) == null) {
+					request.getSession().setAttribute(USER_ID_KEY, userId);
+				}
+			}
+
 			if (userId != null)
 			{
 				credential = getStoredCredential(userId);
@@ -246,17 +256,24 @@ public class CredentialMediator
 			// available.
 			// If an authorizationCode is present, upgrade it into an
 			// access token and hopefully a refresh token.
-			if ((credential == null || credential.getRefreshToken() == null)
-					&& request.getParameter("code") != null)
+			if ((credential == null || credential.getRefreshToken() == null) && request.getParameter("code") != null)
 			{
 				credential = exchangeCode(request.getParameter("code"));
 				if (credential != null)
 				{
 					Userinfo userInfo = getUserInfo(credential);
+
+					/*if(userId != null && !userId.equals(userInfo.getId())) {
+						request.getSession().invalidate();
+						Cookie cookie = new Cookie("drive", "");
+						cookie.setMaxAge(0);
+						throw new NoRefreshTokenException();
+					}*/
+
 					userId = userInfo.getId();
+					email = userInfo.getEmail();
 					request.getSession().setAttribute(USER_ID_KEY, userId);
-					request.getSession().setAttribute(EMAIL_KEY,
-							userInfo.getEmail());
+					request.getSession().setAttribute(EMAIL_KEY, email);
 					// Sometimes we won't get a refresh token after upgrading a code.
 					// This won't work for our app, because the user can land directly
 					// at our app without first visiting Google Drive. Therefore,
@@ -265,8 +282,25 @@ public class CredentialMediator
 					if (credential.getRefreshToken() != null)
 					{
 						credentialStore.store(userId, credential);
+
 					}
 				}
+			}
+
+			if (email == null)
+			{
+				Userinfo userInfo = getUserInfo(credential);
+				if(userInfo != null) 
+				{
+					request.getSession().setAttribute(EMAIL_KEY, userInfo.getEmail());
+				}
+			}
+
+			if (userId != null)
+			{
+				Cookie cookie = new Cookie("drive", userId);
+				cookie.setMaxAge(31557600); // expires after one year
+				response.addCookie(cookie);
 			}
 
 			if (credential == null || credential.getRefreshToken() == null)
@@ -294,6 +328,29 @@ public class CredentialMediator
 		return credential;
 	}
 
+	private String getUserIdFromCookie()
+	{
+		if (request.getCookies() == null)
+		{
+			return null;
+		}
+
+		for (Cookie cookie : request.getCookies())
+		{
+
+			if (!cookie.getName().equals("drive"))
+			{
+				continue;
+			}
+			else
+			{
+				return cookie.getValue();
+			}
+		}
+
+		return null;
+	}
+
 	/**
 	 * Exception thrown when no refresh token has been found.
 	 */
@@ -305,14 +362,14 @@ public class CredentialMediator
 	/**
 	 * Exception thrown when no email address could be retrieved.
 	 */
-	private static class NoUserIdException extends Exception
+	public static class NoUserIdException extends Exception
 	{
 	}
 
 	/**
 	 * Exception thrown when a code exchange has failed.
 	 */
-	private static class CodeExchangeException extends Exception
+	public static class CodeExchangeException extends Exception
 	{
 	}
 }

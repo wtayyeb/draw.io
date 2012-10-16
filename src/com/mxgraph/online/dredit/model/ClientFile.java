@@ -53,6 +53,8 @@ public class ClientFile
 	 * Content body of file.
 	 */
 	public String content;
+	
+	public String userId;
 
 	/**
 	 * Empty constructor required by Gson.
@@ -88,6 +90,7 @@ public class ClientFile
 		this.description = other.description;
 		this.mimeType = other.mimeType;
 		this.content = other.content;
+		this.userId = other.userId;
 	}
 
 	/**

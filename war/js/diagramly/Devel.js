@@ -1,5 +1,5 @@
 /*
- * $Id: Devel.js,v 1.6 2012-09-19 10:29:51 david Exp $
+ * $Id: Devel.js,v 1.10 2012-10-01 10:53:07 david Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 // This provides an indirection to make sure the mxClient.js
@@ -22,21 +22,3 @@ mxscript(geBasePath +'/Dialogs.js');
 mxscript('/js/diagramly/Dialogs.js');
 mxscript('/js/diagramly/Sharing.js');
 mxscript('/js/diagramly/Diagramly.js');
-
-//For developers
-if (urlParams['test'] == '1')
-{
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/bpmn/mxBpmnShape.js');
-	
-	// don't change the order of mockup scripts except if you know what you are doing
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/MockupInit.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Buttons.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Containers.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Forms.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Graphics.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Misc.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Navigation.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Markup.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/Text.js');
-	mxscript(mxDevUrl + '/mxgraph/etc/javascript/mockup/MockupFinal.js');
-}
