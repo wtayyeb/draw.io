@@ -1,5 +1,5 @@
 /*
- * $Id: Devel.js,v 1.10 2012-10-01 10:53:07 david Exp $
+ * $Id: Devel.js,v 1.11 2012-10-24 15:56:33 boris Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 // This provides an indirection to make sure the mxClient.js
@@ -20,5 +20,7 @@ mxscript(geBasePath +'/Dialogs.js');
 
 // Loads main class
 mxscript('/js/diagramly/Dialogs.js');
+mxscript('/js/diagramly/Sidebar.js');
+mxscript('/js/diagramly/EditorUi.js');
 mxscript('/js/diagramly/Sharing.js');
 mxscript('/js/diagramly/Diagramly.js');

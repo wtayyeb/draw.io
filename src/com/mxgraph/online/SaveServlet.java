@@ -16,7 +16,7 @@ import com.mxgraph.util.mxBase64;
 /**
  * Servlet implementation class SaveServlet
  */
-public class SaveServlet extends HttpServlet
+public class SaveServlet extends HttpServlet 
 {
 	private static final long serialVersionUID = 1L;
 
@@ -29,18 +29,19 @@ public class SaveServlet extends HttpServlet
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-	public SaveServlet()
+	public SaveServlet() 
 	{
 		super();
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
 	 */
 	protected void doPost(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException
+			HttpServletResponse response) throws ServletException, IOException 
 	{
-		if (request.getContentLength() < Constants.MAX_REQUEST_SIZE)
+		if (request.getContentLength() < Constants.MAX_REQUEST_SIZE) 
 		{
 			long t0 = System.currentTimeMillis();
 			String mime = null;
@@ -49,69 +50,74 @@ public class SaveServlet extends HttpServlet
 
 			// Data in data param is base64 encoded and deflated
 			String enc = request.getParameter("data");
-			String xml;
+			String xml = null;
 
-			if (enc != null && enc.length() > 0)
+			try 
 			{
-				xml = Utils.inflate(mxBase64.decode(URLDecoder.decode(enc,
-						"UTF-8")));
-			}
-			else
-			{
-				xml = request.getParameter("xml");
-
-				if (xml != null && xml.length() > 0)
+				if (enc != null && enc.length() > 0) 
 				{
-					xml = URLDecoder.decode(xml, "UTF-8");
-				}
-			}
-
-			if (xml != null)
-			{
-				mime = "application/xml";
-				filename = request.getParameter("filename");
-
-				String format = request.getParameter("format");
-				
-				if (format == null)
+					xml = Utils.inflate(mxBase64.decode(URLDecoder.decode(enc,
+							"UTF-8")));
+				} else 
 				{
-					format = "xml";
+					xml = request.getParameter("xml");
+
+					if (xml != null && xml.length() > 0) 
+					{
+						xml = URLDecoder.decode(xml, "UTF-8");
+					}
 				}
 
-				if (!filename.toLowerCase().endsWith("." + format))
+				if (xml != null) 
 				{
-					filename += "." + format;
+					mime = "application/xml";
+					filename = request.getParameter("filename");
+
+					String format = request.getParameter("format");
+
+					if (format == null) {
+						format = "xml";
+					}
+
+					if (!filename.toLowerCase().endsWith("." + format)) {
+						filename += "." + format;
+					}
+
+					data = xml.getBytes("UTF-8");
 				}
 
-				data = xml.getBytes("UTF-8");
-			}
-
-			if (mime != null && filename != null && data != null)
-			{
-
-				response.setContentType(mime);
-				response.setHeader("Content-Disposition",
-						"attachment; filename=\"" + filename + "\"");
-				response.setStatus(HttpServletResponse.SC_OK);
-
-				OutputStream out = response.getOutputStream();
-				String encoding = request.getHeader("Accept-Encoding");
-
-				// Supports GZIP content encoding
-				// TODO: Check if encoded request param can be passed through directly
-				if (encoding != null && encoding.indexOf("gzip") >= 0)
+				if (mime != null && filename != null && data != null) 
 				{
-					response.setHeader("Content-Encoding", "gzip");
-					out = new GZIPOutputStream(out);
-				}
 
-				out.write(data);
-				out.flush();
-				out.close();
-			}
-			else
+					response.setContentType(mime);
+					response.setHeader("Content-Disposition",
+							"attachment; filename=\"" + filename + "\"");
+					response.setStatus(HttpServletResponse.SC_OK);
+
+					OutputStream out = response.getOutputStream();
+					String encoding = request.getHeader("Accept-Encoding");
+
+					// Supports GZIP content encoding
+					// TODO: Check if encoded request param can be passed
+					// through directly
+					if (encoding != null && encoding.indexOf("gzip") >= 0) 
+					{
+						response.setHeader("Content-Encoding", "gzip");
+						out = new GZIPOutputStream(out);
+					}
+
+					out.write(data);
+					out.flush();
+					out.close();
+				} else 
+				{
+					response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+				}
+			} catch (IllegalArgumentException e) 
 			{
-				response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+				log.warning("Error parsing xml contents : " + xml
+						+ System.getProperty("line.separator")
+						+ "Original stack trace : " + e.getMessage());
 			}
 			long mem = Runtime.getRuntime().totalMemory()
 					- Runtime.getRuntime().freeMemory();
@@ -123,8 +129,7 @@ public class SaveServlet extends HttpServlet
 					+ ((xml != null) ? xml.length() : "[none]") + " dt="
 					+ request.getContentLength() + " mem=" + mem + " dt="
 					+ (System.currentTimeMillis() - t0));
-		}
-		else
+		} else 
 		{
 			response.setStatus(HttpServletResponse.SC_REQUEST_ENTITY_TOO_LARGE);
 		}

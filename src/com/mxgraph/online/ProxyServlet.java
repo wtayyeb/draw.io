@@ -1,5 +1,5 @@
 /**
- * $Id: ProxyServlet.java,v 1.1 2012-06-30 01:48:03 gaudenz Exp $
+ * $Id: ProxyServlet.java,v 1.2 2012-10-17 12:44:34 david Exp $
  * Copyright (c) 2011-2012, JGraph Ltd
  */
 package com.mxgraph.online;
@@ -17,6 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation ProxyServlet
  */
+@SuppressWarnings("serial")
 public class ProxyServlet extends HttpServlet
 {
 

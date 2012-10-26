@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WebApp_ID" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
   <display-name>mxgraph_com</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
   <servlet>
-    <description></description>
+    <description/>
     <display-name>SaveServlet</display-name>
     <servlet-name>SaveServlet</servlet-name>
     <servlet-class>com.mxgraph.online.SaveServlet</servlet-class>
@@ -19,7 +18,7 @@
     <url-pattern>/save</url-pattern>
   </servlet-mapping>
   <servlet>
-    <description></description>
+    <description/>
     <display-name>OpenServlet</display-name>
     <servlet-name>OpenServlet</servlet-name>
     <servlet-class>com.mxgraph.online.OpenServlet</servlet-class>
@@ -29,7 +28,7 @@
     <url-pattern>/open</url-pattern>
   </servlet-mapping>
   <servlet>
-    <description></description>
+    <description/>
     <display-name>ProxyServlet</display-name>
     <servlet-name>ProxyServlet</servlet-name>
     <servlet-class>com.mxgraph.online.ProxyServlet</servlet-class>
@@ -39,7 +38,7 @@
     <url-pattern>/proxy</url-pattern>
   </servlet-mapping>
   <servlet>
-    <description></description>
+    <description/>
     <display-name>EmbedServlet</display-name>
     <servlet-name>EmbedServlet</servlet-name>
     <servlet-class>com.mxgraph.online.EmbedServlet</servlet-class>
@@ -49,7 +48,7 @@
     <url-pattern>/embed.js</url-pattern>
   </servlet-mapping>
   <servlet>
-    <description></description>
+    <description/>
     <display-name>IconFinder</display-name>
     <servlet-name>IconFinder</servlet-name>
     <servlet-class>com.mxgraph.online.IconFinderServlet</servlet-class>
@@ -60,7 +59,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>FileServlet</servlet-name>
-    <servlet-class>com.mxgraph.online.dredit.FileServlet</servlet-class>
+    <servlet-class>com.mxgraph.online.drive.FileServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FileServlet</servlet-name>
@@ -90,4 +89,16 @@
       <role-name>admin</role-name>
     </auth-constraint>
   </security-constraint>
+ <servlet>
+  <servlet-name>SystemServiceServlet</servlet-name>
+  <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+  <init-param>
+   <param-name>services</param-name>
+   <param-value/>
+  </init-param>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>SystemServiceServlet</servlet-name>
+  <url-pattern>/_ah/spi/*</url-pattern>
+ </servlet-mapping>
 </web-app>

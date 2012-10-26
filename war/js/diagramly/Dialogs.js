@@ -1,5 +1,5 @@
 /*
- * $Id: Dialogs.js,v 1.20 2012-10-04 09:43:49 gaudenz Exp $
+ * $Id: Dialogs.js,v 1.22 2012-10-24 11:31:49 boris Exp $
  * Copyright (c) 2006-2010, JGraph Ltd
  */
 /**
@@ -68,6 +68,8 @@ function SaveDialog(editorUi)
 		if (desc != null)
 		{
 			// Resets the file entry to avoid replacing the old file
+			var parents = editorUi.editor.googleFile.parents;
+			
 			editorUi.editor.googleFile =
 			{
 				'title': nameInput.value,
@@ -77,6 +79,7 @@ function SaveDialog(editorUi)
 			};
 			
 			editorUi.editor.googleFile.description = desc.value;
+			editorUi.editor.googleFile.parents = parents;
 		}
 		
     	editorUi.save(nameInput.value);

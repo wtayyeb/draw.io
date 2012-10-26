@@ -122,7 +122,6 @@
 		 * - devhost=hostname: For developers only
 		 * - test=1: For developers only
 		 * - dev=1: For developers only
-		 * - fp=key: For developers only
 		 */
 		var urlParams = (function(url)
 		{
@@ -179,7 +178,6 @@
 		var mxDevUrl = 'http://' + (urlParams['devhost'] || 'devhost.jgraph.com');
 
 		// Checks for domain to show certain libs
-		var umlDomain = window.location.hostname == 'uml.diagram.ly';
 		var driveDomain = window.location.hostname == 'drive.diagram.ly' || urlParams['drive'] == '1';
 		
 		// Customizes sharing host
@@ -383,12 +381,6 @@ if (urlParams['flash'] == '1')
 {
 	mxscript('js/downloadify/downloadify.js');
 	mxscript('js/downloadify/swfobject.js');
-}
-
-//Loads filepicker.io
-if (typeof(urlParams['fp']) != 'undefined')
-{
-	mxscript('https://api.filepicker.io/v0/filepicker.js');
 }
 
 // Social network footer and analytics
